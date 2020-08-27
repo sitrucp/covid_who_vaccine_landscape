@@ -1,6 +1,5 @@
 import pandas as pd
 import glob, os
-from textract_python_table_parser import main
 
 # get pdf and output paths from config.py file
 from config import settings
@@ -72,9 +71,10 @@ def output_csv(table_files):
     df_all.dropna(how='all')
 
     # find row where treatments start, and use to split into 2 df
-    split_index = df_all[df_all.iloc[:,0]=='Platform'].index.item()
-    df_vaccine = df_all.iloc[:split_index].copy()
-    df_treatment = df_all.iloc[split_index:].copy()
+    vaccine_end = (df_all[df_all.iloc[:,0]=='Platform'].index.item()) - 2
+    treatment_start = vaccine_end + 1
+    df_vaccine = df_all.iloc[:vaccine_end].copy()
+    df_treatment = df_all.iloc[treatment_start:].copy()
 
     # give cols to 2 new df
     df_vaccine.columns = col_names_vaccine
