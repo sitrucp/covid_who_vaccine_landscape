@@ -48,6 +48,7 @@ The Python code I used to clean up the table data is in Github.
 The data included in the WHO Draft landscape of COVID-19 candidate vaccines PDF tables are shown below:
 
 Vaccine columns:
+
     COVID-19 Vaccine developer or manufacturer
     Vaccine platform
     Type of candidate vaccine
@@ -61,6 +62,7 @@ Vaccine columns:
     Stage - Phase 3
 
 Treatment columns:
+
     Platform
     Type of candidate vaccine
     Developer
