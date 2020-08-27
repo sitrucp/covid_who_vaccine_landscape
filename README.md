@@ -6,7 +6,7 @@ I started looking for Python module to do PDF parsing but I ended up doing it us
 
 "Amazon Textract is a service that automatically detects and extracts text and data from scanned documents. It goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables"
 
-Using Textract
+*Using Textract*
 
 To use Textract you need an AWS account and it does cost (a very small fee) to use the service.
 
@@ -18,15 +18,17 @@ The Textract UI is quite intuitive and easy to use. You manually upload your PDF
 
 The manual Textract process creates a new S3 folder where it uploads the PDF before processing it (currently AWS appears to only allow Textract to process files in an S3 bucket).
 
+*PDF_data folder*
+
 The output file is a zip file contained bunch of files that is automatically downloaded to your computer and contained the following files.
 
-These 3 files appear to be standard extraction information:
+These 3 files appear to be standard extraction information.
 
     apiResponse.json
     keyValues.csv
     rawText.txt
 
-The rest of the files contained one table each. In this WHO PDF, there are 9 tables eg. there are 9 pages and each one has a table:
+The rest of the files contained one table each. In this WHO PDF, there are 9 tables eg. there are 9 pages and each one has a table.
 
     table-1.csv
     table-2.csv
@@ -45,9 +47,9 @@ Afterwards I imported the csv files into Pandas dataframes to do the clean up an
 The Python code I used to clean up the table data is in Github.
 
 
-The data included in the WHO Draft landscape of COVID-19 candidate vaccines PDF tables are shown below:
+The data included in the WHO Draft landscape of COVID-19 candidate vaccines PDF tables are shown below.
 
-Vaccine columns:
+*Vaccine columns*
 
     COVID-19 Vaccine developer or manufacturer
     Vaccine platform
@@ -61,7 +63,7 @@ Vaccine columns:
     Stage - Phase 2
     Stage - Phase 3
 
-Treatment columns:
+*Treatment columns*
 
     Platform
     Type of candidate vaccine
