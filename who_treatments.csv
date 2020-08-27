@@ -1,0 +1,140 @@
+Platform,Type of candidate vaccine,Developer,Coronavirus target,Current stage of clinical evaluation/regulatory -Coronavirus candidate,Same platform for non-Coronavirus candidates
+DNA,DNA vaccine,Ege University,SARS-CoV2,Pre-Clinical,
+DNA,DNA plasmid vaccine RBD&N,Scancell/University of Nottingham/Nottingh /Nottingham Trent University,SARS-CoV2,Pre-Clinical,
+DNA,"DNA plasmid vaccine S,S1,S2,RB[ &N","National Research Centre, Egypt",SARS-CoV2,Pre-Clinical,
+DNA,DNA with electroporation,Karolinska Institute / Cobra Biologics (OPENCORONA Project),SARS-CoV2,Pre-Clinical,
+DNA,DNA with electroporation,Chula Vaccine Research Center,SARS-CoV2,Pre-Clinica,
+DNA,DNA,Takis/Applied DNA Sciences/Evvivax,SARS-CoV2,Pre-Clinical,
+DNA,"Plasmid DNA, Needle-Free Delivery","Immunomic Therapeutics, Inc./EpiVax, Inc./PharmaJet",SARS-CoV2,Pre-Clinical,SARS
+DNA,DNA vaccine,BioNet Asia,SARS-CoV2,Pre-Clinical,
+DNA,msDNA vaccine,Mediphage Bioceuticals/University of Waterloo,SARS-CoV2,Pre-Clinical,
+DNA,DNA vaccine,Entos Pharmaceuticals,SARS-CoV2,Pre-Clinical,
+DNA,bacTRL-Spike,Symvivo,SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated + alum,KM Biologics,SARS-CoV2,Pre-Clinical,"JE, Zika"
+Inactivated,Inactivated,Selcuk University,SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated,Erciyes University,SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated whole virus,"National Research Centre, Egypt",SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated,"Beijing Minhai Biotechnology Co., Ltd.",SARS-CoV2,Pre-Clinical,
+Inactivated,TBD,Osaka University/E BIKEN/ NIBIOHN,SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated + CpG 1018,Sinovac/Dynavax,SARS-CoV2,Pre-Clinical,
+Inactivated,Inactivated + CpG 1018,Valneva/Dynavax,SARS-CoV2,Pre-Clinica,
+Inactivated,Inactivated,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",SARS-CoV2,Pre-Clinica,
+Live Attenuated Virus,Codon deoptimized live attenuated vaccines,Mehmet Ali Aydinlar University Acibadem Labmed Health Services A.S.,SARS-CoV2,Pre-Clinical,
+Live Attenuated Virus,Codon deoptimized live attenuated vaccines,Codagenix/Serum Institute of India,SARS-CoV2,Pre-Clinical,"HAV, InfA, ZIKV, FMD, SIV, RSV, DENV"
+Live Attenuated Virus,Codon deoptimized live attenuated vaccines,Indian Immunologicals Ltd/Griffith University,SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,Sendai virus vector,ID Pharma,SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,Adenovirus-based,Ankara University,SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,Adeno-associated virus vector (AAVCOVID),Massachusetts Eye and Ear/Massachusetts General Hospital/AveXis,SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,MVA encoded VLP,GeoVax/BravoVax,SARS-CoV2,Pre-Clinical,"LASV, EBOV, MARV, HIV"
+Non-replicating vira vector,MVA-S encoded,DZIF German Center for Infection Research/IDT Biologika GmbH,SARS-CoV2,Pre-clinical,Many
+Non-replicating viral vector,MVA-S,"IDIBAPS-Hospital Clinic, Spain",SARS-CoV2,Pre-clinical,
+Non-Replicating Viral Vector,adenovirus-based NasoVAX expressing SARS2-CoV spike protein,Altimmune,SARS-CoV2,Pre-Clinical,influenza
+Non-Replicating Viral Vector,Adeno5-based,Erciyes University,SARS-CoV2,Pre-Clinica,
+Non-Replicating Viral Vector,"2nd Gen E2b- Ad5 Spike, RBD, Nucleocapsid Subcutaneous&ora","ImmunityBio, Inc. & Nantkwest, Inc.",SARS-CoV2,Pre-Clinical,"flu, Chik, Zika, EBOV, LASV, HIV/SIV,C"
+Non-Replicating Viral Vector,Ad5 S (GREVAXTM platform),Greffex,SARS-CoV2,Pre-Clinical,MERS
+Non-Replicating Viral Vector,Oral Ad5 S,Stabilitech Biopharma Ltd,SARS-CoV2,Pre-Clinical,"Zika, VZV, HSV-2 and Norovirus"
+Non-Replicating Viral Vector,adenovirus-based + HLA-matched peptides,Valo Therapeutics Ltd,Pan-Corona,Pre-Clinical,
+Non-Replicating Viral Vector,Oral Vaccine platform,Vaxart,SARS-CoV2,Pre-Clinical,"InfA, CHIKV, LASV, NORV; EBOV, RVF, HBV, VEE"
+Non-Replicating Viral Vector,MVA expressing structural proteins,"Centro Naciona Biotecnologia (CNB-CSIC), Spain",SARS-CoV2,Pre-Clinica,Multiple candidates
+Non-Replicating Viral Vector,Dendritic cell-based vaccine,University of Manitoba,SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,parainfluenza virus 5 (PIV5)-based vaccine expressing the spike protein,University of Georgia/University of lowa,SARS-CoV2,Pre-Clinica,MERS
+Non-Replicating Viral Vector,Recombinant deactivated rabies virus containing S1,Bharat Biotech/Thomas Jefferson University,SARS-CoV2,Pre-Clinica,"HeV, NiV, EBOV, LASSA, CCHFV, MERS"
+Non-Replicating Viral Vector,Influenza A H1N1 vector,"National Research Centre, Egypt",SARS-CoV2,Pre-Clinical,
+Non-Replicating Viral Vector,Inactivated Flu-based SARS-CoV2 vaccine Adjuvant,"National Center for Genetic Engineering and Biotechnology (BIOTEC) /GPO, Thailand",SARS-CoV2,Pre-Clinical,
+Protein Subunit,RBD protein (baculovirus production) + FAR- Squalene adjuvant,Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana Cayetano Heredia (UPCH),SARS-CoV2,Pre-Clinica,
+Protein Subunit,Protein Subunit,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",SARS-CoV2,Pre-Clinica,
+Protein Subunit,RBD-protein,Mynvax,SARS-CoV2,Pre-Clinica,
+Protein Subunit,Recombinant S protein,Izmir Biomedicine and Genome Center,SARS-CoV2,Pre-Clinica,
+Protein Subunit,Peptide + novel adjuvant,Bogazici University,SARS-CoV2,Pre-Clinical,
+Protein Subunit,S subunit intranasal liposomal formulation with GLA/3M052 adjs.,University of Virginia,SARS-CoV2,Pre-Clinical,
+Protein Subunit,"S-Protein (Subunit) + Adjuvant, E coli based Expression","Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory, Ogbomoso, Oyo State, Nigeria.",SARS-CoV2,Pre-Clinica,
+Protein Subunit,"Protein Subunit S,N,M&S1 protein","National Research Centre, Egypt",SARS-CoV2,Pre-Clinica,
+Protein Subunit,Protein Subunit,"University of San Martin and CONICET, Argentina",SARS-CoV2,Pre-Clinica,
+Protein Subunit,RBD protein fused with Fc of IgG + Adj.,"Chulalongkorn University/GPO, Thailand",SARS-CoV2,Pre-Clinica,
+Protein Subunit,Capsid-like Particle,AdaptVac (PREVENT-nCoV consortium),SARS-CoV2,Pre-Clinical,
+Protein Subunit,Drosophila S2 insect cell expression system VLPS,ExpreS2ion,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Peptide antigens formulated in LNP,IMV Inc,SARS-CoV2,Pre-Clinical,
+Protein Subunit,S protein,WRAIR/USAMRIID,SARS-CoV2,Pre-Clinical,
+Protein Subunit,S protein +Adjuvant,"National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma",SARS-CoV2,Pre-Clinical,Influenza
+Protein Subunit,VLP-recombinant protein + Adjuvant,"Osaka University/ BIKEN/ National Institutes of Biomedical Innovation, Japan",SARS-CoV2,Pre-Clinica,
+Protein Subunit,microneedle arrays S1 subunit,Univ. of Pittsburgh,SARS-CoV2,Pre-Clinica,MERS
+Protein Subunit,Peptide,Vaxil Bio,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Adjuvanted protein subunit (RBD),Biologica E Ltd,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Peptide,Flow Pharma Inc,SARS-CoV2,Pre-Clinical,"Ebola, Marburg, HIV, Zika, Influenza, HPV therapeutic vaccine, BreastCA vaccine"
+Protein Subunit,S protein,AJ Vaccines,SARS-CoV2,Pre-Clinical,
+Protein Subunit,li-Key peptide,Generex/EpiVax,SARS-CoV2,Pre-Clinical,"Influenza, HIV, SARS-CoV"
+Protein Subunit,S protein,EpiVax/Univ. of Georgia,SARS-CoV2,Pre-Clinica,H7N9
+Protein Subunit,Protein Subunit EPV-CoV-19,EpiVax,SARS-CoV2,Pre-Clinical,
+Protein Subunit,S protein (baculovirus production),Sanofi Pasteur/GSK,SARS-CoV2,Pre-Clinical,"Influenza, SARS-CoV"
+Protein Subunit,gp-96 backbone,Heat Biologics/Univ. Of Miami,SARS-CoV2,Pre-Clinical,"NSCLC, HIV, malaria, Zika"
+Protein Subunit,Subunit vaccine,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",SARS-CoV2,Pre-Clinica,
+Protein Subunit,S1 or RBD protein,Baylor College of Medicine,SARS-CoV2,Pre-Clinical,SARS
+Protein Subunit,"Subunit protein, plant produced",iBio/CC-Pharming,SARS-CoV2,Pre-Clinica,
+Protein Subunit,"Recombinant protein, nanoparticles (based on S-protein and other epitopes)",Saint-Petersburg scientific research institute of vaccines and serums,SARS-CoV2,Pre-Clinica,
+Protein Subunit,COVID-19 XWG-03 truncated S (spike) proteins,Innovax/Xiamen Univ./GSK,SARS-CoV2,Pre-Clinical,HPV
+Protein Subunit,Adjuvanted microsphere peptide,"VIDO-InterVac, University of Saskatchewan",SARS-CoV2,Pre-Clinical,
+Protein Subunit,Synthetic Long Peptide Vaccine candidate for s and M proteins,OncoGen,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Oral E. coli-based protein expression system of S and N proteins,MIGAL Galilee Research Institute,SARS-CoV2,Pre-Clinica,
+Protein Subunit,Nanoparticle vaccine,"LakePharma, Inc.",SARS-CoV2,Pre-Clinical,
+Protein Subunit,Plant-based subunit (RBD-Fc + Adjuvant),Baiya Phytopharm/ Chula Vaccine Research Center,SARS-CoV2,Pre-Clinical,
+Protein Subunit,OMV-based vaccine,Quadram Institute Biosciences,SARS-CoV2,Pre-Clinical,"Flu A, plague"
+Protein Subunit,OMV-based vaccine,BiOMVis Sri/Univ. of Trento,SARS-CoV2,Pre-Clinical,
+Protein subunit,structurally modified spherical particles of the tobacco mosaic virus (TMV),Lomonosov Moscow State University,SARS-CoV2,Pre-Clinical,"rubella, rotavirus"
+Protein Subunit,Spike-based,University of Alberta,SARS-CoV2,Pre-Clinical,Hepatitis C
+Protein Subunit,Recombinant S1-Fc fusion protein,AnyGo Technology,SARS-CoV2,Pre-Clinica,
+Protein Subunit,Recombinant protein,Yisheng Biopharma,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Recombinant s protein in IC-BEVS,Vabiotech,SARS-CoV2,Pre-Clinical,
+Protein Subunit,"Orally delivered, heat stable subunit","Applied Biotechnology Institute, Inc.",SARS-CoV2,Pre-Clinical,
+Protein Subunit,Peptides derived from Spike protein,Axon Neuroscience SE,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Protein Subunit,"MOGAM Institute for Biomedical Research, GC Pharma",SARS-CoV2,Pre-Clinical,
+Protein Subunit,RBD-based,Neovii/Tel Aviv University,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Outer Membrane Vesicle (OMV)-subunit,Intravacc/Epivax,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Outer Membrane Vesicle(OMV)-peptide,Intravacc/Epivax,SARS-CoV2,Pre-Clinical,
+Protein Subunit,Spike-based (epitope screening),mmunoPrecise/LiteVax BV,SARS-CoV2,Pre-Clinical,
+Replicating Bacteria Vector,Oral Salmonella enteritidis (3934Vac) based protein expression system of RBD,Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana Cayetano Heredia (UPCH),SARS-CoV2,Pre-Clinical,
+Replicating Viral Vector,YF17D Vector,KU Leuven,SARS-CoV2,Pre-Clinical,
+Replicating Vira Vector,Measles Vector,Cadila Healthcare Limited,SARS-CoV2,Pre-Clinica,
+Replicating Viral Vector,Measles Vector,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",SARS-CoV2,Pre-Clinical,
+Replicating Vira Vector,"Measles Virus (S, N targets)",DZIF German Center for Infection Research/CanVirex AG,SARS-CoV2,Pre-clinical,"Zika, H7N9, CHIKV"
+Replicating Vira Vector,Horsepox vector expressing S protein,Tonix Pharma/Southern Research,SARS-CoV2,Pre-Clinical,"Smallpox, monkeypox"
+Replicating Viral Vector,Live viral vectored vaccine based on attenuated influenza virus backbone (intranasal),BiOCAD and IEM,SARS-CoV2,Pre-Clinica,Influenza
+Replicating Viral Vector,"Recombinant vaccine based on Influenza A virus, for the prevention of COVID-19 (intranasal)","FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",SARS-CoV2,Pre-Clinical,Influenza
+Replicating Vira Vector,Attenuated Influenza expressing an antigenic portion of the Spike protein,Fundacao Oswaldo Cruz and Instituto Buntantan,SARS-CoV2,Pre-Clinical,Influenza
+Replicating Viral Vector,Influenza vector expressing RBD,University of Hong Kong,SARS-CoV2,Pre-Clinical,
+Replicating Viral Vector,Replication-competent VSV chimeric virus technology (VSVAG) delivering the SARS-CoV- 2 Spike (S) glycoprotein.,IAVI/Merck,SARS-CoV2,Pre-Clinica,"Ebola, Marburg, Lassa"
+Replicating Viral Vector,Replicating VSV vector-based DC-targeting,University of Manitoba,SARS-CoV2,Pre-Clinica,
+Replicating Viral Vector,VSV-S,University of Western Ontario,SARS-CoV2,Pre-Clinical,"HIV, MERS"
+Replicating Viral Vector,VSV-S,Aurobindo,SARS-CoV2,Pre-Clinica,
+Replicating Viral Vector,VSV vector,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",SARS-CoV2,Pre-Clinical,
+Replicating Viral Vector,VSV-S,Israe Institute for Biologica Research/Weizmann Institute of Science,SARS-CoV2,Pre-Clinical,
+Replicating Viral Vector,M2-deficient single replication (M2SR) influenza vector,UW-Madison/FluGen/Bharat Biotech,SARS-CoV2,Pre-Clinical,influenza
+Replicating Viral Vector,Newcastle disease virus vector (NDV-SARS- CoV-2/Spike),Intravacc/Wageningen Bioveterinary Research/Utrecht Univ.,SARS-CoV2,Pre-Clinica,
+Replicating Viral Vector,Avian paramyxovirus vector (APMV),"The Lancaster University, UK",SARS-CoV2,Pre-Clinica,
+RNA,Self-amplifying RNA,Gennova,SARS-CoV2,Pre-Clinical,
+RNA,mRNA,Selcuk University,SARS-CoV2,Pre-Clinical,
+RNA,LNP-mRNA,Translate Bio/Sanofi Pasteur,SARS-CoV2,Pre-Clinica,
+RNA,LNP-mRNA,CanSino Biologics/Precision NanoSystems,SARS-CoV2,Pre-Clinical,
+RNA,LNP-encapsulated mRNA cocktai encoding VLP,Fudan University/ Shanghai liaoTong University/RNACure Biopharma,SARS-CoV2,Pre-Clinical,
+RNA,LNP-encapsulated mRNA encoding RBD,Fudan University/ Shanghai JiaoTong University/RNACure Biopharma,SARS-CoV2,Pre-Clinical,
+RNA,Replicating Defective SARS-CoV-2 derived RNAs,"Centro Nacional Biotecnologia (CNB-CSIC), Spain",SARS-CoV2,Pre-Clinica,
+RNA,LNP-encapsulated mRNA,University of Tokyo/ Daiichi-Sankyo,SARS-CoV2,Pre-Clinical,MERS
+RNA,Liposome-encapsulated mRNA,BIOCAD,SARS-CoV2,Pre-Clinical,
+RNA,Several mRNA candidates,"RNAimmune, Inc.",SARS-CoV2,Pre-Clinica,
+RNA,mRNA,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",SARS-CoV2,Pre-Clinical,
+RNA,mRNA,China CDC/Tongji University/Stermina,SARS-CoV2,Pre-Clinical,
+RNA,LNP-mRNA,Chula Vaccine Research Center/University of Pennsylvania,SARS-CoV2,Pre-Clinica,
+RNA,mRNA in an intranasal delivery system,eTheRNA,SARS-CoV2,Pre-Clinical,
+RNA,mRNA,Greenlight Biosciences,SARS-CoV2,Pre-Clinica,
+RNA,mRNA,"IDIBAPS-Hospital Clinic, Spain",SARS-CoV2,Pre-Clinical,
+VLP,VLP,Bezmialem Vakif University,SARS-CoV2,Pre-Clinica,
+VLP,VLP,Middle East Technical University,SARS-CoV2,Pre-Clinical,
+VLP,Enveloped Virus-Like Particle (eV/LP),VBI Vaccines Inc.,"SARS-CoV-2, SARS-CoV, & MERS-CoV",Pre-Clinical,"CMV, GBM, Zika"
+VLP,S protein integrated in HIV VLPS,IrsiCaixa AIDS Research/IRTA-CReSA/Barcelona Supercomputing Centre/Grifols,SARS-CoV2,Pre-Clinical,
+VLP,VLP + Adjuvant,Mahidol University/ The Government Pharmaceutical Organization (GPO)/Siriraj Hospital,SARS-CoV2,Pre-Clinica,
+VLP,"Virus-like particles, lentivirus and baculovirus vehicles","Navarrabiomed, Oncoimmunology group",SARS-CoV2,Pre-Clinical,
+VLP,"Virus-like particle, based on RBD displayed on virus-like particles",Saiba GmbH,SARS-CoV2,Pre-Clinica,
+VLP,ADDomerTM multiepitope display,Imophoron Ltd and Bristol University's Max Planck Centre,SARS-CoV2,Pre-Clinica,
+VLP,Unknown,Doherty Institute,SARS-CoV2,Pre-Clinica,
+VLP,VLP,OSIVAX,SARS-CoV1 SARS-CoV2,Pre-Clinical,
+VLP,eVLP,ARTES Biotechnology,SARS-CoV2,Pre-Clinical,malaria
+VLP,VLPS peptides/whole virus,Univ. of Sao Paulo,SARS-CoV2,Pre-Clinica,
