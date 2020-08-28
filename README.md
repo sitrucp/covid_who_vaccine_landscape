@@ -1,5 +1,7 @@
 The WHO creates a regularly updated PDF document named Draft landscape of COVID-19 candidate vaccines which contains lists of COVID-19 vaccine candidates and treatments.
 
+TLDR view and download csv files <a href="Options.html">here</a>.
+
 I wanted to get a machine readable format version of this PDF document so I could do some analysis.
 
 I started looking for Python module to do PDF parsing but I ended up doing it using Amazon Textract which is an AWS service to extract text and data from your documents including text documents, images and PDFs.
