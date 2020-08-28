@@ -1,6 +1,6 @@
 The WHO creates a regularly updated PDF document named Draft landscape of COVID-19 candidate vaccines which contains lists of COVID-19 vaccine candidates and treatments.
 
-TLDR view and download csv files <a href="Options.html">here</a>.
+TLDR view and download csv files <a href="https://sitrucp.github.io/who_vaccine_landscape/">here</a>.
 
 I wanted to get a machine readable format version of this PDF document so I could do some analysis.
 
