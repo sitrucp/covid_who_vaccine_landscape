@@ -2,14 +2,15 @@ WHO "Draft landscape of COVID-19 candidate vaccines" - convert PDF to csv
 
 The WHO creates a regularly updated PDF document named <a href="https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines" target="_blank" rel="noopener noreferrer">Draft landscape of COVID-19 candidate vaccines</a> which contains all COVID-19 vaccine candidates and treatments currently being developed and their status.
 
-I wanted to get a machine readable format version of this PDF document so I could do some analysis. I ended up using AWS Textract to extract the PDF into csv file format. 
+I wanted to get a machine readable format version of this PDF document's table data so I could do some analysis. I ended up using AWS Textract to extract the PDF into csv file format. 
+
 Read <a href="https://009co.com/?page_id=1212" target="_blank">here</a> about how this was done.
 
-Download csv files from this Github <a href="https://github.com/sitrucp/who_vaccine_landscape" target="_blank">repository</a> or view them in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape" target="_blank">here</a>.
+Download and view AWS Textract PDF output csv files in this <a href="https://github.com/sitrucp/who_vaccine_landscape">Github repository</a> or view the resulting PDF table data  in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>.
 
-The Python code in this repository was used to combine the AWS Textract table csv files, clean up data and split it into two datasets, vaccines and treatments.
+There is also some Python code in this repository that was used to combine the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments.
 
-AWS Textract output is in 'PDF_data' folder. The AWS Textract process output is a zip file that contains following files.
+The AWS Textract process output is a zip file who's contents are in the 'PDF_data' folder in this repository. The files are listed below.
 
 These 3 files appear to be standard information for any AWS Textract job.
 
