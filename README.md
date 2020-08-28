@@ -1,4 +1,4 @@
-The WHO creates a regularly updated PDF document named Draft landscape of COVID-19 candidate vaccines which contains lists of COVID-19 vaccine candidates and treatments.
+The WHO creates a regularly updated PDF document named Draft landscape of COVID-19 candidate vaccines which contains all COVID-19 vaccine candidates and treatments currently being developed and their status.
 
 TLDR view and download csv files <a href="https://sitrucp.github.io/who_vaccine_landscape/">here</a>.
 
