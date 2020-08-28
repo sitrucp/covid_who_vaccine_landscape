@@ -2,25 +2,9 @@ The WHO creates a regularly updated PDF document named Draft landscape of COVID-
 
 I wanted to get a machine readable format version of this PDF document so I could do some analysis.
 
-TLDR: view and download csv files <a href="https://sitrucp.github.io/who_vaccine_landscape/">here</a>.
+Download csv files from this Github <a href="https://github.com/sitrucp/who_vaccine_landscape">repository</a> or view them in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>.
 
-*Longer Version*
-
-I started looking for Python module to do PDF parsing but I ended up doing it using Amazon Textract which is an AWS service to extract text and data from your documents including text documents, images and PDFs.
-
-"Amazon Textract is a service that automatically detects and extracts text and data from scanned documents. It goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables"
-
-*Using Textract*
-
-To use Textract you need an AWS account and it does cost (a very small fee) to use the service.
-
-You can use Textract manually via a UI or use the Boto3 SDK. I used the manual UI. However, I did dig into the SDK Textract functionality which had fairly good documentation and example code.
-
-Use this link to go directly to the Textract UI once you are logged into your AWS console.
-
-The Textract UI is quite intuitive and easy to use. You manually upload your PDF file. After processing file, it shows you the interpreted content and gives option of what to extract from document. I selected "Tables".
-
-The manual Textract process creates a new S3 folder where it uploads the PDF before processing it (currently AWS appears to only allow Textract to process files in an S3 bucket).
+Read <a href="https://009co.com/?page_id=1212">here</a> about how this was done.
 
 *PDF_data folder*
 
