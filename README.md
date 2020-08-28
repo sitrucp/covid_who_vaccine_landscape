@@ -5,17 +5,17 @@ Read <a href="https://009co.com/?page_id=1212">here</a> about how this was done.
 
 Download csv files from this Github <a href="https://github.com/sitrucp/who_vaccine_landscape">repository</a> or view them in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>.
 
-*PDF_data folder contents*
+The Python code in this repository was used to combine the AWS Textract table csv files, clean up data and split it into two datasets, vaccines and treatments.
 
-The AWS Textract process output is a zip file that contains following files.
+AWS Textract output is in 'PDF_data' folder. The AWS Textract process output is a zip file that contains following files.
 
-These 3 files appear to be standard extraction information.
+These 3 files appear to be standard information for any AWS Textract job.
 
     apiResponse.json
     keyValues.csv
     rawText.txt
 
-The rest of the files will vary depending on your document. In this case it returned a file for each table in the document.
+The rest of the AWS Textract output will vary depending on your document. In this case it returned a file for each table in the document.
 
     table-1.csv
     table-2.csv
@@ -26,8 +26,6 @@ The rest of the files will vary depending on your document. In this case it retu
     table-7.csv
     table-8.csv
     table-9.csv
-
-The Python code in this repository was used to combine the table csv files, clean up data and split it into two datasets, vaccines and treatments.
 
 The columns included in the WHO Draft landscape of COVID-19 candidate vaccines PDF tables are shown below.
 
