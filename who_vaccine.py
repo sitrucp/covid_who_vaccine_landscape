@@ -39,7 +39,6 @@ def output_csv(table_files):
         "Number of doses",
         "Timing of doses",
         "Route of administration",
-        "Clinical stage",
         "Stage - Phase 1",
         "Stage - Phase 1/2",
         "Stage - Phase 2",
@@ -76,11 +75,21 @@ def output_csv(table_files):
     df_vaccine = df_all.iloc[:vaccine_end].copy()
     df_treatment = df_all.iloc[treatment_start:].copy()
 
-    # give cols to 2 new df
+    # drop unneeded vaccine cols
+    vaccine_drop_cols = [10]
+    df_vaccine.drop(df_vaccine.columns[vaccine_drop_cols], axis=1, inplace=True)
     df_vaccine.columns = col_names_vaccine
-    cols = [6,7,8,9,10]
-    df_treatment.drop(df_treatment.columns[cols], axis=1, inplace=True)
+
+    # drop unneeded treatment cols
+    treatment_drop_cols = [6,7,8,9,10]
+    df_treatment.drop(df_treatment.columns[treatment_drop_cols], axis=1, inplace=True)
     df_treatment.columns = col_names_treatment
+
+    # create vaccine counter cols
+    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Stage - Phase 1'].isnull(), 1, '')
+    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Stage - Phase 1/2'].isnull(), 1, '')
+    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Stage - Phase 2'].isnull(), 1, '')
+    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Stage - Phase 3'].isnull(), 1, '')
 
     # save df to csv
     df_vaccine.to_csv(output_path + "who_vaccines.csv", sep=',', encoding='utf-8', index=False)
