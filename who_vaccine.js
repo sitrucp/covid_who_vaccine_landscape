@@ -2,7 +2,7 @@
 //GET DATA=================================
 // get csv files from working group github repository
 // get health region lookup csv from my github repository
-var file_vaccines = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_treatments.csv";
+var file_vaccines = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines.csv";
 var file_treatments = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_treatments.csv";
 var file_update_time = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/update_time.csv";
 
@@ -35,24 +35,31 @@ Promise.all([
         thead_tr.append("<th>Number of doses</th>");
         thead_tr.append("<th>Timing of doses</th>");
         thead_tr.append("<th>Route of administration</th>");
-        thead_tr.append("<th>Clinical stage</th>");
         thead_tr.append("<th>Stage - Phase 1</th>");
         thead_tr.append("<th>Stage - Phase 1/2</th>");
         thead_tr.append("<th>Stage - Phase 2</th>");
         thead_tr.append("<th>Stage - Phase 3</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
-        $('vaccine_table').append(thead);
+        $('#vaccine_table').append(thead);
 
         var tbody;
         var tbody_tr;
         tbody = $("<tbody>");
-        $('vaccine_table').append(tbody);
+        $('#vaccine_table').append(tbody);
         for(var i = 0; i < vaccines.length; i++) {
-            var obj = covid_data[i];
+            var obj = vaccines[i];
             tbody_tr = $('<tr/>');
-            tbody_tr.append("<td>" + obj.website_name + "</td>");
-
+            tbody_tr.append("<td>" + obj["COVID-19 Vaccine developer or manufacturer"] + "</td>");
+            tbody_tr.append("<td>" + obj["Vaccine platform"] + "</td>");
+            tbody_tr.append("<td>" + obj["Type of candidate vaccine"] + "</td>");
+            tbody_tr.append("<td>" + obj["Number of doses"] + "</td>");
+            tbody_tr.append("<td>" + obj["Timing of doses"] + "</td>");
+            tbody_tr.append("<td>" + obj["Route of administration"] + "</td>");
+            tbody_tr.append("<td>" + obj["Stage - Phase 1"] + "</td>");
+            tbody_tr.append("<td>" + obj["Stage - Phase 1/2"] + "</td>");
+            tbody_tr.append("<td>" + obj["Stage - Phase 2"] + "</td>");
+            tbody_tr.append("<td>" + obj["Stage - Phase 3"] + "</td>");
             tbody.append(tbody_tr);
         }
     });
@@ -82,24 +89,42 @@ Promise.all([
         var tbody;
         var tbody_tr;
         tbody = $("<tbody>");
-        $('treatment_table').append(tbody);
+        $('#treatment_table').append(tbody);
+        
         for(var i = 0; i < treatments.length; i++) {
-            var obj = covid_data[i];
+            var obj = treatments[i];
             tbody_tr = $('<tr/>');
-            tbody_tr.append("<td>" + obj.website_name + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + cleanSiteValue(obj.case_count) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + cleanSiteValue(obj.mort_count) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + ((parseFloat(cleanSiteValue(obj.case_count)) / parseFloat(case_total)) * 100).toFixed(2) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + ((parseFloat(cleanSiteValue(obj.mort_count)) / parseFloat(mort_total)) * 100).toFixed(2) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + getRatioMortCase(parseFloat(cleanSiteValue(obj.mort_count)), parseFloat(cleanSiteValue(obj.case_count))) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + cleanSiteValue(obj.case_per_100k) + "</td>");
-            tbody_tr.append("<td style='text-align: right';>" + cleanSiteValue(obj.mort_per_100k) + "</td>");
+            tbody_tr.append("<td>" + obj["Platform"] + "</td>");
+            tbody_tr.append("<td>" + obj["Type of candidate vaccine"] + "</td>");
+            tbody_tr.append("<td>" + obj["Developer"] + "</td>");
+            tbody_tr.append("<td>" + obj["Coronavirus target"] + "</td>");
+            tbody_tr.append("<td>" + obj["Current stage of clinical evaluation/regulatory -Coronavirus candidate"] + "</td>");
+            tbody_tr.append("<td>" + obj["Same platform for non-Coronavirus candidates"] + "</td>");
             tbody.append(tbody_tr);
         }
     });
 
     $(document).ready(function($){ 
         $("#treatment_table").tablesorter();
+
+        $("#btn_vaccine").click(function(){
+            $("#vaccine_table_div").toggle();
+        });
+
+        $('#treatment_table_div').hide();
+
+        $('#btn_hide_show').click(function(){
+            $('#vaccine_table_div').toggle();
+            $('#treatment_table_div').toggle();
+        });
     }); 
 
+    document.getElementById('updated').innerHTML += ' <p>Last updated: ' + lastUpdated + '</p>';
+
+    document.getElementById('vaccine_count').innerHTML += 'Vaccine count: ' +  vaccines.length;
+
+    document.getElementById('treatment_count').innerHTML += 'Treatment count: ' +  treatments.length;
+
 });
+
+
