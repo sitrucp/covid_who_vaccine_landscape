@@ -1,6 +1,6 @@
 The WHO creates a regularly updated PDF document named Draft landscape of COVID-19 candidate vaccines which contains all COVID-19 vaccine candidates and treatments currently being developed and their status.
 
-I wanted to get a machine readable format version of this PDF document so I could do some analysis. I ended up using AWS Textract. 
+I wanted to get a machine readable format version of this PDF document so I could do some analysis. I ended up using AWS Textract to extract the PDF into csv file format. 
 Read <a href="https://009co.com/?page_id=1212">here</a> about how this was done.
 
 Download csv files from this Github <a href="https://github.com/sitrucp/who_vaccine_landscape">repository</a> or view them in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>.
