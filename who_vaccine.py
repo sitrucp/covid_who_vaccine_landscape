@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import glob, os
 
 # get pdf and output paths from config.py file
@@ -62,6 +63,8 @@ def output_csv(table_files):
 
     # create new df from file list
     df_raw = pd.concat(file_list, axis=0, ignore_index=True)
+
+    #clean up all content
     # remove trailing spaces entire df (not completely working yet, some are quotes so not stripping)
     df_all = df_raw.applymap(lambda x: x.rstrip() if type(x)==str else x)
     # exclude top 2 rows
@@ -80,16 +83,44 @@ def output_csv(table_files):
     df_vaccine.drop(df_vaccine.columns[vaccine_drop_cols], axis=1, inplace=True)
     df_vaccine.columns = col_names_vaccine
 
-    # drop unneeded treatment cols
-    treatment_drop_cols = [6,7,8,9,10]
-    df_treatment.drop(df_treatment.columns[treatment_drop_cols], axis=1, inplace=True)
-    df_treatment.columns = col_names_treatment
-
     # create vaccine counter cols
     df_vaccine['phase_1_counter'] = np.where(df_vaccine['Stage - Phase 1'].isnull(), 1, '')
     df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Stage - Phase 1/2'].isnull(), 1, '')
     df_vaccine['phase_2_counter'] = np.where(df_vaccine['Stage - Phase 2'].isnull(), 1, '')
     df_vaccine['phase_3_counter'] = np.where(df_vaccine['Stage - Phase 3'].isnull(), 1, '')
+
+    # cleanup vaccine data Textract OCR mistakes
+    vaccine_reps = {
+        'Timing of doses': {'o, 0, 14 14':'0, 14',
+        '28 56':'28,56',
+        'o,':'0,', 
+        'O,':'0,', 
+        'vira':'viral',
+        ', ':','
+        },
+        'Vaccine platform': {
+            'Non-Replicating Vira Vector': 'Non-Replicating Viral Vector'
+        }
+    }
+    df_vaccine.replace(vaccine_reps, regex=True, inplace=True)
+
+    # drop unneeded treatment cols
+    treatment_drop_cols = [6,7,8,9,10]
+    df_treatment.drop(df_treatment.columns[treatment_drop_cols], axis=1, inplace=True)
+    df_treatment.columns = col_names_treatment
+
+    # cleanup treatment data Textract OCR mistakes
+    treatment_reps = {
+        'Platform': {
+            'Non-replicating vira vector':'Non-Replicating Viral Vector',
+            'Replicating Vira Vector':'Replicating Viral Vector',
+        },
+        'Coronavirus target': {
+            'SARS-CoV-2':'SARS-CoV2',
+        },
+    }
+    df_treatment.replace(treatment_reps, regex=True, inplace=True)
+    df_treatment.replace({'Current stage of clinical evaluation/regulatory -Coronavirus candidate': {'Pre-Clinica':'Pre-Clinical'}}, regex=False, inplace=True)
 
     # save df to csv
     df_vaccine.to_csv(output_path + "who_vaccines.csv", sep=',', encoding='utf-8', index=False)
