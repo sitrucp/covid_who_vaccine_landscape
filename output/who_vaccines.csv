@@ -1,4 +1,4 @@
-COVID-19 Vaccine developer or manufacturer,Vaccine platform,Type of candidate vaccine,Number of doses,Timing of doses,Route of administration,Stage - Phase 1,Stage - Phase 1/2,Stage - Phase 2,Stage - Phase 3,phase_1_counter,phase_1_2_counter,phase_2_counter,phase_3_counter
+COVID-19 Vaccine developer or manufacturer,Vaccine platform,Type of candidate vaccine,Number of doses,Timing of doses,Route of administration,Clinical Stage - Phase 1,Clinical Stage - Phase 1/2,Clinical Stage - Phase 2,Clinical Stage - Phase 3,phase_1_counter,phase_1_2_counter,phase_2_counter,phase_3_counter
 University of Oxford/AstraZeneca,Non-Replicating Viral Vector,ChAdOx1-S,1,,IM,,PACTR202006922165132 2020-001072-15 Interim Report,2020-001228-32,ISRCTN89951424 NCTO4516746,1,,,
 Sinovac,Inactivated,Inactivated,2,"0,14 days",IM,,NCT04383574 NCTO4352608,,NCT04456595 669/UN6.KEP/EC/2020,1,,1,
 Wuhan Institute of Biological Products/Sinopharm,Inactivated,Inactivated,2,"0,14 or 0,21 days",IM,,ChiCTR2000031809 Interim Report,,ChiCTR2000034780,1,,1,

@@ -11,7 +11,7 @@ def main():
     table_files = get_tables(pdf_data_path)
     output_csv(table_files)
 
-def get_tables(pdf_data_path):
+def get_tables(file_path):
     table_files = []
 
     os.chdir(pdf_data_path)
@@ -21,17 +21,6 @@ def get_tables(pdf_data_path):
     return table_files
 
 def output_csv(table_files):
-    table_files = [
-        "table-1.csv",
-        "table-2.csv",
-        "table-3.csv",
-        "table-4.csv",
-        "table-5.csv",
-        "table-6.csv",
-        "table-7.csv",
-        "table-8.csv",
-        "table-9.csv"
-    ]
 
     col_names_vaccine = [
         "COVID-19 Vaccine developer or manufacturer",
@@ -40,10 +29,10 @@ def output_csv(table_files):
         "Number of doses",
         "Timing of doses",
         "Route of administration",
-        "Stage - Phase 1",
-        "Stage - Phase 1/2",
-        "Stage - Phase 2",
-        "Stage - Phase 3"
+        "Clinical Stage - Phase 1",
+        "Clinical Stage - Phase 1/2",
+        "Clinical Stage - Phase 2",
+        "Clinical Stage - Phase 3"
     ]
 
     col_names_treatment = [
@@ -84,10 +73,10 @@ def output_csv(table_files):
     df_vaccine.columns = col_names_vaccine
 
     # create vaccine counter cols
-    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Stage - Phase 1'].isnull(), 1, '')
-    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Stage - Phase 1/2'].isnull(), 1, '')
-    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Stage - Phase 2'].isnull(), 1, '')
-    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Stage - Phase 3'].isnull(), 1, '')
+    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1'].isnull(), 1, '')
+    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1/2'].isnull(), 1, '')
+    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 2'].isnull(), 1, '')
+    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Clinical Stage - Phase 3'].isnull(), 1, '')
 
     # cleanup vaccine data Textract OCR mistakes
     vaccine_reps = {

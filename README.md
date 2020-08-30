@@ -40,11 +40,10 @@ The columns included in the WHO Draft landscape of COVID-19 candidate vaccines P
     Number of doses
     Timing of doses
     Route of administration
-    Clinical stage
-    Stage - Phase 1
-    Stage - Phase 1/2
-    Stage - Phase 2
-    Stage - Phase 3
+    Clinical Stage - Phase 1
+    Clinical Stage - Phase 1/2
+    Clinical Stage - Phase 2
+    Clinical Stage - Phase 3
 
 *Treatment columns*
 
