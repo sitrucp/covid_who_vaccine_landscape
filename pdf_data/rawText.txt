@@ -1,7 +1,7 @@
 
 DRAFT landscape of COVID-19 candidate vaccines -
-25 August 2020
-31 candidate vaccines in clinical evaluation
+28 August 2020
+33 candidate vaccines in clinical evaluation
 COVID-19 Vaccine
 Number of
 Route of
@@ -20,15 +20,37 @@ PACTR202006922165132
 Non-Replicating
 ISRCTN89951424
 University of Oxford/AstraZeneca
-ChAdOx1-S
+ChAdox1-S
 1
 IM
 2020-001072-15
 2020-001228-32
-Vira Vector
-NCTO4516746
+Viral Vector
+NCT04516746
 Interim Report
-NCT04383574
+CanSino Biological Inc./Beijing Institute
+Non-Replicating
+Adenovirus Type 5 Vector
+1
+IM
+ChiCTR2000030906
+ChiCTR2000031781
+NCT04526990
+of Biotechnology
+Viral Vector
+Study Report
+Study Report
+Non-Replicating
+NCT04436471
+Gamaleya Research Institute
+Adeno-based (rAd26-S+rAd5-S)
+2
+0,21 days
+IM
+NCT04530396
+Viral Vector
+NCT04437875
+NCTO4383574
 NCT04456595
 Sinovac
 Inactivated
@@ -39,12 +61,12 @@ IM
 NCTO4352608
 669/UN6.KEP/EC/2020
 Wuhan Institute of Biological
-ChiCTR2000031809
 Inactivated
 Inactivated
 2
 0,14 or 0,21 days
 IM
+ChiCTR2000031809
 ChiCTR2000034780
 Products/Sinopharm
 Interim Report
@@ -75,26 +97,13 @@ RNA
 O, 28 days
 IM
 ChiCTR2000034825
-NCTO4368728
-Study Report
-CanSino Biological Inc./Beijing Institute
-Non-Replicating
-ChiCTR2000030906
-hiCTR2000031781
-Adenovirus Type 5 Vector
-1
-IM
-of Biotechnology
-Viral Vector
-Study Report
+NCT04368728
 Study Report
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
-shall not be deemed or construed as, any approva or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any
-(and
+shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
 hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
-documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution
-or
+documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
 use of any product included in any of these landscape documents.
 Anhui Zhifei Longcom
 Biopharmaceutical/Institute of
@@ -115,7 +124,7 @@ mRNA
 2
 0, 28 days
 IM
-NCT04449276
+NCTO4449276
 NCT04515147
 Institute of Medical Biology, Chinese
 Inactivated
@@ -126,6 +135,14 @@ IM
 NCT04412538
 NCT04470609
 Academy of Medical Sciences
+Research Institute for Biological Safety
+Inactivated
+Inactivated
+2
+O, 21 days
+IM
+NCT04530357
+Problems, Rep of Kazakhstan
 Inovio Pharmaceuticals/ International
 DNA plasmid vaccine with
 NCT04447781
@@ -135,59 +152,60 @@ DNA
 ID
 Vaccine Institute
 electroporation
-NCT04336410
+NCTO4336410
+NCT04463472
 Osaka University/ AnGes/ Takara Bio
 DNA
 DNA plasmid vaccine + Adjuvant
 2
-O, 14 days
+0, 14 days
 IM
-NCT04463472
+NCT04527081
 Cadila Healthcare Limited
 DNA
 DNA plasmid vaccine
 3
-O, 28 56 days
+0, 28, 56 days
 ID
 CTRI/2020/07/026352
 Genexine Consortium
 DNA
 DNA Vaccine (GX-19)
 2
-O, 28 days
+0, 28 days
 IM
 NCT04445389
 Bharat Biotech
 Inactivated
 Whole-Virion Inactivated
 2
-O, 14 days
+0, 14 days
 IM
 NCT04471519
 Janssen Pharmaceutical Companies
 Non-Replicating
 Ad26COVS1
 2
-0, 56 days
+O, 56 days
 IM
 NCT04505722
 NCT04436276
-Vira Vector
+Viral Vector
 (not yet recruiting)
-Full length recombinant SARS CoV-
+Full length recombinant SARS
 Novavax
 Protein Subunit
-2 glycoprotein nanoparticle
+CoV-2 glycoprotein nanoparticle
 2
-O, 21 days
+0, 21 days
 IM
-NCTO4368988
+NCT04368988
 vaccine adjuvanted with Matrix M
 Kentucky Bioprocessing, Inc
 Protein Subunit
 RBD-based
 2
-0, 21 days
+O, 21 days
 IM
 NCT04473690
 Arcturus/Duke-NUS
@@ -196,35 +214,26 @@ mRNA
 IM
 NCTO4480957
 Non-Replicating
-NCT04436471
-Gamaleya Research Institute
-Adeno-based
-1
-IM
-Viral Vector
-NCTO4437875
-Non-Replicating
 Replication defective Simian
 ReiThera/LEUKOCARE/Univercells
 1
 IM
-2020-002835-31
-Vira Vector
+NCT04528641
+Viral Vector
 Adenovirus (GRAd) encoding S
 Clover Biopharmaceuticals
 Native like Trimeric subunit Spike
 Protein Subunit
 2
-0, 21 days
+O, 21 days
 IM
 NCT04405908
-nc./GSK/Dynavax
+Inc./GSK/Dynavax
 Protein vaccine
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
 shall
-not
-be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
+not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
 hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
 documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
 use of any product included in any of these landscape documents.
@@ -234,12 +243,12 @@ Protein Subunit
 1
 IM
 NCT04453852
-AdvaxTM adjuvant
+AdvaxM adjuvant
 Molecular clamp stabilized Spike
 University of Queensland/CSL/Seqirus
 Protein Subunit
 2
-O, 28 days
+o, 28 days
 IM
 ACTRN12620000674932p
 protein with MF59 adjuvant
@@ -258,11 +267,27 @@ RBD + Adjuvant
 o, 28 days
 IM
 IFV/COR/04
+FBRI SRC VB VECTOR, Rospotrebnadzor,
+Protein Subunit
+Peptide
+2
+o, 21 days
+IM
+NCT04527575
+Koltsovo
+West China Hospital, Sichuan University
+RBD (baculovirus production
+Protein Subunit
+2
+O, 28 days
+IM
+ChiCTR2000037518
+expressed in Sf9 cells)
 Institute Pasteur/Themis/Univ. of
 Replicating Viral
 Measles-vector based
 1 or 2
-o, 28 days
+O, 28 days
 IM
 NCT04497298
 Pittsburg CVR/Merck Sharp & Dohme
@@ -274,7 +299,7 @@ LNP-nCoVsaRNA
 IM
 ISRCTN17072692
 People's Liberation Army (PLA)
-o, 0, 14 14 or 0, 28
+o, 14 or O, 28
 Academy of Military Sciences/Walvax
 RNA
 mRNA
@@ -283,29 +308,21 @@ IM
 ChiCTR2000034112
 days
 Biotech.
+Plant-derived VLP adjuvanted with
 Medicago Inc.
 VLP
-Plant-derived VLP adjuvanted with
 2
 o, 21 days
 IM
 NCT04450004
 GSK or Dynavax adjs.
-FBRI SRC VB VECTOR, Rospotrebnadzor,
-Protein Subunit
-Peptide
-2
-o, 21 days
-IM
-TBD
-Koltsovo
+143 candidate vaccines in preclinical evaluation
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
 shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
 hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
-documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
+documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
 use of any product included in any of these landscape documents.
-142 candidate vaccines in preclinical evaluation
 Platform
 Type of candidate vaccine
 Developer
@@ -316,13 +333,13 @@ target
 clinical
 candidates
 evaluation/regulatory
--Coronavirus
+Coronavirus
 candidate
 DNA
 DNA, engineered vaccine inserts compatible
-DIOSynVax Ltd University of Cambridge
+DIOSynVax Ltd / University of Cambridge
 SARS-CoV-2 and
-Pre-Clinica
+Pre-Clinical
 with multiple delivery systems
 Sarbeco-
 Coronaviruses
@@ -333,11 +350,11 @@ SARS-CoV2
 Pre-Clinical
 DNA
 DNA plasmid vaccine RBD&N
-Scancell/University of Nottingham/Nottingh /Nottingham Trent University
+Scancell/University of Nottingham/Nottinghar Trent University
 SARS-CoV2
 Pre-Clinical
 DNA
-DNA plasmid vaccine S,S1,S2,RB[ &N
+DNA plasmid vaccine S,S1,S2,RBD &N
 National Research Centre, Egypt
 SARS-CoV2
 Pre-Clinical
@@ -351,7 +368,7 @@ DNA
 DNA with electroporation
 Chula Vaccine Research Center
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 DNA
 DNA
 Takis/Applied DNA Sciences/Evvivax
@@ -359,7 +376,7 @@ SARS-CoV2
 Pre-Clinical
 DNA
 Plasmid DNA, Needle-Free Delivery
-Immunomic Therapeutics, Inc./EpiVax, Inc./PharmaJet
+Immunomic Therapeutics, Inc./EpiVax, Inc./Pharmalet
 SARS-CoV2
 Pre-Clinical
 SARS
@@ -369,10 +386,10 @@ BioNet Asia
 SARS-CoV2
 Pre-Clinical
 DNA
-msDNA vaccine
+MsDNA vaccine
 Mediphage Bioceuticals/University of Waterloo
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 DNA
 DNA vaccine
 Entos Pharmaceuticals
@@ -398,12 +415,12 @@ Inactivated
 Inactivated
 Erciyes University
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Inactivated
 Inactivated whole virus
 National Research Centre, Egypt
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Inactivated
 Inactivated
 Beijing Minhai Biotechnology Co., Ltd.
@@ -411,7 +428,7 @@ SARS-CoV2
 Pre-Clinical
 Inactivated
 TBD
-Osaka University/E BIKEN/ NIBIOHN
+Osaka University/ BIKEN/ NIBIOHN
 SARS-CoV2
 Pre-Clinical
 Inactivated
@@ -426,12 +443,11 @@ SARS-CoV2
 Pre-Clinica
 Inactivated
 Inactivated
-Research Institute for Biological Safety Problems, Rep of Kazakhstan
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Live Attenuated Virus
 Codon deoptimized live attenuated vaccines
-Mehmet Ali Aydinlar University Acibadem Labmed Health Services
+Mehmet Ali Aydinlar University / Acibadem Labmed Health Services
 SARS-CoV2
 Pre-Clinical
 A.S.
@@ -439,19 +455,13 @@ Live Attenuated Virus
 Codon deoptimized live attenuated vaccines
 Codagenix/Serum Institute of India
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 HAV, InfA, ZIKV, FMD, SIV, RSV, DENV
-DISCLAIMER:
-These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
-shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
-hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
-documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
-use of any product included in any of these landscape documents.
 Live Attenuated Virus
 Codon deoptimized live attenuated vaccines
 Indian Immunologicals Ltd/Griffith University
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Non-Replicating Viral Vector
 Sendai virus vector
 ID Pharma
@@ -467,17 +477,23 @@ Adeno-associated virus vector (AAVCOVID)
 Massachusetts Eye and Ear/Massachusetts General Hospital/AveXis
 SARS-CoV2
 Pre-Clinical
+DISCLAIMER:
+These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
+shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
+hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
+documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
+use of any product included in any of these landscape documents.
 Non-Replicating Viral Vector
 MVA encoded VLP
 GeoVax/BravoVax
 SARS-CoV2
 Pre-Clinical
 LASV, EBOV, MARV, HIV
-Non-replicating vira vector
+Non-replicating viral vector
 MVA-S encoded
 DZIF German Center for Infection Research/IDT Biologika GmbH
 SARS-CoV2
-Pre-clinical
+Pre-clinica
 Many
 Non-replicating viral vector
 MVA-S
@@ -495,7 +511,7 @@ Non-Replicating Viral Vector
 Adeno5-based
 Erciyes University
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Non-Replicating Viral Vector
 2nd Gen E2b- Ad5 Spike, RBD, Nucleocapsid
 ImmunityBio, Inc. & Nantkwest, Inc.
@@ -503,20 +519,20 @@ SARS-CoV2
 Pre-Clinical
 flu, Chik, Zika, EBOV, LASV,
 Subcutaneous&ora
-HIV/SIV,C
+HIV/SIV,Cance
 Non-Replicating Viral Vector
 Ad5 S (GREVAXTM platform)
 Greffex
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 MERS
-Non-Replicating Viral Vector
-Oral Ad5 S
+Non-Replicating Vira Vector
+Ora Ad5 S
 Stabilitech Biopharma Ltd
 SARS-CoV2
 Pre-Clinical
 Zika, VZV, HSV-2 and Norovirus
-Non-Replicating Viral Vector
+Non-Replicating Vira Vector
 adenovirus-based + HLA-matched peptides
 Valo Therapeutics Ltd
 Pan-Corona
@@ -530,9 +546,9 @@ InfA, CHIKV, LASV, NORV; EBOV, RVF,
 HBV, VEE
 Non-Replicating Viral Vector
 MVA expressing structural proteins
-Centro Naciona Biotecnologia (CNB-CSIC), Spain
+Centro Nacional Biotecnologia (CNB-CSIC), Spain
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Multiple candidates
 Non-Replicating Viral Vector
 Dendritic cell-based vaccine
@@ -543,7 +559,7 @@ Non-Replicating Viral Vector
 parainfluenza virus 5 (PIV5)-based vaccine
 University of Georgia/University of lowa
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 MERS
 expressing the spike protein
 Non-Replicating Viral Vector
@@ -566,6 +582,11 @@ Pre-Clinical
 Adjuvant
 /GPO, Thailand
 Protein Subunit
+Recombinant S protein
+Max-Planck-institute of Colloids and Interfaces
+SARS-CoV2
+Pre-Clinical
+Protein Subunit
 RBD protein (baculovirus production) + FAR-
 Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana
 SARS-CoV2
@@ -582,6 +603,16 @@ RBD-protein
 Mynvax
 SARS-CoV2
 Pre-Clinica
+Protein Subunit
+Recombinant S protein
+Izmir Biomedicine and Genome Center
+SARS-CoV2
+Pre-Clinical
+Protein Subunit
+Peptide + nove adjuvant
+Bogazici University
+SARS-CoV2
+Pre-Clinical
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
 shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
@@ -594,25 +625,16 @@ distribution
 or
 use of any product included in any of these landscape documents.
 Protein Subunit
-Recombinant S protein
-Izmir Biomedicine and Genome Center
-SARS-CoV2
-Pre-Clinica
-Protein Subunit
-Peptide + novel adjuvant
-Bogazici University
-SARS-CoV2
-Pre-Clinical
-Protein Subunit
 S subunit intranasal liposomal formulation
 University of Virginia
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 with GLA/3M052 adjs.
 Protein Subunit
-S-Protein (Subunit) + Adjuvant, E coli based
-Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory, SARS-CoV2
-Pre-Clinica
+S-Protein (Subunit) Adjuvant, E coli based
+Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory,
+SARS-CoV2
+Pre-Clinical
 Expression
 Ogbomoso, Oyo State, Nigeria.
 Protein Subunit
@@ -629,28 +651,28 @@ Protein Subunit
 RBD protein fused with Fc of IgG + Adj.
 Chulalongkorn University/GPO, Thailand
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Protein Subunit
 Capsid-like Particle
 AdaptVac (PREVENT-nCoV consortium)
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 Drosophila S2 insect cell expression system
 ExpreS2ion
 SARS-CoV2
 Pre-Clinical
-VLPS
+VLPs
 Protein Subunit
 Peptide antigens formulated in LNP
 IMV Inc
 SARS-CoV2
 Pre-Clinical
 Protein Subunit
-S protein
+s protein
 WRAIR/USAMRIID
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 S protein +Adjuvant
 National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma
@@ -661,29 +683,29 @@ Protein Subunit
 VLP-recombinant protein + Adjuvant
 Osaka University/ BIKEN/ National Institutes of Biomedical Innovation,
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Japan
 Protein Subunit
 microneedle arrays S1 subunit
 Univ. of Pittsburgh
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 MERS
 Protein Subunit
 Peptide
-Vaxil Bio
+Vaxi Bio
 SARS-CoV2
 Pre-Clinical
 Protein Subunit
 Adjuvanted protein subunit (RBD)
-Biologica E Ltd
+Biological E Ltd
 SARS-CoV2
 Pre-Clinical
 Protein Subunit
 Peptide
 Flow Pharma Inc
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Ebola, Marburg, HIV, Zika, Influenza,
 HPV therapeutic vaccine, BreastCA
 vaccine
@@ -691,18 +713,18 @@ Protein Subunit
 S protein
 AJ Vaccines
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 li-Key peptide
 Generex/EpiVax
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Influenza, HIV, SARS-CoV
 Protein Subunit
 S protein
 EpiVax/Univ. of Georgia
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 H7N9
 Protein Subunit
 Protein Subunit EPV-CoV-19
@@ -725,7 +747,7 @@ Protein Subunit
 Subunit vaccine
 FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Protein Subunit
 S1 or RBD protein
 Baylor College of Medicine
@@ -734,9 +756,22 @@ Pre-Clinical
 SARS
 Protein Subunit
 Subunit protein, plant produced
-iBio/CC-Pharming
+iBio/cc-Pharming
+SARS-CoV2
+Pre-Clinical
+Protein Subunit
+Recombinant protein, nanoparticles (based
+Saint-Petersburg scientific research institute of vaccines and serums
+SARS-CoV2
+Pre-Clinical
+on s-protein and other epitopes)
+Protein Subunit
+COVID-19 XWG-03
+Innovax/Xiamen Univ./GSK
 SARS-CoV2
 Pre-Clinica
+HPV
+truncated S (spike) proteins
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
 shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
@@ -749,19 +784,6 @@ distribution
 or
 use of any product included in any of these landscape documents.
 Protein Subunit
-Recombinant protein, nanoparticles (based
-Saint-Petersburg scientific research institute of vaccines and serums
-SARS-CoV2
-Pre-Clinica
-on S-protein and other epitopes)
-Protein Subunit
-COVID-19 XWG-03
-Innovax/Xiamen Univ./GSK
-SARS-CoV2
-Pre-Clinical
-HPV
-truncated S (spike) proteins
-Protein Subunit
 Adjuvanted microsphere peptide
 VIDO-InterVac, University of Saskatchewan
 SARS-CoV2
@@ -770,13 +792,13 @@ Protein Subunit
 Synthetic Long Peptide Vaccine candidate for
 OncoGen
 SARS-CoV2
-Pre-Clinical
-s and M proteins
+Pre-Clinica
+S and M proteins
 Protein Subunit
 Oral E. coli-based protein expression system
 MIGAL Galilee Research Institute
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 of S and N proteins
 Protein Subunit
 Nanoparticle vaccine
@@ -787,19 +809,19 @@ Protein Subunit
 Plant-based subunit
 Baiya Phytopharm/ Chula Vaccine Research Center
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 (RBD-Fc + Adjuvant)
 Protein Subunit
 OMV-based vaccine
 Quadram Institute Biosciences
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Flu A, plague
 Protein Subunit
 OMV-based vaccine
 BiOMVis Sri/Univ. of Trento
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein subunit
 structurally modified spherical particles of
 Lomonosov Moscow State University
@@ -811,28 +833,28 @@ Protein Subunit
 Spike-based
 University of Alberta
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Hepatitis C
 Protein Subunit
 Recombinant S1-Fc fusion protein
 AnyGo Technology
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Protein Subunit
 Recombinant protein
 Yisheng Biopharma
 SARS-CoV2
 Pre-Clinical
 Protein Subunit
-Recombinant s protein in IC-BEVS
+Recombinant S protein in IC-BEVS
 Vabiotech
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 Orally delivered, heat stable subunit
 Applied Biotechnology Institute, Inc.
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 Peptides derived from Spike protein
 Axon Neuroscience SE
@@ -847,7 +869,7 @@ Protein Subunit
 RBD-based
 Neovii/Tel Aviv University
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 Outer Membrane Vesicle (OMV)-subunit
 Intravacc/Epivax
@@ -857,13 +879,12 @@ Protein Subunit
 Outer Membrane Vesicle(OMV)-peptide
 Intravacc/Epivax
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Protein Subunit
 Spike-based (epitope screening)
-mmunoPrecise/LiteVax
-BV
+ImmunoPrecise/LiteVax BV
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Replicating Bacteria Vector
 Oral Salmonella enteritidis (3934Vac) based
 Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana
@@ -876,7 +897,7 @@ YF17D Vector
 KU Leuven
 SARS-CoV2
 Pre-Clinical
-Replicating Vira Vector
+Replicating Viral Vector
 Measles Vector
 Cadila Healthcare Limited
 SARS-CoV2
@@ -885,22 +906,30 @@ Replicating Viral Vector
 Measles Vector
 FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo
 SARS-CoV2
-Pre-Clinical
-Replicating Vira Vector
+Pre-Clinica
+Replicating Viral Vector
 Measles Virus (S, N targets)
 DZIF German Center for Infection Research/CanVirex AG
 SARS-CoV2
 Pre-clinical
 Zika, H7N9, CHIKV
-Replicating Vira Vector
+Replicating Viral Vector
 Horsepox vector expressing S protein
 Tonix Pharma/Southern Research
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Smallpox, monkeypox
+Replicating Viral Vector
+Live vira vectored vaccine based on
+BiOCAD and IEM
+SARS-CoV2
+Pre-Clinica
+Influenza
+attenuated influenza virus backbone
+(intranasal)
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
-shall not be deemed or construed as, any approva or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
+shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
 hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
 documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection
 with
@@ -909,14 +938,6 @@ procurement,
 distribution
 or
 use of any product included in any of these landscape documents.
-Replicating Viral Vector
-Live viral vectored vaccine based on
-BiOCAD and IEM
-SARS-CoV2
-Pre-Clinica
-Influenza
-attenuated influenza virus backbone
-(intranasal)
 Replicating Viral Vector
 Recombinant vaccine based on Influenza A
 FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo
@@ -937,7 +958,7 @@ Replicating Viral Vector
 Influenza vector expressing RBD
 University of Hong Kong
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 Replicating Viral Vector
 Replication-competent VSV chimeric virus
 IAVI/Merck
@@ -950,7 +971,7 @@ Replicating Viral Vector
 Replicating VSV vector-based DC-targeting
 University of Manitoba
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Replicating Viral Vector
 VSV-S
 University of Western Ontario
@@ -961,7 +982,7 @@ Replicating Viral Vector
 VSV-S
 Aurobindo
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 Replicating Viral Vector
 VSV vector
 FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo
@@ -969,10 +990,10 @@ SARS-CoV2
 Pre-Clinical
 Replicating Viral Vector
 VSV-S
-Israe Institute for Biologica Research/Weizmann Institute of Science
+Israel Institute for Biological Research/Weizmann Institute of Science
 SARS-CoV2
 Pre-Clinical
-Replicating Viral Vector
+Replicating Vira Vector
 M2-deficient single replication (M2SR)
 UW-Madison/FluGen/Bharat Biotech
 SARS-CoV2
@@ -981,15 +1002,20 @@ influenza
 influenza vector
 Replicating Viral Vector
 Newcastle disease virus vector (NDV-SARS-
-Intravacc/Wageningen Bioveterinary Research/Utrecht Univ.
+acc/ Wageninger Bioveterinary Research/Utrecht Univ.
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 CoV-2/Spike)
 Replicating Viral Vector
 Avian paramyxovirus vector (APMV)
 The Lancaster University, UK
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
+RNA
+LNP-encapsulated mRNA encoding S
+Max-Planck-institute of Colloids and Interfaces
+SARS-CoV2
+Pre-Clinical
 RNA
 Self-amplifying RNA
 Gennova
@@ -999,66 +1025,61 @@ RNA
 mRNA
 Selcuk University
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 RNA
 LNP-mRNA
 Translate Bio/Sanofi Pasteur
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 RNA
 LNP-mRNA
 CanSino Biologics/Precision NanoSystems
 SARS-CoV2
 Pre-Clinical
 RNA
-LNP-encapsulated mRNA cocktai encoding
-Fudan University/ Shanghai liaoTong University/RNACure Biopharma
+LNP-encapsulated mRNA cocktail encoding
+Fudan University/ Shanghai JiaoTong University/RNACure Biopharma
 SARS-CoV2
 Pre-Clinical
 VLP
 RNA
 LNP-encapsulated mRNA encoding RBD
-Fudan University/ Shanghai JiaoTong University/RNACure Biopharma
+Fudan University/ Shanghai iaoTong University/RNACur Biopharma
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 RNA
 Replicating Defective SARS-CoV-2 derived
 Centro Nacional Biotecnologia (CNB-CSIC), Spain
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 RNAs
 RNA
 LNP-encapsulated mRNA
-University of Tokyo/ Daiichi-Sankyo
+University of Tokyo/Daiichi-Sankyo
 SARS-CoV2
 Pre-Clinical
 MERS
-DISCLAIMER:
-These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
-shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
-hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
-documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection
-with
-the
-procurement,
-distribution
-or
-use of any product included in any of these landscape documents.
 RNA
 Liposome-encapsulated mRNA
 BIOCAD
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
 RNA
 Several mRNA candidates
 RNAimmune, Inc.
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 RNA
 mRNA
 FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo
 SARS-CoV2
-Pre-Clinical
+Pre-Clinica
+DISCLAIMER:
+These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
+shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and
+hereby disclaims all) representations and warranties regarding the accuracy, completeness, fitness for a particular purpose (including any of the aforementioned purposes), quality, safety, efficacy, merchantability and/or non-infringement of any information provided in these landscape
+documents and/or of any of the products referenced therein. WHO also disclaims any and all liability or responsibility whatsoever for any death, disability, injury, suffering, loss, damage or other prejudice of any kind that may arise from or in connection with the procurement, distribution or
+use of any product included in any of these landscape documents.
 RNA
 mRNA
 China CDC/Tongji University/Stermina
@@ -1068,7 +1089,7 @@ RNA
 LNP-mRNA
 Chula Vaccine Research Center/University of Pennsylvania
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 RNA
 mRNA in an intranasal delivery system
 eTheRNA
@@ -1124,7 +1145,7 @@ VLP
 Virus-like particle, based on RBD displayed
 Saiba GmbH
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 on virus-like particles
 VLP
 ADDomerTM multiepitope display
@@ -1135,15 +1156,15 @@ VLP
 Unknown
 Doherty Institute
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 VLP
 VLP
 OSIVAX
 SARS-CoV1
-Pre-Clinical
+Pre-Clinica
 SARS-CoV2
 VLP
-eVLP
+eV/LP
 ARTES Biotechnology
 SARS-CoV2
 Pre-Clinical
@@ -1152,7 +1173,7 @@ VLP
 VLPS peptides/whole virus
 Univ. of Sao Paulo
 SARS-CoV2
-Pre-Clinica
+Pre-Clinical
 DISCLAIMER:
 These landscape documents have been prepared by the World Health Organization (WHO) for information purposes only concerning the 2019-2020 pandemic of the novel coronavirus. Inclusion of any particular product or entity in any of these landscape documents does not constitute, and
 shall not be deemed or construed as, any approval or endorsement by WHO of such product or entity (or any of its businesses or activities). While WHO takes reasonable steps to verify the accuracy of the information presented in these landscape documents, WHO does not make any (and

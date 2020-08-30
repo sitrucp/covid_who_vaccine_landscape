@@ -26,7 +26,7 @@ def csv_dataframe(files):
         group_by_columns(df)
         
 def group_by_columns(df):
-    source = df['source'][0].replace('df_who_', '')
+    source = df['source'][0].replace('df_who_', '').capitalize()
     df.drop('source', axis=1, inplace=True)
     for col in df.columns:
         df_col = df[[col]]
