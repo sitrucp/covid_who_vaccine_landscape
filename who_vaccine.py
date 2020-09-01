@@ -47,7 +47,7 @@ def output_csv(table_files):
     # get all csv files, append to list
     file_list = list()
     for file in table_files:
-        df_file = pd.read_csv(pdf_data_path + file, index_col=None, header=None)
+        df_file = pd.read_csv(pdf_data_path + file, header=None)
         file_list.append(df_file)
 
     # create new df from file list
@@ -56,28 +56,55 @@ def output_csv(table_files):
     #clean up all content
     # remove trailing spaces entire df (not completely working yet, some are quotes so not stripping)
     df_all = df_raw.applymap(lambda x: x.rstrip() if type(x)==str else x)
+
     # exclude top 2 rows
     df_all = df_all.iloc[2:]
+
     # drop empty rows
-    df_all.dropna(how='all')
+    df_all.dropna(how='all', inplace=True)
 
-    # find row where treatments start, and use to split into 2 df
-    vaccine_end = (df_all[df_all.iloc[:,0]=='Platform'].index.item()) - 2
-    treatment_start = vaccine_end + 1
+    # reset index to use in split
+    df_all.reset_index(drop=True, inplace=True)
+
+    df_all.head(200).to_clipboard(sep=',')
+
+    # get vaccine_end index value, eg where treatment headers start
+    vaccine_end = (df_all[df_all.iloc[:,0]=='Platform'].index.item())
+    print(vaccine_end)
+
+    # split to create vaccine df, split 
     df_vaccine = df_all.iloc[:vaccine_end].copy()
-    df_treatment = df_all.iloc[treatment_start:].copy()
-
-    # drop unneeded vaccine cols
-    vaccine_drop_cols = [10]
-    df_vaccine.drop(df_vaccine.columns[vaccine_drop_cols], axis=1, inplace=True)
+    # drop empty column (in PDF extract is "Clinical Stage - Phase 3" but is empty bc cols shift bc of "Clinical Stage" col header)
+    df_vaccine.drop(df_vaccine.columns[10], axis=1, inplace=True)
+   # name the vaccine columns
     df_vaccine.columns = col_names_vaccine
 
-    # create vaccine counter cols
-    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1'].isnull(), 1, '')
-    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1/2'].isnull(), 1, '')
-    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 2'].isnull(), 1, '')
-    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Clinical Stage - Phase 3'].isnull(), 1, '')
+    # split to create treatment df
+    treatment_start = vaccine_end + 1
+    df_treatment = df_all.iloc[treatment_start:].copy()
+    
+    # create temp vaccine counter cols
+    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1'].notnull(), 1, '')
+    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1/2'].notnull(), 2, '')
+    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 2'].notnull(), 3, '')
+    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Clinical Stage - Phase 3'].notnull(), 4, '')
 
+    # use temp counter cols to get current phase
+    df_vaccine['Current Phase'] = df_vaccine[['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']].max(axis=1)
+
+    # update counter number with words
+    phase_dict = {
+        1: "Phase 1", 
+        2: "Phase 1/2",
+        3: "Phase 2",
+        4: "Phase 3"
+        }
+    df_vaccine['Current Phase'] = df_vaccine['Current Phase'].replace(phase_dict)
+
+    # drop unneeded vaccine cols
+    drop_vaccine_temp_cols = ['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']
+    df_vaccine.drop(drop_vaccine_temp_cols, axis=1, inplace=True)
+    
     # cleanup vaccine data Textract OCR mistakes
     vaccine_reps = {
         'Timing of doses': {'o, 0, 14 14':'0, 14',
@@ -96,6 +123,7 @@ def output_csv(table_files):
     # drop unneeded treatment cols
     treatment_drop_cols = [6,7,8,9,10]
     df_treatment.drop(df_treatment.columns[treatment_drop_cols], axis=1, inplace=True)
+    # name treatment columns
     df_treatment.columns = col_names_treatment
 
     # cleanup treatment data Textract OCR mistakes
