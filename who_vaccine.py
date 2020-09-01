@@ -29,10 +29,10 @@ def output_csv(table_files):
         "Number of doses",
         "Timing of doses",
         "Route of administration",
-        "Clinical Stage - Phase 1",
-        "Clinical Stage - Phase 1/2",
-        "Clinical Stage - Phase 2",
-        "Clinical Stage - Phase 3"
+        "Phase 1 Desc",
+        "Phase 1/2 Desc",
+        "Phase 2 Desc",
+        "Phase 3 Desc"
     ]
 
     col_names_treatment = [
@@ -74,7 +74,7 @@ def output_csv(table_files):
 
     # split to create vaccine df, split 
     df_vaccine = df_all.iloc[:vaccine_end].copy()
-    # drop empty column (in PDF extract is "Clinical Stage - Phase 3" but is empty bc cols shift bc of "Clinical Stage" col header)
+    # drop empty column (in PDF extract is "Phase 3" but is empty bc cols shift bc of "Clinical Stage" col header)
     df_vaccine.drop(df_vaccine.columns[10], axis=1, inplace=True)
    # name the vaccine columns
     df_vaccine.columns = col_names_vaccine
@@ -84,10 +84,10 @@ def output_csv(table_files):
     df_treatment = df_all.iloc[treatment_start:].copy()
     
     # create temp vaccine counter cols
-    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1'].notnull(), 1, '')
-    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 1/2'].notnull(), 2, '')
-    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Clinical Stage - Phase 2'].notnull(), 3, '')
-    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Clinical Stage - Phase 3'].notnull(), 4, '')
+    df_vaccine['phase_1_counter'] = np.where(df_vaccine['Phase 1 Desc'].notnull(), 1, '')
+    df_vaccine['phase_1_2_counter'] = np.where(df_vaccine['Phase 1/2 Desc'].notnull(), 2, '')
+    df_vaccine['phase_2_counter'] = np.where(df_vaccine['Phase 2 Desc'].notnull(), 3, '')
+    df_vaccine['phase_3_counter'] = np.where(df_vaccine['Phase 3 Desc'].notnull(), 4, '')
 
     # use temp counter cols to get current phase
     df_vaccine['Current Phase'] = df_vaccine[['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']].max(axis=1)

@@ -1,4 +1,4 @@
-COVID-19 Vaccine developer or manufacturer,Vaccine platform,Type of candidate vaccine,Number of doses,Timing of doses,Route of administration,Clinical Stage - Phase 1,Clinical Stage - Phase 1/2,Clinical Stage - Phase 2,Clinical Stage - Phase 3,Current Phase
+COVID-19 Vaccine developer or manufacturer,Vaccine platform,Type of candidate vaccine,Number of doses,Timing of doses,Route of administration,Phase 1 Desc,Phase 1/2 Desc,Phase 2 Desc,Phase 3 Desc,Current Phase
 University of Oxford/AstraZeneca,Non-Replicating Viral Vector,ChAdox1-S,1,,IM,,PACTR202006922165132 2020-001072-15 Interim Report,2020-001228-32,ISRCTN89951424 NCT04516746,Phase 3
 CanSino Biological Inc./Beijing Institute of Biotechnology,Non-Replicating Viral Vector,Adenovirus Type 5 Vector,1,,IM,ChiCTR2000030906 Study Report,,ChiCTR2000031781 Study Report,NCT04526990,Phase 3
 Gamaleya Research Institute,Non-Replicating Viral Vector,Adeno-based (rAd26-S+rAd5-S),2,"0,21 days",IM,NCT04436471 NCT04437875,,,NCT04530396,Phase 3

@@ -46,11 +46,12 @@ Promise.all([
         thead_tr.append("<th>Type of candidate vaccine</th>");
         thead_tr.append("<th>Number of doses</th>");
         thead_tr.append("<th>Timing of doses</th>");
+        thead_tr.append("<th>Current Phase</th>");
         thead_tr.append("<th>Route of administration</th>");
-        thead_tr.append("<th>Stage - Phase 1</th>");
-        thead_tr.append("<th>Stage - Phase 1/2</th>");
-        thead_tr.append("<th>Stage - Phase 2</th>");
-        thead_tr.append("<th>Stage - Phase 3</th>");
+        thead_tr.append("<th>Phase 1 Desc</th>");
+        thead_tr.append("<th>Phase 1/2 Desc</th>");
+        thead_tr.append("<th>Phase 2 Desc</th>");
+        thead_tr.append("<th>Phase 3 Desc</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
         $('#vaccine_table').append(thead);
@@ -68,6 +69,7 @@ Promise.all([
             tbody_tr.append("<td>" + obj["Type of candidate vaccine"] + "</td>");
             tbody_tr.append("<td>" + obj["Number of doses"] + "</td>");
             tbody_tr.append("<td>" + obj["Timing of doses"] + "</td>");
+            tbody_tr.append("<td>" + obj["Current Phase"] + "</td>");
             tbody_tr.append("<td>" + obj["Route of administration"] + "</td>");
             tbody_tr.append("<td>" + obj["Clinical Stage - Phase 1"] + "</td>");
             tbody_tr.append("<td>" + obj["Clinical Stage - Phase 1/2"] + "</td>");
