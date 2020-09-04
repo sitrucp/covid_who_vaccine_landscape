@@ -116,82 +116,55 @@ Promise.all([
     //CREATE COLUMN COUNT TABLES=================================
     
     $(document).ready(function () {
+        // loop through uniqueSourceColumnNames
+        for(var i = 0; i < uniqueSourceColumnNames.length; i++) {
+            var uniqueSourceColumnName = uniqueSourceColumnNames[i];
+            var tableId = 'tbl_' + uniqueSourceColumnName.split("|")[1].replace(" ","");
+            var sectionName = uniqueSourceColumnName.split("|")[0].replace(" ","_") + '-' + uniqueSourceColumnName.split("|")[1];
+            
+            console.log(uniqueSourceColumnName);
 
-        if($('body').is('.column_counts')){
-            // loop through uniqueSourceColumnNames
-            for(var i = 0; i < uniqueSourceColumnNames.length; i++) {
-                var uniqueSourceColumnName = uniqueSourceColumnNames[i];
-                var tableId = 'tbl_' + uniqueSourceColumnName.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                var sectionName = uniqueSourceColumnName.split("|")[0] + '-' + uniqueSourceColumnName.split("|")[1];
-                
-                // filter to uniqueSourceColumnNames
-                var tableArray = columnCounts.filter(function(d) {
-                    if (uniqueSourceColumnName === columnCounts["source_column_name"]) {
-                        return d.source_column_name !== uniqueSourceColumnName;
-                    } else {
-                        return d.source_column_name === uniqueSourceColumnName;
-                    }
-                });
+            // filter to uniqueSourceColumnNames
+            var columnCountsCurrent = columnCounts.filter(function(d) { 
+                if (uniqueSourceColumnName === columnCounts["source_column_name"]) {
+                    return d.source_column_name !== uniqueSourceColumnName;
+                } else {
+                    return d.source_column_name === uniqueSourceColumnName;
+                }
+            });
 
-                // create table
-                addTable(tableArray, tableId, sectionName);
-
+            // create table
+            var table;
+            var thead;
+            var thead_tr;
+            table = $('<table id="' + tableId + '" class="table w-auto small table-striped tablesorter">');
+            thead = $("<thead>");
+            thead_tr = $("<tr/>");
+            thead_tr.append("<th>Source</th>");
+            thead_tr.append("<th>Column Name</th>");
+            thead_tr.append("<th>Column Value</th>");
+            thead_tr.append("<th>Value Count</th>");
+            thead_tr.append("</tr>");
+            thead.append(thead_tr);
+            var sectionHeader = $('"<p>' + sectionName + '</p>"'); 
+            $('#table_div').append(sectionHeader);
+            $('#table_div').append(table);
+            table.append(thead);
+            var tbody;
+            var tbody_tr;
+            tbody = $("<tbody>");
+            table.append(tbody);
+            for(var i = 0; i < columnCountsCurrent.length; i++) {
+                var obj = columnCountsCurrent[i];
+                tbody_tr = $('<tr/>');
+                tbody_tr.append("<td>" + obj["source"] + "</td>");
+                tbody_tr.append("<td>" + obj["column_name"] + "</td>");
+                tbody_tr.append("<td>" + obj["column_value"] + "</td>");
+                tbody_tr.append("<td>" + obj["value_count"] + "</td>");
+                tbody.append(tbody_tr);
             }
         }
     });
-
-    function addTable(tableArray, tableId, sectionName) {
-        var myTableDiv = document.getElementById("table_div");
-        let tableData = tableArray.map(function(obj) {
-            return {
-                'Column Value': obj.column_value,
-                'Value Count': obj.value_count
-            }
-          });
-
-        var table = document.createElement('table');
-        table.id = tableId;
-        table.className  = "table w-auto small table-striped tablesorter";
-      
-        var tableHead = document.createElement('thead');
-        table.appendChild(tableHead);
-
-        var tableBody = document.createElement('tbody');
-        table.appendChild(tableBody);
-      
-        // separate tables with section header
-        var trHead = document.createElement('tr');
-        tableHead.appendChild(trHead);
-        
-        var header_data = Object.keys(tableData[0]);
-        
-        // get head values
-        for (var j = 0; j < header_data.length; j++) {
-            var th = document.createElement('th');
-            th.appendChild(document.createTextNode(header_data[j]));
-            trHead.appendChild(th);
-        }
-
-        for (var i = 0; i < tableData.length; i++) {
-            var table_data = Object.values(tableData[i]);
-            
-            // separate tables with section header
-            var trBody = document.createElement('tr');
-            tableBody.appendChild(trBody);
-      
-            // get body values
-            for (var j = 0; j < table_data.length; j++) {
-                var td = document.createElement('td');
-                td.appendChild(document.createTextNode(table_data[j]));
-                trBody.appendChild(td);
-            }
-        }
-
-        sectionHeader = '<h5>' + sectionName + '</h5>';
-        myTableDiv.insertAdjacentHTML( 'beforeend', sectionHeader );
-        myTableDiv.appendChild(table);
-      }
-
     
     $(document).ready(function($) {
         $("#treatment_table").tablesorter();
@@ -220,7 +193,6 @@ Promise.all([
     document.getElementById('vaccine_count').innerHTML += vaccines.length;
 
     document.getElementById('treatment_count').innerHTML += treatments.length;
-
 
     $(function() {
         $("#vaccine_filter").on("keyup", function() {
