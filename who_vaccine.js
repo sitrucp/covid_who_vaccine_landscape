@@ -151,7 +151,7 @@ Promise.all([
 
         var table = document.createElement('table');
         table.id = tableId;
-        table.className  = "table w-auto small table-striped tablesorter";
+        table.className  = "table w-auto small table-striped counttable tablesorter";
       
         var tableHead = document.createElement('thead');
         table.appendChild(tableHead);
@@ -196,6 +196,7 @@ Promise.all([
     $(document).ready(function($) {
         $("#treatment_table").tablesorter();
         $("#vaccine_table").tablesorter();
+        $(".counttable").tablesorter();
 
         $('#treatment_table_div').hide();
 

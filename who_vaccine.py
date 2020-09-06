@@ -107,16 +107,17 @@ def output_csv(table_files):
     
     # cleanup vaccine data Textract OCR mistakes
     vaccine_reps = {
-        'Timing of doses': {'o, 0, 14 14':'0, 14',
-        '28 56':'28,56',
-        'o,':'0,', 
-        'O,':'0,', 
-        'vira':'viral',
-        ', ':','
+        'Timing of doses': {
+            'o, 0, 14 14':'0, 14',
+            '28 56':'28,56',
+            'o,':'0,', 
+            'O,':'0,'
         },
         'Vaccine platform': {
-            'Non-Replicating Vira Vector': 'Non-Replicating Viral Vector'
-        }
+            'Non-Replicating Vira Vector': 'Non-Replicating Viral Vector',
+            'Non-replicating Vira Vector': 'Non-Replicating viral vector',
+            'Protein subunit': 'Protein Subunit'
+        },
     }
     df_vaccine.replace(vaccine_reps, regex=True, inplace=True)
 
@@ -129,15 +130,28 @@ def output_csv(table_files):
     # cleanup treatment data Textract OCR mistakes
     treatment_reps = {
         'Platform': {
-            'Non-replicating vira vector':'Non-Replicating Viral Vector',
-            'Replicating Vira Vector':'Replicating Viral Vector',
+            'Non-replicating vira vector': 'Non-Replicating Viral Vector',
+            'Non-replicating viral vector': 'Non-Replicating Viral Vector',
+            'Replicating Vira Vector': 'Replicating Viral Vector',
+            'Protein subunit': 'Protein Subunit'
         },
         'Coronavirus target': {
             'SARS-CoV-2':'SARS-CoV2',
         },
+        'Same platform for non-Coronavirus candidates': {
+            'influenza': 'Influenza',
+        },
+        'Type of candidate vaccine' :{
+            's protein': 'S protein',
+        },
+        'Developer': {
+           'Fudan University/ Shanghai iaoTong University/RNACur Biopharma': 'Fudan University/ Shanghai JiaoTong University/RNACure Biopharma',
+           'Osaka University/ BIKEN/ NIBIOHN': 'Osaka University/ BIKEN/ National Institutes of Biomedical Innovation'
+        }
     }
     df_treatment.replace(treatment_reps, regex=True, inplace=True)
-    df_treatment.replace({'Current stage of clinical evaluation/regulatory -Coronavirus candidate': {'Pre-Clinica':'Pre-Clinical'}}, regex=False, inplace=True)
+
+    df_treatment.replace({'Current stage of clinical evaluation/regulatory -Coronavirus candidate': {'Pre-Clinica':'Pre-Clinical','Pre-clinica': 'Pre-Clinical','Pre-clinical': 'Pre-Clinical'}}, regex=False, inplace=True)
 
     # save df to csv
     df_vaccine.to_csv(output_path + "who_vaccines.csv", sep=',', encoding='utf-8', index=False)
