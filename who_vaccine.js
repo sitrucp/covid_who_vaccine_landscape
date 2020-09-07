@@ -53,13 +53,13 @@ Promise.all([
         thead_tr.append("<th>Phase 3 Desc</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
-        $('#vaccine_table').append(thead);
+        $('#clinical_table').append(thead);
 
         var table;
         var tbody;
         var tbody_tr;
         tbody = $("<tbody>");
-        $('#vaccine_table').append(tbody);
+        $('#clinical_table').append(tbody);
         for(var i = 0; i < vaccines.length; i++) {
             var obj = vaccines[i];
             tbody_tr = $('<tr/>');
@@ -92,12 +92,12 @@ Promise.all([
         thead_tr.append("<th>Same platform for non-Coronavirus candidates</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
-        $('#treatment_table').append(thead);
+        $('#preclinical_table').append(thead);
 
         var tbody;
         var tbody_tr;
         tbody = $("<tbody>");
-        $('#treatment_table').append(tbody);
+        $('#preclinical_table').append(tbody);
         
         for(var i = 0; i < treatments.length; i++) {
             var obj = treatments[i];
@@ -122,7 +122,7 @@ Promise.all([
             for(var i = 0; i < uniqueSourceColumnNames.length; i++) {
                 var uniqueSourceColumnName = uniqueSourceColumnNames[i];
                 var tableId = 'tbl_' + uniqueSourceColumnName.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                var sectionName = uniqueSourceColumnName.split("|")[0] + '-' + uniqueSourceColumnName.split("|")[1];
+                var sectionName = uniqueSourceColumnName.split("|")[0] + ': ' + uniqueSourceColumnName.split("|")[1];
                 
                 // filter to uniqueSourceColumnNames
                 var tableArray = columnCounts.filter(function(d) {
@@ -187,22 +187,22 @@ Promise.all([
             }
         }
 
-        sectionHeader = '<h5>' + sectionName + '</h5>';
+        sectionHeader = '<h5>' + sectionName + ' (' + tableArray.length + ')' + '</h5>';
         myTableDiv.insertAdjacentHTML( 'beforeend', sectionHeader );
         myTableDiv.appendChild(table);
       }
 
     
     $(document).ready(function($) {
-        $("#treatment_table").tablesorter();
-        $("#vaccine_table").tablesorter();
+        $("#preclinical_table").tablesorter();
+        $("#clinical_table").tablesorter();
         $(".counttable").tablesorter();
 
-        $('#treatment_table_div').hide();
+        $('#preclinical_table_div').hide();
 
         $('#btn_hide_show_details').click(function(){
-            $('#vaccine_table_div').toggle();
-            $('#treatment_table_div').toggle();
+            $('#clinical_table_div').toggle();
+            $('#preclinical_table_div').toggle();
         });
         
         $("#data_table").tablesorter();
@@ -226,7 +226,7 @@ Promise.all([
     $(function() {
         $("#vaccine_filter").on("keyup", function() {
             var value = $(this).val().toLowerCase();
-            $("#vaccine_table > tbody > tr").filter(function() {
+            $("#clinical_table > tbody > tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });
@@ -235,7 +235,7 @@ Promise.all([
     $(function() {
         $("#treatment_filter").on("keyup", function() {
             var value = $(this).val().toLowerCase();
-            $("#treatment_table > tbody > tr").filter(function() {
+            $("#preclinical_table > tbody > tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });
