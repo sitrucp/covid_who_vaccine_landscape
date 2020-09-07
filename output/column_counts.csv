@@ -1,834 +1,406 @@
 source,column_name,column_value,value_count
-Clinical,COVID-19 Vaccine developer or manufacturer,Sinovac,1
-Clinical,COVID-19 Vaccine developer or manufacturer,People's Liberation Army (PLA) Academy of Military Sciences/Walvax Biotech.,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Medigen Vaccine Biologics Corporation/NIAID/Dynavax,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Medicago Inc.,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Clover Biopharmaceuticals Inc./GSK/Dynavax,1
-Clinical,COVID-19 Vaccine developer or manufacturer,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",1
-Clinical,COVID-19 Vaccine developer or manufacturer,"Anhui Zhifei Longcom Biopharmaceutical/Institute of Microbiology, Chinese Academy of Sciences",1
-Clinical,COVID-19 Vaccine developer or manufacturer,"Institute of Medical Biology, Chinese Academy of Medical Sciences",1
-Clinical,COVID-19 Vaccine developer or manufacturer,Curevac,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Cadila Healthcare Limited,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Imperial College London,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Moderna/NIAID,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Beijing Institute of Biological Products/Sinopharm,1
-Clinical,COVID-19 Vaccine developer or manufacturer,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",1
-Clinical,COVID-19 Vaccine developer or manufacturer,Osaka University/ AnGes/ Takara Bio,1
-Clinical,COVID-19 Vaccine developer or manufacturer,ReiThera/LEUKOCARE/Univercells,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Bharat Biotech,1
-Clinical,COVID-19 Vaccine developer or manufacturer,CanSino Biological Inc./Beijing Institute of Biotechnology,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Institute Pasteur/Themis/Univ. of Pittsburg CVR/Merck Sharp & Dohme,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Genexine Consortium,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Wuhan Institute of Biological Products/Sinopharm,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Vaxine Pty Ltd/Medytox,1
-Clinical,COVID-19 Vaccine developer or manufacturer,"Instituto Finlay de Vacunas, Cuba",1
-Clinical,COVID-19 Vaccine developer or manufacturer,"Kentucky Bioprocessing, Inc",1
-Clinical,COVID-19 Vaccine developer or manufacturer,Arcturus/Duke-NUS,1
-Clinical,COVID-19 Vaccine developer or manufacturer,BioNTech/Fosun Pharma/Pfizer,1
-Clinical,COVID-19 Vaccine developer or manufacturer,"West China Hospital, Sichuan University",1
-Clinical,COVID-19 Vaccine developer or manufacturer,University of Oxford/AstraZeneca,1
-Clinical,COVID-19 Vaccine developer or manufacturer,University of Queensland/CSL/Seqirus,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Janssen Pharmaceutical Companies,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Gamaleya Research Institute,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Inovio Pharmaceuticals/ International Vaccine Institute,1
-Clinical,COVID-19 Vaccine developer or manufacturer,Novavax,1
-Clinical,Vaccine platform,Protein Subunit,10
-Clinical,Vaccine platform,Inactivated,6
-Clinical,Vaccine platform,RNA,6
-Clinical,Vaccine platform,Non-Replicating Viral Vector,5
-Clinical,Vaccine platform,DNA,4
-Clinical,Vaccine platform,Replicating Viral Vector,1
-Clinical,Vaccine platform,VLP,1
-Clinical,Type of candidate vaccine,Inactivated,5
-Clinical,Type of candidate vaccine,mRNA,3
-Clinical,Type of candidate vaccine,Adeno-based (rAd26-S+rAd5-S),1
-Clinical,Type of candidate vaccine,RBD + Adjuvant,1
-Clinical,Type of candidate vaccine,RBD-based,1
-Clinical,Type of candidate vaccine,Full length recombinant SARS CoV-2 glycoprotein nanoparticle vaccine adjuvanted with Matrix M,1
-Clinical,Type of candidate vaccine,Replication defective Simian Adenovirus (GRAd) encoding S,1
-Clinical,Type of candidate vaccine,DNA Vaccine (GX-19),1
-Clinical,Type of candidate vaccine,3 LNP-mRNAs,1
-Clinical,Type of candidate vaccine,Peptide,1
-Clinical,Type of candidate vaccine,Measles-vector based,1
-Clinical,Type of candidate vaccine,Ad26COVS1,1
-Clinical,Type of candidate vaccine,LNP-nCoVsaRNA,1
-Clinical,Type of candidate vaccine,ChAdox1-S,1
-Clinical,Type of candidate vaccine,Whole-Virion Inactivated,1
-Clinical,Type of candidate vaccine,Recombinant spike protein with AdvaxM adjuvant,1
-Clinical,Type of candidate vaccine,S-2P protein + CpG 1018,1
-Clinical,Type of candidate vaccine,LNP-encapsulated mRNA,1
-Clinical,Type of candidate vaccine,DNA plasmid vaccine + Adjuvant,1
-Clinical,Type of candidate vaccine,RBD (baculovirus production expressed in Sf9 cells),1
-Clinical,Type of candidate vaccine,Plant-derived VLP adjuvanted with GSK or Dynavax adjs.,1
-Clinical,Type of candidate vaccine,Adjuvanted recombinant protein (RBD-Dimer),1
-Clinical,Type of candidate vaccine,Molecular clamp stabilized Spike protein with MF59 adjuvant,1
-Clinical,Type of candidate vaccine,Adenovirus Type 5 Vector,1
-Clinical,Type of candidate vaccine,Native like Trimeric subunit Spike Protein vaccine,1
-Clinical,Type of candidate vaccine,DNA plasmid vaccine with electroporation,1
-Clinical,Type of candidate vaccine,DNA plasmid vaccine,1
-Clinical,Number of doses,2,25
-Clinical,Number of doses,1,4
-Clinical,Number of doses,3,1
-Clinical,Number of doses,1 or 2,1
-Clinical,Number of doses,2 or 3,1
-Clinical,Timing of doses,"0, 28 days",11
-Clinical,Timing of doses,"0, 21 days",6
-Clinical,Timing of doses,"0, 14 days",3
-Clinical,Timing of doses,"0,14 or 0,21 days",2
-Clinical,Timing of doses,"0,28 or 0,28,56 days",1
-Clinical,Timing of doses,"0, 56 days",1
-Clinical,Timing of doses,"0, 14 or 0, 28 days",1
-Clinical,Timing of doses,"0,21 days",1
-Clinical,Timing of doses,"0, 28, 56 days",1
-Clinical,Route of administration,IM,31
-Clinical,Route of administration,ID,2
-Clinical,Phase 1 Desc,ChiCTR2000037518,1
-Clinical,Phase 1 Desc,NCT04450004,1
-Clinical,Phase 1 Desc,ChiCTR2000030906 Study Report,1
-Clinical,Phase 1 Desc,NCT04445194,1
-Clinical,Phase 1 Desc,NCT04283461 Interim Report,1
-Clinical,Phase 1 Desc,NCT04497298,1
-Clinical,Phase 1 Desc,NCTO4449276,1
-Clinical,Phase 1 Desc,NCT04453852,1
-Clinical,Phase 1 Desc,NCT04405908,1
-Clinical,Phase 1 Desc,ISRCTN17072692,1
-Clinical,Phase 1 Desc,NCT04436471 NCT04437875,1
-Clinical,Phase 1 Desc,NCT04528641,1
-Clinical,Phase 1 Desc,ACTRN12620000674932p,1
-Clinical,Phase 1 Desc,NCT04487210,1
-Clinical,Phase 1 Desc,ChiCTR2000034112,1
-Clinical,Phase 1 Desc,NCT04527575,1
-Clinical,Phase 1 Desc,IFV/COR/04,1
-Clinical,Phase 1 Desc,NCT04412538,1
-Clinical,Phase 1/2 Desc,CTRI/2020/07/026352,1
-Clinical,Phase 1/2 Desc,NCT04530357,1
-Clinical,Phase 1/2 Desc,NCT04473690,1
-Clinical,Phase 1/2 Desc,NCT04445389,1
-Clinical,Phase 1/2 Desc,ChiCTR2000031809 Interim Report,1
-Clinical,Phase 1/2 Desc,NCT04447781 NCTO4336410,1
-Clinical,Phase 1/2 Desc,NCT04470609,1
-Clinical,Phase 1/2 Desc,2020-001038-36 ChiCTR2000034825 Study Report,1
-Clinical,Phase 1/2 Desc,NCTO4480957,1
-Clinical,Phase 1/2 Desc,NCT04436276,1
-Clinical,Phase 1/2 Desc,NCTO4383574 NCTO4352608,1
-Clinical,Phase 1/2 Desc,ChiCTR2000032459,1
-Clinical,Phase 1/2 Desc,NCT04368988,1
-Clinical,Phase 1/2 Desc,NCT04463472 NCT04527081,1
-Clinical,Phase 1/2 Desc,NCT04471519,1
-Clinical,Phase 1/2 Desc,PACTR202006922165132 2020-001072-15 Interim Report,1
-Clinical,Phase 2 Desc,ChiCTR2000031781 Study Report,1
-Clinical,Phase 2 Desc,NCT04515147,1
-Clinical,Phase 2 Desc,NCT04405076,1
-Clinical,Phase 2 Desc,2020-001228-32,1
-Clinical,Phase 2 Desc,NCT04466085,1
-Clinical,Phase 3 Desc,ChiCTR2000034780,2
-Clinical,Phase 3 Desc,NCT04530396,1
-Clinical,Phase 3 Desc,NCT04505722 (not yet recruiting),1
-Clinical,Phase 3 Desc,NCT04368728,1
-Clinical,Phase 3 Desc,ISRCTN89951424 NCT04516746,1
-Clinical,Phase 3 Desc,NCT04526990,1
-Clinical,Phase 3 Desc,NCT04470427,1
-Clinical,Phase 3 Desc,NCT04456595 669/UN6.KEP/EC/2020,1
-Clinical,Current Phase,Phase 1,12
-Clinical,Current Phase,Phase 1/2,10
-Clinical,Current Phase,Phase 3,9
-Clinical,Current Phase,Phase 2,2
-Preclinical,Platform,Protein Subunit,51
-Preclinical,Platform,Non-Replicating Viral Vector,19
-Preclinical,Platform,Replicating Viral Vector,18
-Preclinical,Platform,RNA,17
-Preclinical,Platform,DNA,12
-Preclinical,Platform,VLP,12
-Preclinical,Platform,Inactivated,9
-Preclinical,Platform,Live Attenuated Virus,3
-Preclinical,Platform,Replicating Bacteria Vector,1
-Preclinical,Type of candidate vaccine,mRNA,5
-Preclinical,Type of candidate vaccine,Inactivated,4
-Preclinical,Type of candidate vaccine,VLP,3
-Preclinical,Type of candidate vaccine,Protein Subunit,3
-Preclinical,Type of candidate vaccine,LNP-mRNA,3
-Preclinical,Type of candidate vaccine,Codon deoptimized live attenuated vaccines,3
-Preclinical,Type of candidate vaccine,DNA vaccine,3
-Preclinical,Type of candidate vaccine,VSV-S,3
-Preclinical,Type of candidate vaccine,Measles Vector,2
-Preclinical,Type of candidate vaccine,OMV-based vaccine,2
-Preclinical,Type of candidate vaccine,S protein,2
-Preclinical,Type of candidate vaccine,DNA with electroporation,2
-Preclinical,Type of candidate vaccine,Inactivated + CpG 1018,2
-Preclinical,Type of candidate vaccine,Peptide,2
-Preclinical,Type of candidate vaccine,Recombinant S protein,2
-Preclinical,Type of candidate vaccine,mRNA in an intranasal delivery system,1
-Preclinical,Type of candidate vaccine,RBD protein (baculovirus production) + FAR- Squalene adjuvant,1
-Preclinical,Type of candidate vaccine,S1 or RBD protein,1
-Preclinical,Type of candidate vaccine,Adeno-associated virus vector (AAVCOVID),1
-Preclinical,Type of candidate vaccine,LNP-encapsulated mRNA cocktail encoding VLP,1
-Preclinical,Type of candidate vaccine,Avian paramyxovirus vector (APMV),1
-Preclinical,Type of candidate vaccine,Recombinant S protein in IC-BEVS,1
-Preclinical,Type of candidate vaccine,"Recombinant vaccine based on Influenza A virus, for the prevention of COVID-19 (intranasal)",1
-Preclinical,Type of candidate vaccine,Inactivated whole virus,1
-Preclinical,Type of candidate vaccine,TBD,1
-Preclinical,Type of candidate vaccine,LNP-encapsulated mRNA,1
-Preclinical,Type of candidate vaccine,Outer Membrane Vesicle (OMV)-subunit,1
-Preclinical,Type of candidate vaccine,Nanoparticle vaccine,1
-Preclinical,Type of candidate vaccine,Enveloped Virus-Like Particle (eV/LP),1
-Preclinical,Type of candidate vaccine,"DNA plasmid vaccine S,S1,S2,RBD &N",1
-Preclinical,Type of candidate vaccine,"Measles Virus (S, N targets)",1
-Preclinical,Type of candidate vaccine,Oral Salmonella enteritidis (3934Vac) based protein expression system of RBD,1
-Preclinical,Type of candidate vaccine,bacTRL-Spike,1
-Preclinical,Type of candidate vaccine,"2nd Gen E2b- Ad5 Spike, RBD, Nucleocapsid Subcutaneous&ora",1
-Preclinical,Type of candidate vaccine,"Orally delivered, heat stable subunit",1
-Preclinical,Type of candidate vaccine,gp-96 backbone,1
-Preclinical,Type of candidate vaccine,DNA plasmid vaccine RBD&N,1
-Preclinical,Type of candidate vaccine,S protein +Adjuvant,1
-Preclinical,Type of candidate vaccine,Ad5 S (GREVAXTM platform),1
-Preclinical,Type of candidate vaccine,COVID-19 XWG-03 truncated S (spike) proteins,1
-Preclinical,Type of candidate vaccine,Replication-competent VSV chimeric virus technology (VSVAG) delivering the SARS-CoV- 2 Spike (S) glycoprotein.,1
-Preclinical,Type of candidate vaccine,Sendai virus vector,1
-Preclinical,Type of candidate vaccine,Outer Membrane Vesicle(OMV)-peptide,1
-Preclinical,Type of candidate vaccine,Inactivated + alum,1
-Preclinical,Type of candidate vaccine,Recombinant deactivated rabies virus containing S1,1
-Preclinical,Type of candidate vaccine,Recombinant S1-Fc fusion protein,1
-Preclinical,Type of candidate vaccine,Ora Ad5 S,1
-Preclinical,Type of candidate vaccine,Inactivated Flu-based SARS-CoV2 vaccine Adjuvant,1
-Preclinical,Type of candidate vaccine,Adjuvanted microsphere peptide,1
-Preclinical,Type of candidate vaccine,RBD-based,1
-Preclinical,Type of candidate vaccine,LNP-encapsulated mRNA encoding S,1
-Preclinical,Type of candidate vaccine,VSV vector,1
-Preclinical,Type of candidate vaccine,RBD-protein,1
-Preclinical,Type of candidate vaccine,"Recombinant protein, nanoparticles (based on s-protein and other epitopes)",1
-Preclinical,Type of candidate vaccine,microneedle arrays S1 subunit,1
-Preclinical,Type of candidate vaccine,Capsid-like Particle,1
-Preclinical,Type of candidate vaccine,Peptide antigens formulated in LNP,1
-Preclinical,Type of candidate vaccine,Adjuvanted protein subunit (RBD),1
-Preclinical,Type of candidate vaccine,"Plasmid DNA, Needle-Free Delivery",1
-Preclinical,Type of candidate vaccine,MsDNA vaccine,1
-Preclinical,Type of candidate vaccine,Dendritic cell-based vaccine,1
-Preclinical,Type of candidate vaccine,Adeno5-based,1
-Preclinical,Type of candidate vaccine,Peptide + nove adjuvant,1
-Preclinical,Type of candidate vaccine,Unknown,1
-Preclinical,Type of candidate vaccine,Plant-based subunit (RBD-Fc + Adjuvant),1
-Preclinical,Type of candidate vaccine,Spike-based,1
-Preclinical,Type of candidate vaccine,"S-Protein (Subunit) Adjuvant, E coli based Expression",1
-Preclinical,Type of candidate vaccine,Spike-based (epitope screening),1
-Preclinical,Type of candidate vaccine,S protein (baculovirus production),1
-Preclinical,Type of candidate vaccine,structurally modified spherical particles of the tobacco mosaic virus (TMV),1
-Preclinical,Type of candidate vaccine,YF17D Vector,1
-Preclinical,Type of candidate vaccine,Attenuated Influenza expressing an antigenic portion of the Spike protein,1
-Preclinical,Type of candidate vaccine,parainfluenza virus 5 (PIV5)-based vaccine expressing the spike protein,1
-Preclinical,Type of candidate vaccine,Several mRNA candidates,1
-Preclinical,Type of candidate vaccine,RBD protein fused with Fc of IgG + Adj.,1
-Preclinical,Type of candidate vaccine,Synthetic Long Peptide Vaccine candidate for S and M proteins,1
-Preclinical,Type of candidate vaccine,Influenza A H1N1 vector,1
-Preclinical,Type of candidate vaccine,Oral Vaccine platform,1
-Preclinical,Type of candidate vaccine,Subunit vaccine,1
-Preclinical,Type of candidate vaccine,Replicating Defective SARS-CoV-2 derived RNAs,1
-Preclinical,Type of candidate vaccine,VLP-recombinant protein + Adjuvant,1
-Preclinical,Type of candidate vaccine,S subunit intranasal liposomal formulation with GLA/3M052 adjs.,1
-Preclinical,Type of candidate vaccine,Replicating VSV vector-based DC-targeting,1
-Preclinical,Type of candidate vaccine,LNP-encapsulated mRNA encoding RBD,1
-Preclinical,Type of candidate vaccine,eV/LP,1
-Preclinical,Type of candidate vaccine,"Virus-like particle, based on RBD displayed on virus-like particles",1
-Preclinical,Type of candidate vaccine,Self-amplifying RNA,1
-Preclinical,Type of candidate vaccine,VLP + Adjuvant,1
-Preclinical,Type of candidate vaccine,M2-deficient single replication (M2SR) influenza vector,1
-Preclinical,Type of candidate vaccine,Influenza vector expressing RBD,1
-Preclinical,Type of candidate vaccine,VLPS peptides/whole virus,1
-Preclinical,Type of candidate vaccine,"Virus-like particles, lentivirus and baculovirus vehicles",1
-Preclinical,Type of candidate vaccine,s protein,1
-Preclinical,Type of candidate vaccine,MVA-S encoded,1
-Preclinical,Type of candidate vaccine,Peptides derived from Spike protein,1
-Preclinical,Type of candidate vaccine,"DNA, engineered vaccine inserts compatible with multiple delivery systems",1
-Preclinical,Type of candidate vaccine,Adenovirus-based,1
-Preclinical,Type of candidate vaccine,Recombinant protein,1
-Preclinical,Type of candidate vaccine,Horsepox vector expressing S protein,1
-Preclinical,Type of candidate vaccine,li-Key peptide,1
-Preclinical,Type of candidate vaccine,MVA encoded VLP,1
-Preclinical,Type of candidate vaccine,MVA expressing structural proteins,1
-Preclinical,Type of candidate vaccine,Newcastle disease virus vector (NDV-SARS- CoV-2/Spike),1
-Preclinical,Type of candidate vaccine,Live vira vectored vaccine based on attenuated influenza virus backbone (intranasal),1
-Preclinical,Type of candidate vaccine,MVA-S,1
-Preclinical,Type of candidate vaccine,"Subunit protein, plant produced",1
-Preclinical,Type of candidate vaccine,Oral E. coli-based protein expression system of S and N proteins,1
-Preclinical,Type of candidate vaccine,"Protein Subunit S,N,M&S1 protein",1
-Preclinical,Type of candidate vaccine,DNA,1
-Preclinical,Type of candidate vaccine,Drosophila S2 insect cell expression system VLPs,1
-Preclinical,Type of candidate vaccine,ADDomerTM multiepitope display,1
-Preclinical,Type of candidate vaccine,Liposome-encapsulated mRNA,1
-Preclinical,Type of candidate vaccine,adenovirus-based NasoVAX expressing SARS2-CoV spike protein,1
-Preclinical,Type of candidate vaccine,adenovirus-based + HLA-matched peptides,1
-Preclinical,Type of candidate vaccine,Protein Subunit EPV-CoV-19,1
-Preclinical,Type of candidate vaccine,S protein integrated in HIV VLPS,1
-Preclinical,Developer,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",5
-Preclinical,Developer,"National Research Centre, Egypt",4
-Preclinical,Developer,University of Manitoba,2
-Preclinical,Developer,Intravacc/Epivax,2
-Preclinical,Developer,Selcuk University,2
-Preclinical,Developer,"IDIBAPS-Hospital Clinic, Spain",2
-Preclinical,Developer,Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana Cayetano Heredia (UPCH),2
-Preclinical,Developer,"Centro Nacional Biotecnologia (CNB-CSIC), Spain",2
-Preclinical,Developer,Max-Planck-institute of Colloids and Interfaces,2
-Preclinical,Developer,Fudan University/ Shanghai JiaoTong University/RNACure Biopharma,2
-Preclinical,Developer,Erciyes University,2
-Preclinical,Developer,"Navarrabiomed, Oncoimmunology group",1
-Preclinical,Developer,MIGAL Galilee Research Institute,1
-Preclinical,Developer,iBio/cc-Pharming,1
-Preclinical,Developer,VBI Vaccines Inc.,1
-Preclinical,Developer,"Beijing Minhai Biotechnology Co., Ltd.",1
-Preclinical,Developer,Symvivo,1
-Preclinical,Developer,acc/ Wageninger Bioveterinary Research/Utrecht Univ.,1
-Preclinical,Developer,Gennova,1
-Preclinical,Developer,Karolinska Institute / Cobra Biologics (OPENCORONA Project),1
-Preclinical,Developer,Vaxi Bio,1
-Preclinical,Developer,"National Center for Genetic Engineering and Biotechnology (BIOTEC) /GPO, Thailand",1
-Preclinical,Developer,Israel Institute for Biological Research/Weizmann Institute of Science,1
-Preclinical,Developer,Sanofi Pasteur/GSK,1
-Preclinical,Developer,"Chulalongkorn University/GPO, Thailand",1
-Preclinical,Developer,CanSino Biologics/Precision NanoSystems,1
-Preclinical,Developer,University of Western Ontario,1
-Preclinical,Developer,Vaxart,1
-Preclinical,Developer,AJ Vaccines,1
-Preclinical,Developer,Univ. of Pittsburgh,1
-Preclinical,Developer,Fundacao Oswaldo Cruz and Instituto Buntantan,1
-Preclinical,Developer,eTheRNA,1
-Preclinical,Developer,"MOGAM Institute for Biomedical Research, GC Pharma",1
-Preclinical,Developer,Mediphage Bioceuticals/University of Waterloo,1
-Preclinical,Developer,"Osaka University/ BIKEN/ National Institutes of Biomedical Innovation, Japan",1
-Preclinical,Developer,Baylor College of Medicine,1
-Preclinical,Developer,WRAIR/USAMRIID,1
-Preclinical,Developer,Bharat Biotech/Thomas Jefferson University,1
-Preclinical,Developer,AnyGo Technology,1
-Preclinical,Developer,Osaka University/ BIKEN/ National Institutes of Biomedical Innovation,1
-Preclinical,Developer,Ankara University,1
-Preclinical,Developer,IrsiCaixa AIDS Research/IRTA-CReSA/Barcelona Supercomputing Centre/Grifols,1
-Preclinical,Developer,Univ. of Sao Paulo,1
-Preclinical,Developer,Quadram Institute Biosciences,1
-Preclinical,Developer,Valo Therapeutics Ltd,1
-Preclinical,Developer,Saiba GmbH,1
-Preclinical,Developer,Middle East Technical University,1
-Preclinical,Developer,OSIVAX,1
-Preclinical,Developer,Imophoron Ltd and Bristol University's Max Planck Centre,1
-Preclinical,Developer,"VIDO-InterVac, University of Saskatchewan",1
-Preclinical,Developer,IMV Inc,1
-Preclinical,Developer,"LakePharma, Inc.",1
-Preclinical,Developer,Generex/EpiVax,1
-Preclinical,Developer,"Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory, Ogbomoso, Oyo State, Nigeria.",1
-Preclinical,Developer,Flow Pharma Inc,1
-Preclinical,Developer,OncoGen,1
-Preclinical,Developer,EpiVax/Univ. of Georgia,1
-Preclinical,Developer,Chula Vaccine Research Center/University of Pennsylvania,1
-Preclinical,Developer,Bogazici University,1
-Preclinical,Developer,Greenlight Biosciences,1
-Preclinical,Developer,"The Lancaster University, UK",1
-Preclinical,Developer,DZIF German Center for Infection Research/IDT Biologika GmbH,1
-Preclinical,Developer,Translate Bio/Sanofi Pasteur,1
-Preclinical,Developer,Ege University,1
-Preclinical,Developer,Biological E Ltd,1
-Preclinical,Developer,KM Biologics,1
-Preclinical,Developer,Codagenix/Serum Institute of India,1
-Preclinical,Developer,DIOSynVax Ltd / University of Cambridge,1
-Preclinical,Developer,"RNAimmune, Inc.",1
-Preclinical,Developer,EpiVax,1
-Preclinical,Developer,BiOMVis Sri/Univ. of Trento,1
-Preclinical,Developer,Bezmialem Vakif University,1
-Preclinical,Developer,ImmunoPrecise/LiteVax BV,1
-Preclinical,Developer,"Immunomic Therapeutics, Inc./EpiVax, Inc./Pharmalet",1
-Preclinical,Developer,Baiya Phytopharm/ Chula Vaccine Research Center,1
-Preclinical,Developer,China CDC/Tongji University/Stermina,1
-Preclinical,Developer,DZIF German Center for Infection Research/CanVirex AG,1
-Preclinical,Developer,University of Alberta,1
-Preclinical,Developer,Mehmet Ali Aydinlar University / Acibadem Labmed Health Services A.S.,1
-Preclinical,Developer,Neovii/Tel Aviv University,1
-Preclinical,Developer,Axon Neuroscience SE,1
-Preclinical,Developer,Lomonosov Moscow State University,1
-Preclinical,Developer,University of Georgia/University of lowa,1
-Preclinical,Developer,Takis/Applied DNA Sciences/Evvivax,1
-Preclinical,Developer,Cadila Healthcare Limited,1
-Preclinical,Developer,Chula Vaccine Research Center,1
-Preclinical,Developer,University of Virginia,1
-Preclinical,Developer,Saint-Petersburg scientific research institute of vaccines and serums,1
-Preclinical,Developer,Sinovac/Dynavax,1
-Preclinical,Developer,Tonix Pharma/Southern Research,1
-Preclinical,Developer,Massachusetts Eye and Ear/Massachusetts General Hospital/AveXis,1
-Preclinical,Developer,Innovax/Xiamen Univ./GSK,1
-Preclinical,Developer,Stabilitech Biopharma Ltd,1
-Preclinical,Developer,Izmir Biomedicine and Genome Center,1
-Preclinical,Developer,Indian Immunologicals Ltd/Griffith University,1
-Preclinical,Developer,ARTES Biotechnology,1
-Preclinical,Developer,Aurobindo,1
-Preclinical,Developer,IAVI/Merck,1
-Preclinical,Developer,Greffex,1
-Preclinical,Developer,"Applied Biotechnology Institute, Inc.",1
-Preclinical,Developer,Mynvax,1
-Preclinical,Developer,ExpreS2ion,1
-Preclinical,Developer,BIOCAD,1
-Preclinical,Developer,Yisheng Biopharma,1
-Preclinical,Developer,Altimmune,1
-Preclinical,Developer,Scancell/University of Nottingham/Nottinghar Trent University,1
-Preclinical,Developer,Vabiotech,1
-Preclinical,Developer,BiOCAD and IEM,1
-Preclinical,Developer,Mahidol University/ The Government Pharmaceutical Organization (GPO)/Siriraj Hospital,1
-Preclinical,Developer,Entos Pharmaceuticals,1
-Preclinical,Developer,ID Pharma,1
-Preclinical,Developer,University of Tokyo/Daiichi-Sankyo,1
-Preclinical,Developer,"National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma",1
-Preclinical,Developer,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",1
-Preclinical,Developer,Heat Biologics/Univ. Of Miami,1
-Preclinical,Developer,University of Hong Kong,1
-Preclinical,Developer,KU Leuven,1
-Preclinical,Developer,GeoVax/BravoVax,1
-Preclinical,Developer,Valneva/Dynavax,1
-Preclinical,Developer,Doherty Institute,1
-Preclinical,Developer,"University of San Martin and CONICET, Argentina",1
-Preclinical,Developer,"ImmunityBio, Inc. & Nantkwest, Inc.",1
-Preclinical,Developer,AdaptVac (PREVENT-nCoV consortium),1
-Preclinical,Developer,UW-Madison/FluGen/Bharat Biotech,1
-Preclinical,Developer,BioNet Asia,1
-Preclinical,Coronavirus target,SARS-CoV2,138
-Preclinical,Coronavirus target,SARS-CoV2 and Sarbeco- Coronaviruses,1
-Preclinical,Coronavirus target,"SARS-CoV2, SARS-CoV, & MERS-CoV",1
-Preclinical,Coronavirus target,SARS-CoV1 SARS-CoV2,1
-Preclinical,Coronavirus target,Pan-Corona,1
-Preclinical,Current stage of clinical evaluation/regulatory -Coronavirus candidate,Pre-Clinical,142
-Preclinical,Same platform for non-Coronavirus candidates,Influenza,6
-Preclinical,Same platform for non-Coronavirus candidates,MERS,4
-Preclinical,Same platform for non-Coronavirus candidates,SARS,2
-Preclinical,Same platform for non-Coronavirus candidates,"flu, Chik, Zika, EBOV, LASV, HIV/SIV,Cance",1
-Preclinical,Same platform for non-Coronavirus candidates,"Influenza, SARS-CoV",1
-Preclinical,Same platform for non-Coronavirus candidates,malaria,1
-Preclinical,Same platform for non-Coronavirus candidates,"Influenza, HIV, SARS-CoV",1
-Preclinical,Same platform for non-Coronavirus candidates,"HeV, NiV, EBOV, LASSA, CCHFV, MERS",1
-Preclinical,Same platform for non-Coronavirus candidates,"NSCLC, HIV, malaria, Zika",1
-Preclinical,Same platform for non-Coronavirus candidates,"JE, Zika",1
-Preclinical,Same platform for non-Coronavirus candidates,HPV,1
-Preclinical,Same platform for non-Coronavirus candidates,"Flu A, plague",1
-Preclinical,Same platform for non-Coronavirus candidates,"InfA, CHIKV, LASV, NORV; EBOV, RVF, HBV, VEE",1
-Preclinical,Same platform for non-Coronavirus candidates,Multiple candidates,1
-Preclinical,Same platform for non-Coronavirus candidates,"Ebola, Marburg, HIV, Zika, Influenza, HPV therapeutic vaccine, BreastCA vaccine",1
-Preclinical,Same platform for non-Coronavirus candidates,"Zika, VZV, HSV-2 and Norovirus",1
-Preclinical,Same platform for non-Coronavirus candidates,"Smallpox, monkeypox",1
-Preclinical,Same platform for non-Coronavirus candidates,"HIV, MERS",1
-Preclinical,Same platform for non-Coronavirus candidates,"CMV, GBM, Zika",1
-Preclinical,Same platform for non-Coronavirus candidates,H7N9,1
-Preclinical,Same platform for non-Coronavirus candidates,Hepatitis C,1
-Preclinical,Same platform for non-Coronavirus candidates,"rubella, rotavirus",1
-Preclinical,Same platform for non-Coronavirus candidates,Many,1
-Preclinical,Same platform for non-Coronavirus candidates,"Ebola, Marburg, Lassa",1
-Preclinical,Same platform for non-Coronavirus candidates,"HAV, InfA, ZIKV, FMD, SIV, RSV, DENV",1
-Preclinical,Same platform for non-Coronavirus candidates,"LASV, EBOV, MARV, HIV",1
-Preclinical,Same platform for non-Coronavirus candidates,"Zika, H7N9, CHIKV",1
-Treatments,Platform,Protein Subunit,51
-Treatments,Platform,Non-Replicating Viral Vector,19
-Treatments,Platform,Replicating Viral Vector,18
-Treatments,Platform,RNA,17
-Treatments,Platform,DNA,12
-Treatments,Platform,VLP,12
-Treatments,Platform,Inactivated,9
-Treatments,Platform,Live Attenuated Virus,3
-Treatments,Platform,Replicating Bacteria Vector,1
-Treatments,Type of candidate vaccine,mRNA,5
-Treatments,Type of candidate vaccine,Inactivated,4
-Treatments,Type of candidate vaccine,Codon deoptimized live attenuated vaccines,3
-Treatments,Type of candidate vaccine,Protein Subunit,3
-Treatments,Type of candidate vaccine,VLP,3
-Treatments,Type of candidate vaccine,LNP-mRNA,3
-Treatments,Type of candidate vaccine,S protein,3
-Treatments,Type of candidate vaccine,DNA vaccine,3
-Treatments,Type of candidate vaccine,VSV-S,3
-Treatments,Type of candidate vaccine,Measles Vector,2
-Treatments,Type of candidate vaccine,Peptide,2
-Treatments,Type of candidate vaccine,DNA with electroporation,2
-Treatments,Type of candidate vaccine,Recombinant S protein,2
-Treatments,Type of candidate vaccine,Inactivated + CpG 1018,2
-Treatments,Type of candidate vaccine,OMV-based vaccine,2
-Treatments,Type of candidate vaccine,mRNA in an intranasal delivery system,1
-Treatments,Type of candidate vaccine,Adeno-associated virus vector (AAVCOVID),1
-Treatments,Type of candidate vaccine,LNP-encapsulated mRNA cocktail encoding VLP,1
-Treatments,Type of candidate vaccine,Avian paramyxovirus vector (APMV),1
-Treatments,Type of candidate vaccine,Recombinant S protein in IC-BEVS,1
-Treatments,Type of candidate vaccine,TBD,1
-Treatments,Type of candidate vaccine,"Measles Virus (S, N targets)",1
-Treatments,Type of candidate vaccine,"DNA plasmid vaccine S,S1,S2,RBD &N",1
-Treatments,Type of candidate vaccine,RBD protein (baculovirus production) + FAR- Squalene adjuvant,1
-Treatments,Type of candidate vaccine,Enveloped Virus-Like Particle (eV/LP),1
-Treatments,Type of candidate vaccine,Inactivated whole virus,1
-Treatments,Type of candidate vaccine,"Recombinant vaccine based on Influenza A virus, for the prevention of COVID-19 (intranasal)",1
-Treatments,Type of candidate vaccine,bacTRL-Spike,1
-Treatments,Type of candidate vaccine,LNP-encapsulated mRNA,1
-Treatments,Type of candidate vaccine,Outer Membrane Vesicle (OMV)-subunit,1
-Treatments,Type of candidate vaccine,Oral Salmonella enteritidis (3934Vac) based protein expression system of RBD,1
-Treatments,Type of candidate vaccine,"2nd Gen E2b- Ad5 Spike, RBD, Nucleocapsid Subcutaneous&ora",1
-Treatments,Type of candidate vaccine,S1 or RBD protein,1
-Treatments,Type of candidate vaccine,"Orally delivered, heat stable subunit",1
-Treatments,Type of candidate vaccine,Nanoparticle vaccine,1
-Treatments,Type of candidate vaccine,DNA plasmid vaccine RBD&N,1
-Treatments,Type of candidate vaccine,S protein +Adjuvant,1
-Treatments,Type of candidate vaccine,Ad5 S (GREVAXTM platform),1
-Treatments,Type of candidate vaccine,COVID-19 XWG-03 truncated S (spike) proteins,1
-Treatments,Type of candidate vaccine,Replication-competent VSV chimeric virus technology (VSVAG) delivering the SARS-CoV- 2 Spike (S) glycoprotein.,1
-Treatments,Type of candidate vaccine,Sendai virus vector,1
-Treatments,Type of candidate vaccine,Outer Membrane Vesicle(OMV)-peptide,1
-Treatments,Type of candidate vaccine,Inactivated + alum,1
-Treatments,Type of candidate vaccine,Recombinant deactivated rabies virus containing S1,1
-Treatments,Type of candidate vaccine,Recombinant S1-Fc fusion protein,1
-Treatments,Type of candidate vaccine,Ora Ad5 S,1
-Treatments,Type of candidate vaccine,Inactivated Flu-based SARS-CoV2 vaccine Adjuvant,1
-Treatments,Type of candidate vaccine,Adjuvanted microsphere peptide,1
-Treatments,Type of candidate vaccine,gp-96 backbone,1
-Treatments,Type of candidate vaccine,VSV vector,1
-Treatments,Type of candidate vaccine,RBD-protein,1
-Treatments,Type of candidate vaccine,"Recombinant protein, nanoparticles (based on s-protein and other epitopes)",1
-Treatments,Type of candidate vaccine,microneedle arrays S1 subunit,1
-Treatments,Type of candidate vaccine,Capsid-like Particle,1
-Treatments,Type of candidate vaccine,Peptide antigens formulated in LNP,1
-Treatments,Type of candidate vaccine,Adjuvanted protein subunit (RBD),1
-Treatments,Type of candidate vaccine,"Plasmid DNA, Needle-Free Delivery",1
-Treatments,Type of candidate vaccine,MsDNA vaccine,1
-Treatments,Type of candidate vaccine,Dendritic cell-based vaccine,1
-Treatments,Type of candidate vaccine,RBD-based,1
-Treatments,Type of candidate vaccine,Adeno5-based,1
-Treatments,Type of candidate vaccine,Subunit vaccine,1
-Treatments,Type of candidate vaccine,LNP-encapsulated mRNA encoding S,1
-Treatments,Type of candidate vaccine,Plant-based subunit (RBD-Fc + Adjuvant),1
-Treatments,Type of candidate vaccine,Spike-based,1
-Treatments,Type of candidate vaccine,"S-Protein (Subunit) Adjuvant, E coli based Expression",1
-Treatments,Type of candidate vaccine,Spike-based (epitope screening),1
-Treatments,Type of candidate vaccine,S protein (baculovirus production),1
-Treatments,Type of candidate vaccine,structurally modified spherical particles of the tobacco mosaic virus (TMV),1
-Treatments,Type of candidate vaccine,YF17D Vector,1
-Treatments,Type of candidate vaccine,Attenuated Influenza expressing an antigenic portion of the Spike protein,1
-Treatments,Type of candidate vaccine,parainfluenza virus 5 (PIV5)-based vaccine expressing the spike protein,1
-Treatments,Type of candidate vaccine,Several mRNA candidates,1
-Treatments,Type of candidate vaccine,RBD protein fused with Fc of IgG + Adj.,1
-Treatments,Type of candidate vaccine,Synthetic Long Peptide Vaccine candidate for S and M proteins,1
-Treatments,Type of candidate vaccine,Influenza A H1N1 vector,1
-Treatments,Type of candidate vaccine,Oral Vaccine platform,1
-Treatments,Type of candidate vaccine,Peptides derived from Spike protein,1
-Treatments,Type of candidate vaccine,Replicating Defective SARS-CoV-2 derived RNAs,1
-Treatments,Type of candidate vaccine,VLP-recombinant protein + Adjuvant,1
-Treatments,Type of candidate vaccine,S subunit intranasal liposomal formulation with GLA/3M052 adjs.,1
-Treatments,Type of candidate vaccine,Replicating VSV vector-based DC-targeting,1
-Treatments,Type of candidate vaccine,LNP-encapsulated mRNA encoding RBD,1
-Treatments,Type of candidate vaccine,eV/LP,1
-Treatments,Type of candidate vaccine,"Virus-like particle, based on RBD displayed on virus-like particles",1
-Treatments,Type of candidate vaccine,Self-amplifying RNA,1
-Treatments,Type of candidate vaccine,VLP + Adjuvant,1
-Treatments,Type of candidate vaccine,M2-deficient single replication (M2SR) influenza vector,1
-Treatments,Type of candidate vaccine,Influenza vector expressing RBD,1
-Treatments,Type of candidate vaccine,Unknown,1
-Treatments,Type of candidate vaccine,"Virus-like particles, lentivirus and baculovirus vehicles",1
-Treatments,Type of candidate vaccine,VLPS peptides/whole virus,1
-Treatments,Type of candidate vaccine,MVA-S encoded,1
-Treatments,Type of candidate vaccine,Peptide + nove adjuvant,1
-Treatments,Type of candidate vaccine,"DNA, engineered vaccine inserts compatible with multiple delivery systems",1
-Treatments,Type of candidate vaccine,Adenovirus-based,1
-Treatments,Type of candidate vaccine,Recombinant protein,1
-Treatments,Type of candidate vaccine,Horsepox vector expressing S protein,1
-Treatments,Type of candidate vaccine,li-Key peptide,1
-Treatments,Type of candidate vaccine,MVA encoded VLP,1
-Treatments,Type of candidate vaccine,MVA expressing structural proteins,1
-Treatments,Type of candidate vaccine,Newcastle disease virus vector (NDV-SARS- CoV-2/Spike),1
-Treatments,Type of candidate vaccine,Live vira vectored vaccine based on attenuated influenza virus backbone (intranasal),1
-Treatments,Type of candidate vaccine,MVA-S,1
-Treatments,Type of candidate vaccine,"Subunit protein, plant produced",1
-Treatments,Type of candidate vaccine,Oral E. coli-based protein expression system of S and N proteins,1
-Treatments,Type of candidate vaccine,"Protein Subunit S,N,M&S1 protein",1
-Treatments,Type of candidate vaccine,DNA,1
-Treatments,Type of candidate vaccine,Drosophila S2 insect cell expression system VLPs,1
-Treatments,Type of candidate vaccine,ADDomerTM multiepitope display,1
-Treatments,Type of candidate vaccine,Liposome-encapsulated mRNA,1
-Treatments,Type of candidate vaccine,adenovirus-based NasoVAX expressing SARS2-CoV spike protein,1
-Treatments,Type of candidate vaccine,adenovirus-based + HLA-matched peptides,1
-Treatments,Type of candidate vaccine,Protein Subunit EPV-CoV-19,1
-Treatments,Type of candidate vaccine,S protein integrated in HIV VLPS,1
-Treatments,Developer,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",5
-Treatments,Developer,"National Research Centre, Egypt",4
-Treatments,Developer,University of Manitoba,2
-Treatments,Developer,Intravacc/Epivax,2
-Treatments,Developer,Selcuk University,2
-Treatments,Developer,"IDIBAPS-Hospital Clinic, Spain",2
-Treatments,Developer,Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana Cayetano Heredia (UPCH),2
-Treatments,Developer,"Centro Nacional Biotecnologia (CNB-CSIC), Spain",2
-Treatments,Developer,Max-Planck-institute of Colloids and Interfaces,2
-Treatments,Developer,Fudan University/ Shanghai JiaoTong University/RNACure Biopharma,2
-Treatments,Developer,Erciyes University,2
-Treatments,Developer,"Navarrabiomed, Oncoimmunology group",1
-Treatments,Developer,MIGAL Galilee Research Institute,1
-Treatments,Developer,iBio/cc-Pharming,1
-Treatments,Developer,VBI Vaccines Inc.,1
-Treatments,Developer,"Beijing Minhai Biotechnology Co., Ltd.",1
-Treatments,Developer,Symvivo,1
-Treatments,Developer,acc/ Wageninger Bioveterinary Research/Utrecht Univ.,1
-Treatments,Developer,Gennova,1
-Treatments,Developer,Karolinska Institute / Cobra Biologics (OPENCORONA Project),1
-Treatments,Developer,Vaxi Bio,1
-Treatments,Developer,"National Center for Genetic Engineering and Biotechnology (BIOTEC) /GPO, Thailand",1
-Treatments,Developer,Israel Institute for Biological Research/Weizmann Institute of Science,1
-Treatments,Developer,Sanofi Pasteur/GSK,1
-Treatments,Developer,"Chulalongkorn University/GPO, Thailand",1
-Treatments,Developer,CanSino Biologics/Precision NanoSystems,1
-Treatments,Developer,University of Western Ontario,1
-Treatments,Developer,Vaxart,1
-Treatments,Developer,AJ Vaccines,1
-Treatments,Developer,Univ. of Pittsburgh,1
-Treatments,Developer,Fundacao Oswaldo Cruz and Instituto Buntantan,1
-Treatments,Developer,eTheRNA,1
-Treatments,Developer,"MOGAM Institute for Biomedical Research, GC Pharma",1
-Treatments,Developer,Mediphage Bioceuticals/University of Waterloo,1
-Treatments,Developer,"Osaka University/ BIKEN/ National Institutes of Biomedical Innovation, Japan",1
-Treatments,Developer,Baylor College of Medicine,1
-Treatments,Developer,WRAIR/USAMRIID,1
-Treatments,Developer,Bharat Biotech/Thomas Jefferson University,1
-Treatments,Developer,AnyGo Technology,1
-Treatments,Developer,Osaka University/ BIKEN/ National Institutes of Biomedical Innovation,1
-Treatments,Developer,Ankara University,1
-Treatments,Developer,IrsiCaixa AIDS Research/IRTA-CReSA/Barcelona Supercomputing Centre/Grifols,1
-Treatments,Developer,Univ. of Sao Paulo,1
-Treatments,Developer,Quadram Institute Biosciences,1
-Treatments,Developer,Valo Therapeutics Ltd,1
-Treatments,Developer,Saiba GmbH,1
-Treatments,Developer,Middle East Technical University,1
-Treatments,Developer,OSIVAX,1
-Treatments,Developer,Imophoron Ltd and Bristol University's Max Planck Centre,1
-Treatments,Developer,"VIDO-InterVac, University of Saskatchewan",1
-Treatments,Developer,IMV Inc,1
-Treatments,Developer,"LakePharma, Inc.",1
-Treatments,Developer,Generex/EpiVax,1
-Treatments,Developer,"Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory, Ogbomoso, Oyo State, Nigeria.",1
-Treatments,Developer,Flow Pharma Inc,1
-Treatments,Developer,OncoGen,1
-Treatments,Developer,EpiVax/Univ. of Georgia,1
-Treatments,Developer,Chula Vaccine Research Center/University of Pennsylvania,1
-Treatments,Developer,Bogazici University,1
-Treatments,Developer,Greenlight Biosciences,1
-Treatments,Developer,"The Lancaster University, UK",1
-Treatments,Developer,DZIF German Center for Infection Research/IDT Biologika GmbH,1
-Treatments,Developer,Translate Bio/Sanofi Pasteur,1
-Treatments,Developer,Ege University,1
-Treatments,Developer,Biological E Ltd,1
-Treatments,Developer,KM Biologics,1
-Treatments,Developer,Codagenix/Serum Institute of India,1
-Treatments,Developer,DIOSynVax Ltd / University of Cambridge,1
-Treatments,Developer,"RNAimmune, Inc.",1
-Treatments,Developer,EpiVax,1
-Treatments,Developer,BiOMVis Sri/Univ. of Trento,1
-Treatments,Developer,Bezmialem Vakif University,1
-Treatments,Developer,ImmunoPrecise/LiteVax BV,1
-Treatments,Developer,"Immunomic Therapeutics, Inc./EpiVax, Inc./Pharmalet",1
-Treatments,Developer,Baiya Phytopharm/ Chula Vaccine Research Center,1
-Treatments,Developer,China CDC/Tongji University/Stermina,1
-Treatments,Developer,DZIF German Center for Infection Research/CanVirex AG,1
-Treatments,Developer,University of Alberta,1
-Treatments,Developer,Mehmet Ali Aydinlar University / Acibadem Labmed Health Services A.S.,1
-Treatments,Developer,Neovii/Tel Aviv University,1
-Treatments,Developer,Axon Neuroscience SE,1
-Treatments,Developer,Lomonosov Moscow State University,1
-Treatments,Developer,University of Georgia/University of lowa,1
-Treatments,Developer,Takis/Applied DNA Sciences/Evvivax,1
-Treatments,Developer,Cadila Healthcare Limited,1
-Treatments,Developer,Chula Vaccine Research Center,1
-Treatments,Developer,University of Virginia,1
-Treatments,Developer,Saint-Petersburg scientific research institute of vaccines and serums,1
-Treatments,Developer,Sinovac/Dynavax,1
-Treatments,Developer,Tonix Pharma/Southern Research,1
-Treatments,Developer,Massachusetts Eye and Ear/Massachusetts General Hospital/AveXis,1
-Treatments,Developer,Innovax/Xiamen Univ./GSK,1
-Treatments,Developer,Stabilitech Biopharma Ltd,1
-Treatments,Developer,Izmir Biomedicine and Genome Center,1
-Treatments,Developer,Indian Immunologicals Ltd/Griffith University,1
-Treatments,Developer,ARTES Biotechnology,1
-Treatments,Developer,Aurobindo,1
-Treatments,Developer,IAVI/Merck,1
-Treatments,Developer,Greffex,1
-Treatments,Developer,"Applied Biotechnology Institute, Inc.",1
-Treatments,Developer,Mynvax,1
-Treatments,Developer,ExpreS2ion,1
-Treatments,Developer,BIOCAD,1
-Treatments,Developer,Yisheng Biopharma,1
-Treatments,Developer,Altimmune,1
-Treatments,Developer,Scancell/University of Nottingham/Nottinghar Trent University,1
-Treatments,Developer,Vabiotech,1
-Treatments,Developer,BiOCAD and IEM,1
-Treatments,Developer,Mahidol University/ The Government Pharmaceutical Organization (GPO)/Siriraj Hospital,1
-Treatments,Developer,Entos Pharmaceuticals,1
-Treatments,Developer,ID Pharma,1
-Treatments,Developer,University of Tokyo/Daiichi-Sankyo,1
-Treatments,Developer,"National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma",1
-Treatments,Developer,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",1
-Treatments,Developer,Heat Biologics/Univ. Of Miami,1
-Treatments,Developer,University of Hong Kong,1
-Treatments,Developer,KU Leuven,1
-Treatments,Developer,GeoVax/BravoVax,1
-Treatments,Developer,Valneva/Dynavax,1
-Treatments,Developer,Doherty Institute,1
-Treatments,Developer,"University of San Martin and CONICET, Argentina",1
-Treatments,Developer,"ImmunityBio, Inc. & Nantkwest, Inc.",1
-Treatments,Developer,AdaptVac (PREVENT-nCoV consortium),1
-Treatments,Developer,UW-Madison/FluGen/Bharat Biotech,1
-Treatments,Developer,BioNet Asia,1
-Treatments,Coronavirus target,SARS-CoV2,138
-Treatments,Coronavirus target,SARS-CoV2 and Sarbeco- Coronaviruses,1
-Treatments,Coronavirus target,"SARS-CoV2, SARS-CoV, & MERS-CoV",1
-Treatments,Coronavirus target,SARS-CoV1 SARS-CoV2,1
-Treatments,Coronavirus target,Pan-Corona,1
-Treatments,Current stage of clinical evaluation/regulatory -Coronavirus candidate,Pre-Clinical,142
-Treatments,Same platform for non-Coronavirus candidates,Influenza,6
-Treatments,Same platform for non-Coronavirus candidates,MERS,4
-Treatments,Same platform for non-Coronavirus candidates,SARS,2
-Treatments,Same platform for non-Coronavirus candidates,"flu, Chik, Zika, EBOV, LASV, HIV/SIV,Cance",1
-Treatments,Same platform for non-Coronavirus candidates,"Influenza, SARS-CoV",1
-Treatments,Same platform for non-Coronavirus candidates,malaria,1
-Treatments,Same platform for non-Coronavirus candidates,"Influenza, HIV, SARS-CoV",1
-Treatments,Same platform for non-Coronavirus candidates,"HeV, NiV, EBOV, LASSA, CCHFV, MERS",1
-Treatments,Same platform for non-Coronavirus candidates,"NSCLC, HIV, malaria, Zika",1
-Treatments,Same platform for non-Coronavirus candidates,"JE, Zika",1
-Treatments,Same platform for non-Coronavirus candidates,HPV,1
-Treatments,Same platform for non-Coronavirus candidates,"Flu A, plague",1
-Treatments,Same platform for non-Coronavirus candidates,"InfA, CHIKV, LASV, NORV; EBOV, RVF, HBV, VEE",1
-Treatments,Same platform for non-Coronavirus candidates,Multiple candidates,1
-Treatments,Same platform for non-Coronavirus candidates,"Ebola, Marburg, HIV, Zika, Influenza, HPV therapeutic vaccine, BreastCA vaccine",1
-Treatments,Same platform for non-Coronavirus candidates,"Zika, VZV, HSV-2 and Norovirus",1
-Treatments,Same platform for non-Coronavirus candidates,"Smallpox, monkeypox",1
-Treatments,Same platform for non-Coronavirus candidates,"HIV, MERS",1
-Treatments,Same platform for non-Coronavirus candidates,"CMV, GBM, Zika",1
-Treatments,Same platform for non-Coronavirus candidates,H7N9,1
-Treatments,Same platform for non-Coronavirus candidates,Hepatitis C,1
-Treatments,Same platform for non-Coronavirus candidates,"rubella, rotavirus",1
-Treatments,Same platform for non-Coronavirus candidates,Many,1
-Treatments,Same platform for non-Coronavirus candidates,"Ebola, Marburg, Lassa",1
-Treatments,Same platform for non-Coronavirus candidates,"HAV, InfA, ZIKV, FMD, SIV, RSV, DENV",1
-Treatments,Same platform for non-Coronavirus candidates,"LASV, EBOV, MARV, HIV",1
-Treatments,Same platform for non-Coronavirus candidates,"Zika, H7N9, CHIKV",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Sinovac,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,People's Liberation Army (PLA) Academy of Military Sciences/Walvax Biotech.,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Medigen Vaccine Biologics Corporation/NIAID/Dynavax,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Medicago Inc.,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Clover Biopharmaceuticals Inc./GSK/Dynavax,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"Anhui Zhifei Longcom Biopharmaceutical/Institute of Microbiology, Chinese Academy of Sciences",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"Institute of Medical Biology, Chinese Academy of Medical Sciences",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Curevac,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Cadila Healthcare Limited,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Imperial College London,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Moderna/NIAID,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Beijing Institute of Biological Products/Sinopharm,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Osaka University/ AnGes/ Takara Bio,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,ReiThera/LEUKOCARE/Univercells,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Bharat Biotech,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,CanSino Biological Inc./Beijing Institute of Biotechnology,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Institute Pasteur/Themis/Univ. of Pittsburg CVR/Merck Sharp & Dohme,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Genexine Consortium,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Wuhan Institute of Biological Products/Sinopharm,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Vaxine Pty Ltd/Medytox,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"Instituto Finlay de Vacunas, Cuba",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"Kentucky Bioprocessing, Inc",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Arcturus/Duke-NUS,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,BioNTech/Fosun Pharma/Pfizer,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,"West China Hospital, Sichuan University",1
-Vaccines,COVID-19 Vaccine developer or manufacturer,University of Oxford/AstraZeneca,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,University of Queensland/CSL/Seqirus,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Janssen Pharmaceutical Companies,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Gamaleya Research Institute,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Inovio Pharmaceuticals/ International Vaccine Institute,1
-Vaccines,COVID-19 Vaccine developer or manufacturer,Novavax,1
-Vaccines,Vaccine platform,Protein Subunit,10
-Vaccines,Vaccine platform,Inactivated,6
-Vaccines,Vaccine platform,RNA,6
-Vaccines,Vaccine platform,Non-Replicating Viral Vector,5
-Vaccines,Vaccine platform,DNA,4
-Vaccines,Vaccine platform,Replicating Viral Vector,1
-Vaccines,Vaccine platform,VLP,1
-Vaccines,Type of candidate vaccine,Inactivated,5
-Vaccines,Type of candidate vaccine,mRNA,3
-Vaccines,Type of candidate vaccine,Adeno-based (rAd26-S+rAd5-S),1
-Vaccines,Type of candidate vaccine,RBD + Adjuvant,1
-Vaccines,Type of candidate vaccine,RBD-based,1
-Vaccines,Type of candidate vaccine,Full length recombinant SARS CoV-2 glycoprotein nanoparticle vaccine adjuvanted with Matrix M,1
-Vaccines,Type of candidate vaccine,Replication defective Simian Adenovirus (GRAd) encoding S,1
-Vaccines,Type of candidate vaccine,DNA Vaccine (GX-19),1
-Vaccines,Type of candidate vaccine,3 LNP-mRNAs,1
-Vaccines,Type of candidate vaccine,Peptide,1
-Vaccines,Type of candidate vaccine,Measles-vector based,1
-Vaccines,Type of candidate vaccine,Ad26COVS1,1
-Vaccines,Type of candidate vaccine,LNP-nCoVsaRNA,1
-Vaccines,Type of candidate vaccine,ChAdox1-S,1
-Vaccines,Type of candidate vaccine,Whole-Virion Inactivated,1
-Vaccines,Type of candidate vaccine,Recombinant spike protein with AdvaxM adjuvant,1
-Vaccines,Type of candidate vaccine,S-2P protein + CpG 1018,1
-Vaccines,Type of candidate vaccine,LNP-encapsulated mRNA,1
-Vaccines,Type of candidate vaccine,DNA plasmid vaccine + Adjuvant,1
-Vaccines,Type of candidate vaccine,RBD (baculovirus production expressed in Sf9 cells),1
-Vaccines,Type of candidate vaccine,Plant-derived VLP adjuvanted with GSK or Dynavax adjs.,1
-Vaccines,Type of candidate vaccine,Adjuvanted recombinant protein (RBD-Dimer),1
-Vaccines,Type of candidate vaccine,Molecular clamp stabilized Spike protein with MF59 adjuvant,1
-Vaccines,Type of candidate vaccine,Adenovirus Type 5 Vector,1
-Vaccines,Type of candidate vaccine,Native like Trimeric subunit Spike Protein vaccine,1
-Vaccines,Type of candidate vaccine,DNA plasmid vaccine with electroporation,1
-Vaccines,Type of candidate vaccine,DNA plasmid vaccine,1
-Vaccines,Number of doses,2,25
-Vaccines,Number of doses,1,4
-Vaccines,Number of doses,3,1
-Vaccines,Number of doses,1 or 2,1
-Vaccines,Number of doses,2 or 3,1
-Vaccines,Timing of doses,"0, 28 days",11
-Vaccines,Timing of doses,"0, 21 days",6
-Vaccines,Timing of doses,"0, 14 days",3
-Vaccines,Timing of doses,"0,14 or 0,21 days",2
-Vaccines,Timing of doses,"0,28 or 0,28,56 days",1
-Vaccines,Timing of doses,"0, 56 days",1
-Vaccines,Timing of doses,"0, 14 or 0, 28 days",1
-Vaccines,Timing of doses,"0,21 days",1
-Vaccines,Timing of doses,"0, 28, 56 days",1
-Vaccines,Route of administration,IM,31
-Vaccines,Route of administration,ID,2
-Vaccines,Phase 1 Desc,ChiCTR2000037518,1
-Vaccines,Phase 1 Desc,NCT04450004,1
-Vaccines,Phase 1 Desc,ChiCTR2000030906 Study Report,1
-Vaccines,Phase 1 Desc,NCT04445194,1
-Vaccines,Phase 1 Desc,NCT04283461 Interim Report,1
-Vaccines,Phase 1 Desc,NCT04497298,1
+Vaccines,Developer,"FBRI SRC VB VECTOR, Rospotrebnadzor, Koltsovo",6
+Vaccines,Developer,"National Research Centre, Egypt",4
+Vaccines,Developer,Selcuk University,2
+Vaccines,Developer,Max-Planck-institute of Colloids and Interfaces,2
+Vaccines,Developer,Intravacc/Epivax,2
+Vaccines,Developer,"IDIBAPS-Hospital Clinic, Spain",2
+Vaccines,Developer,Cadila Healthcare Limited,2
+Vaccines,Developer,"Research Institute for Biological Safety Problems, Rep of Kazakhstan",2
+Vaccines,Developer,University of Manitoba,2
+Vaccines,Developer,Farmacologicos Veterinarios SAC (FARVET SAC) / Universidad Peruana Cayetano Heredia (UPCH),2
+Vaccines,Developer,"Centro Nacional Biotecnologia (CNB-CSIC), Spain",2
+Vaccines,Developer,Erciyes University,2
+Vaccines,Developer,Fudan University/ Shanghai JiaoTong University/RNACure Biopharma,2
+Vaccines,Developer,IrsiCaixa AIDS Research/IRTA-CReSA/Barcelona Supercomputing Centre/Grifols,1
+Vaccines,Developer,VBI Vaccines Inc.,1
+Vaccines,Developer,Baiya Phytopharm/ Chula Vaccine Research Center,1
+Vaccines,Developer,"MOGAM Institute for Biomedical Research, GC Pharma",1
+Vaccines,Developer,Greffex,1
+Vaccines,Developer,Institute Pasteur/Themis/Univ. of Pittsburg CVR/Merck Sharp & Dohme,1
+Vaccines,Developer,BIOCAD,1
+Vaccines,Developer,Heat Biologics/Univ. Of Miami,1
+Vaccines,Developer,Osaka University/ AnGes/ Takara Bio,1
+Vaccines,Developer,ImmunoPrecise/LiteVax BV,1
+Vaccines,Developer,"Instituto Finlay de Vacunas, Cuba",1
+Vaccines,Developer,Janssen Pharmaceutical Companies,1
+Vaccines,Developer,Biological E Ltd,1
+Vaccines,Developer,"Applied Biotechnology Institute, Inc.",1
+Vaccines,Developer,Mehmet Ali Aydinlar University / Acibadem Labmed Health Services A.S.,1
+Vaccines,Developer,Chula Vaccine Research Center,1
+Vaccines,Developer,"Institute of Medical Biology, Chinese Academy of Medical Sciences",1
+Vaccines,Developer,Tonix Pharma/Southern Research,1
+Vaccines,Developer,ARTES Biotechnology,1
+Vaccines,Developer,Flow Pharma Inc,1
+Vaccines,Developer,Univ. of Sao Paulo,1
+Vaccines,Developer,Symvivo,1
+Vaccines,Developer,"RNAimmune, Inc.",1
+Vaccines,Developer,acc/ Wageninger Bioveterinary Research/Utrecht Univ.,1
+Vaccines,Developer,"Helix Biogen Consult, Ogbomoso & Trinity Immonoefficient Laboratory, Ogbomoso, Oyo State, Nigeria.",1
+Vaccines,Developer,Baylor College of Medicine,1
+Vaccines,Developer,Valneva/Dynavax,1
+Vaccines,Developer,ReiThera/LEUKOCARE/Univercells,1
+Vaccines,Developer,BioNTech/Fosun Pharma/Pfizer,1
+Vaccines,Developer,Bharat Biotech/Thomas Jefferson University,1
+Vaccines,Developer,Ankara University,1
+Vaccines,Developer,eTheRNA,1
+Vaccines,Developer,Indian Immunologicals Ltd/Griffith University,1
+Vaccines,Developer,Gennova,1
+Vaccines,Developer,WRAIR/USAMRIID,1
+Vaccines,Developer,Gamaleya Research Institute,1
+Vaccines,Developer,"Anhui Zhifei Longcom Biopharmaceutical/Institute of Microbiology, Chinese Academy of Sciences",1
+Vaccines,Developer,Vabiotech,1
+Vaccines,Developer,Bogazici University,1
+Vaccines,Developer,Osaka University/ BIKEN/ National Institutes of Biomedical Innovation,1
+Vaccines,Developer,MIGAL Galilee Research Institute,1
+Vaccines,Developer,Sanofi Pasteur/GSK,1
+Vaccines,Developer,University of Georgia/University of lowa,1
+Vaccines,Developer,Middle East Technical University,1
+Vaccines,Developer,BiOCAD and IEM,1
+Vaccines,Developer,KM Biologics,1
+Vaccines,Developer,Karolinska Institute / Cobra Biologics (OPENCORONA Project),1
+Vaccines,Developer,Generex/EpiVax,1
+Vaccines,Developer,"National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma",1
+Vaccines,Developer,Mediphage Bioceuticals/University of Waterloo,1
+Vaccines,Developer,ID Pharma,1
+Vaccines,Developer,Mahidol University/ The Government Pharmaceutical Organization (GPO)/Siriraj Hospital,1
+Vaccines,Developer,EpiVax/Univ. of Georgia,1
+Vaccines,Developer,Sinovac/Dynavax,1
+Vaccines,Developer,University of Virginia,1
+Vaccines,Developer,Curevac,1
+Vaccines,Developer,Mynvax,1
+Vaccines,Developer,AdaptVac (PREVENT-nCoV consortium),1
+Vaccines,Developer,"Immunomic Therapeutics, Inc./EpiVax, Inc./Pharmalet",1
+Vaccines,Developer,OSIVAX,1
+Vaccines,Developer,Wuhan Institute of Biological Products/Sinopharm,1
+Vaccines,Developer,Bezmialem Vakif University,1
+Vaccines,Developer,"Osaka University/ BIKEN/ National Institutes of Biomedical Innovation, Japan",1
+Vaccines,Developer,People's Liberation Army (PLA) Academy of Military Sciences/Walvax Biotech.,1
+Vaccines,Developer,DIOSynVax Ltd / University of Cambridge,1
+Vaccines,Developer,University of Tokyo/Daiichi-Sankyo,1
+Vaccines,Developer,Arcturus/Duke-NUS,1
+Vaccines,Developer,Scancell/University of Nottingham/Nottinghar Trent University,1
+Vaccines,Developer,University of Alberta,1
+Vaccines,Developer,Izmir Biomedicine and Genome Center,1
+Vaccines,Developer,"LakePharma, Inc.",1
+Vaccines,Developer,Altimmune,1
+Vaccines,Developer,"VIDO-InterVac, University of Saskatchewan",1
+Vaccines,Developer,Medigen Vaccine Biologics Corporation/NIAID/Dynavax,1
+Vaccines,Developer,"West China Hospital, Sichuan University",1
+Vaccines,Developer,UW-Madison/FluGen/Bharat Biotech,1
+Vaccines,Developer,AJ Vaccines,1
+Vaccines,Developer,University of Western Ontario,1
+Vaccines,Developer,iBio/cc-Pharming,1
+Vaccines,Developer,Translate Bio/Sanofi Pasteur,1
+Vaccines,Developer,Aurobindo,1
+Vaccines,Developer,AnyGo Technology,1
+Vaccines,Developer,Valo Therapeutics Ltd,1
+Vaccines,Developer,Clover Biopharmaceuticals Inc./GSK/Dynavax,1
+Vaccines,Developer,BioNet Asia,1
+Vaccines,Developer,University of Hong Kong,1
+Vaccines,Developer,IAVI/Merck,1
+Vaccines,Developer,Massachusetts Eye and Ear/Massachusetts General Hospital/AveXis,1
+Vaccines,Developer,ExpreS2ion,1
+Vaccines,Developer,BiOMVis Sri/Univ. of Trento,1
+Vaccines,Developer,Yisheng Biopharma,1
+Vaccines,Developer,Israel Institute for Biological Research/Weizmann Institute of Science,1
+Vaccines,Developer,Innovax/Xiamen Univ./GSK,1
+Vaccines,Developer,Univ. of Pittsburgh,1
+Vaccines,Developer,University of Queensland/CSL/Seqirus,1
+Vaccines,Developer,Greenlight Biosciences,1
+Vaccines,Developer,KU Leuven,1
+Vaccines,Developer,Fundacao Oswaldo Cruz and Instituto Buntantan,1
+Vaccines,Developer,Lomonosov Moscow State University,1
+Vaccines,Developer,Vaxi Bio,1
+Vaccines,Developer,Novavax,1
+Vaccines,Developer,EpiVax,1
+Vaccines,Developer,Entos Pharmaceuticals,1
+Vaccines,Developer,Saint-Petersburg scientific research institute of vaccines and serums,1
+Vaccines,Developer,Quadram Institute Biosciences,1
+Vaccines,Developer,Saiba GmbH,1
+Vaccines,Developer,DZIF German Center for Infection Research/IDT Biologika GmbH,1
+Vaccines,Developer,Beijing Institute of Biological Products/Sinopharm,1
+Vaccines,Developer,Medicago Inc.,1
+Vaccines,Developer,Bharat Biotech,1
+Vaccines,Developer,CanSino Biological Inc./Beijing Institute of Biotechnology,1
+Vaccines,Developer,Chula Vaccine Research Center/University of Pennsylvania,1
+Vaccines,Developer,DZIF German Center for Infection Research/CanVirex AG,1
+Vaccines,Developer,Moderna/NIAID,1
+Vaccines,Developer,Sinovac,1
+Vaccines,Developer,GeoVax/BravoVax,1
+Vaccines,Developer,IMV Inc,1
+Vaccines,Developer,Neovii/Tel Aviv University,1
+Vaccines,Developer,"ImmunityBio, Inc. & Nantkwest, Inc.",1
+Vaccines,Developer,"Chulalongkorn University/GPO, Thailand",1
+Vaccines,Developer,"Navarrabiomed, Oncoimmunology group",1
+Vaccines,Developer,"Beijing Minhai Biotechnology Co., Ltd.",1
+Vaccines,Developer,CanSino Biologics/Precision NanoSystems,1
+Vaccines,Developer,"Kentucky Bioprocessing, Inc",1
+Vaccines,Developer,Genexine Consortium,1
+Vaccines,Developer,Stabilitech Biopharma Ltd,1
+Vaccines,Developer,"National Center for Genetic Engineering and Biotechnology (BIOTEC) /GPO, Thailand",1
+Vaccines,Developer,University of Oxford/AstraZeneca,1
+Vaccines,Developer,Ege University,1
+Vaccines,Developer,Doherty Institute,1
+Vaccines,Developer,Takis/Applied DNA Sciences/Evvivax,1
+Vaccines,Developer,Inovio Pharmaceuticals/ International Vaccine Institute,1
+Vaccines,Developer,OncoGen,1
+Vaccines,Developer,Codagenix/Serum Institute of India,1
+Vaccines,Developer,Axon Neuroscience SE,1
+Vaccines,Developer,"University of San Martin and CONICET, Argentina",1
+Vaccines,Developer,Imophoron Ltd and Bristol University's Max Planck Centre,1
+Vaccines,Developer,Imperial College London,1
+Vaccines,Developer,"The Lancaster University, UK",1
+Vaccines,Developer,China CDC/Tongji University/Stermina,1
+Vaccines,Developer,Vaxart,1
+Vaccines,Developer,Vaxine Pty Ltd/Medytox,1
+Vaccines,Platform,Protein Subunit,61
+Vaccines,Platform,Non-Replicating Viral Vector,24
+Vaccines,Platform,RNA,23
+Vaccines,Platform,Replicating Viral Vector,19
+Vaccines,Platform,DNA,16
+Vaccines,Platform,Inactivated,15
+Vaccines,Platform,VLP,13
+Vaccines,Platform,Live Attenuated Virus,3
+Vaccines,Platform,Replicating Bacteria Vector,1
+Vaccines,Candiate Type,Inactivated,9
+Vaccines,Candiate Type,mRNA,8
+Vaccines,Candiate Type,Peptide,3
+Vaccines,Candiate Type,LNP-mRNA,3
+Vaccines,Candiate Type,Codon deoptimized live attenuated vaccines,3
+Vaccines,Candiate Type,VSV-S,3
+Vaccines,Candiate Type,S protein,3
+Vaccines,Candiate Type,Protein Subunit,3
+Vaccines,Candiate Type,VLP,3
+Vaccines,Candiate Type,DNA vaccine,3
+Vaccines,Candiate Type,OMV-based vaccine,2
+Vaccines,Candiate Type,Recombinant S protein,2
+Vaccines,Candiate Type,RBD-based,2
+Vaccines,Candiate Type,LNP-encapsulated mRNA,2
+Vaccines,Candiate Type,Inactivated + CpG 1018,2
+Vaccines,Candiate Type,DNA with electroporation,2
+Vaccines,Candiate Type,Measles Vector,2
+Vaccines,Candiate Type,Adenovirus Type 5 Vector,1
+Vaccines,Candiate Type,Adeno-associated virus vector (AAVCOVID),1
+Vaccines,Candiate Type,S protein (baculovirus production),1
+Vaccines,Candiate Type,VLPS peptides/whole virus,1
+Vaccines,Candiate Type,Spike-based,1
+Vaccines,Candiate Type,"Plasmid DNA, Needle-Free Delivery",1
+Vaccines,Candiate Type,Adenovirus-based,1
+Vaccines,Candiate Type,Oral Vaccine platform,1
+Vaccines,Candiate Type,"Measles Virus (S, N targets)",1
+Vaccines,Candiate Type,Capsid-like Particle,1
+Vaccines,Candiate Type,Recombinant S1-Fc fusion protein,1
+Vaccines,Candiate Type,S subunit intranasal liposomal formulation with GLA/3M052 adjs.,1
+Vaccines,Candiate Type,parainfluenza virus 5 (PIV5)-based vaccine expressing the spike protein,1
+Vaccines,Candiate Type,DNA Vaccine (GX-19),1
+Vaccines,Candiate Type,Adjuvanted microsphere peptide,1
+Vaccines,Candiate Type,MVA encoded VLP,1
+Vaccines,Candiate Type,Recombinant spike protein with AdvaxM adjuvant,1
+Vaccines,Candiate Type,S protein integrated in HIV VLPS,1
+Vaccines,Candiate Type,LNP-encapsulated mRNA cocktail encoding VLP,1
+Vaccines,Candiate Type,DNA,1
+Vaccines,Candiate Type,RBD protein fused with Fc of IgG + Adj.,1
+Vaccines,Candiate Type,"Virus-like particles, lentivirus and baculovirus vehicles",1
+Vaccines,Candiate Type,Drosophila S2 insect cell expression system VLPs,1
+Vaccines,Candiate Type,Outer Membrane Vesicle(OMV)-peptide,1
+Vaccines,Candiate Type,Full length recombinant SARS CoV-2 glycoprotein nanoparticle vaccine adjuvanted with Matrix M,1
+Vaccines,Candiate Type,adenovirus-based NasoVAX expressing SARS2-CoV spike protein,1
+Vaccines,Candiate Type,Influenza A H1N1 vector,1
+Vaccines,Candiate Type,Recombinant deactivated rabies virus containing S1,1
+Vaccines,Candiate Type,adenovirus-based + HLA-matched peptides,1
+Vaccines,Candiate Type,Replicating VSV vector-based DC-targeting,1
+Vaccines,Candiate Type,LNP-encapsulated mRNA encoding S,1
+Vaccines,Candiate Type,DNA plasmid vaccine,1
+Vaccines,Candiate Type,gp-96 backbone,1
+Vaccines,Candiate Type,Peptide + nove adjuvant,1
+Vaccines,Candiate Type,Spike-based (epitope screening),1
+Vaccines,Candiate Type,DNA plasmid vaccine + Adjuvant,1
+Vaccines,Candiate Type,Dendritic cell-based vaccine,1
+Vaccines,Candiate Type,Nanoparticle vaccine,1
+Vaccines,Candiate Type,Attenuated Influenza expressing an antigenic portion of the Spike protein,1
+Vaccines,Candiate Type,VSV vector,1
+Vaccines,Candiate Type,Plant-derived VLP adjuvanted with GSK or Dynavax adjs.,1
+Vaccines,Candiate Type,Ora Ad5 S,1
+Vaccines,Candiate Type,"Orally delivered, heat stable subunit",1
+Vaccines,Candiate Type,"Protein Subunit S,N,M&S1 protein",1
+Vaccines,Candiate Type,Ad5 S (GREVAXTM platform),1
+Vaccines,Candiate Type,Oral E. coli-based protein expression system of S and N proteins,1
+Vaccines,Candiate Type,Plant-based subunit (RBD-Fc + Adjuvant),1
+Vaccines,Candiate Type,Inactivated + alum,1
+Vaccines,Candiate Type,Native like Trimeric subunit Spike Protein vaccine,1
+Vaccines,Candiate Type,structurally modified spherical particles of the tobacco mosaic virus (TMV),1
+Vaccines,Candiate Type,Recombinant protein,1
+Vaccines,Candiate Type,"S-Protein (Subunit) Adjuvant, E coli based Expression",1
+Vaccines,Candiate Type,DNA plasmid vaccine RBD&N,1
+Vaccines,Candiate Type,LNP-nCoVsaRNA,1
+Vaccines,Candiate Type,VLP-recombinant protein + Adjuvant,1
+Vaccines,Candiate Type,"Subunit protein, plant produced",1
+Vaccines,Candiate Type,Sendai virus vector,1
+Vaccines,Candiate Type,Synthetic Long Peptide Vaccine candidate for S and M proteins,1
+Vaccines,Candiate Type,Subunit vaccine,1
+Vaccines,Candiate Type,Outer Membrane Vesicle (OMV)-subunit,1
+Vaccines,Candiate Type,Molecular clamp stabilized Spike protein with MF59 adjuvant,1
+Vaccines,Candiate Type,Recombinant S protein in IC-BEVS,1
+Vaccines,Candiate Type,Inactivated Flu-based SARS-CoV2 vaccine Adjuvant,1
+Vaccines,Candiate Type,Measles-vector based,1
+Vaccines,Candiate Type,Ad26COVS1,1
+Vaccines,Candiate Type,TBD,1
+Vaccines,Candiate Type,S protein +Adjuvant,1
+Vaccines,Candiate Type,ADDomerTM multiepitope display,1
+Vaccines,Candiate Type,Avian paramyxovirus vector (APMV),1
+Vaccines,Candiate Type,LNP-encapsulated mRNA encoding RBD,1
+Vaccines,Candiate Type,"2nd Gen E2b- Ad5 Spike, RBD, Nucleocapsid Subcutaneous&ora",1
+Vaccines,Candiate Type,RBD-protein,1
+Vaccines,Candiate Type,Self-amplifying RNA,1
+Vaccines,Candiate Type,MVA expressing structural proteins,1
+Vaccines,Candiate Type,S-2P protein + CpG 1018,1
+Vaccines,Candiate Type,3 LNP-mRNAs,1
+Vaccines,Candiate Type,MVA-S encoded,1
+Vaccines,Candiate Type,"Virus-like particle, based on RBD displayed on virus-like particles",1
+Vaccines,Candiate Type,"DNA, engineered vaccine inserts compatible with multiple delivery systems",1
+Vaccines,Candiate Type,DNA plasmid vaccine with electroporation,1
+Vaccines,Candiate Type,Adjuvanted protein subunit (RBD),1
+Vaccines,Candiate Type,Peptides derived from Spike protein,1
+Vaccines,Candiate Type,Oral Salmonella enteritidis (3934Vac) based protein expression system of RBD,1
+Vaccines,Candiate Type,li-Key peptide,1
+Vaccines,Candiate Type,MVA-S,1
+Vaccines,Candiate Type,Adjuvanted recombinant protein (RBD-Dimer),1
+Vaccines,Candiate Type,Horsepox vector expressing S protein,1
+Vaccines,Candiate Type,RBD protein (baculovirus production) + FAR- Squalene adjuvant,1
+Vaccines,Candiate Type,Several mRNA candidates,1
+Vaccines,Candiate Type,mRNA in an intranasal delivery system,1
+Vaccines,Candiate Type,Peptide antigens formulated in LNP,1
+Vaccines,Candiate Type,Adeno-based (rAd26-S+rAd5-S),1
+Vaccines,Candiate Type,Liposome-encapsulated mRNA,1
+Vaccines,Candiate Type,Adeno5-based,1
+Vaccines,Candiate Type,COVID-19 XWG-03 truncated S (spike) proteins,1
+Vaccines,Candiate Type,M2-deficient single replication (M2SR) influenza vector,1
+Vaccines,Candiate Type,RBD (baculovirus production expressed in Sf9 cells),1
+Vaccines,Candiate Type,"Recombinant vaccine based on Influenza A virus, for the prevention of COVID-19 (intranasal)",1
+Vaccines,Candiate Type,Replication defective Simian Adenovirus (GRAd) encoding S,1
+Vaccines,Candiate Type,Whole-Virion Inactivated,1
+Vaccines,Candiate Type,Unknown,1
+Vaccines,Candiate Type,Replicating Defective SARS-CoV-2 derived RNAs,1
+Vaccines,Candiate Type,VLP + Adjuvant,1
+Vaccines,Candiate Type,Newcastle disease virus vector (NDV-SARS- CoV-2/Spike),1
+Vaccines,Candiate Type,Replication-competent VSV chimeric virus technology (VSVAG) delivering the SARS-CoV- 2 Spike (S) glycoprotein.,1
+Vaccines,Candiate Type,bacTRL-Spike,1
+Vaccines,Candiate Type,microneedle arrays S1 subunit,1
+Vaccines,Candiate Type,Influenza vector expressing RBD,1
+Vaccines,Candiate Type,S1 or RBD protein,1
+Vaccines,Candiate Type,YF17D Vector,1
+Vaccines,Candiate Type,Inactivated whole virus,1
+Vaccines,Candiate Type,ChAdox1-S,1
+Vaccines,Candiate Type,Protein Subunit EPV-CoV-19,1
+Vaccines,Candiate Type,eV/LP,1
+Vaccines,Candiate Type,"DNA plasmid vaccine S,S1,S2,RBD &N",1
+Vaccines,Candiate Type,MsDNA vaccine,1
+Vaccines,Candiate Type,Live vira vectored vaccine based on attenuated influenza virus backbone (intranasal),1
+Vaccines,Candiate Type,RBD + Adjuvant,1
+Vaccines,Candiate Type,Enveloped Virus-Like Particle (eV/LP),1
+Vaccines,Candiate Type,"Recombinant protein, nanoparticles (based on s-protein and other epitopes)",1
+Vaccines,Dose Count,TBD,143
+Vaccines,Dose Count,2,25
+Vaccines,Dose Count,1,4
+Vaccines,Dose Count,2 or 3,1
+Vaccines,Dose Count,1 or 2,1
+Vaccines,Dose Count,3,1
+Vaccines,Dose Timing,TBD,148
+Vaccines,Dose Timing,"0,28 days",11
+Vaccines,Dose Timing,"0,21 days",7
+Vaccines,Dose Timing,"0,14 days",3
+Vaccines,Dose Timing,"0,14 or 0,21 days",2
+Vaccines,Dose Timing,"0,28 or 0,28,56 days",1
+Vaccines,Dose Timing,"0,14 or 0,28 days",1
+Vaccines,Dose Timing,"0,28,56 days",1
+Vaccines,Dose Timing,"0,56 days",1
+Vaccines,Route,TBD,142
+Vaccines,Route,IM,31
+Vaccines,Route,ID,2
+Vaccines,Phase 1 Desc,IFV/COR/04,1
 Vaccines,Phase 1 Desc,NCTO4449276,1
+Vaccines,Phase 1 Desc,NCT04450004,1
+Vaccines,Phase 1 Desc,NCT04527575,1
+Vaccines,Phase 1 Desc,NCT04436471 NCT04437875,1
+Vaccines,Phase 1 Desc,ChiCTR2000034112,1
 Vaccines,Phase 1 Desc,NCT04453852,1
 Vaccines,Phase 1 Desc,NCT04405908,1
 Vaccines,Phase 1 Desc,ISRCTN17072692,1
-Vaccines,Phase 1 Desc,NCT04436471 NCT04437875,1
-Vaccines,Phase 1 Desc,NCT04528641,1
-Vaccines,Phase 1 Desc,ACTRN12620000674932p,1
+Vaccines,Phase 1 Desc,NCT04445194,1
 Vaccines,Phase 1 Desc,NCT04487210,1
-Vaccines,Phase 1 Desc,ChiCTR2000034112,1
-Vaccines,Phase 1 Desc,NCT04527575,1
-Vaccines,Phase 1 Desc,IFV/COR/04,1
+Vaccines,Phase 1 Desc,NCT04528641,1
+Vaccines,Phase 1 Desc,ChiCTR2000037518,1
+Vaccines,Phase 1 Desc,NCT04497298,1
 Vaccines,Phase 1 Desc,NCT04412538,1
-Vaccines,Phase 1/2 Desc,CTRI/2020/07/026352,1
-Vaccines,Phase 1/2 Desc,NCT04530357,1
-Vaccines,Phase 1/2 Desc,NCT04473690,1
-Vaccines,Phase 1/2 Desc,NCT04445389,1
-Vaccines,Phase 1/2 Desc,ChiCTR2000031809 Interim Report,1
+Vaccines,Phase 1 Desc,ACTRN12620000674932p,1
+Vaccines,Phase 1 Desc,NCT04283461 Interim Report,1
+Vaccines,Phase 1 Desc,ChiCTR2000030906 Study Report,1
 Vaccines,Phase 1/2 Desc,NCT04447781 NCTO4336410,1
-Vaccines,Phase 1/2 Desc,NCT04470609,1
 Vaccines,Phase 1/2 Desc,2020-001038-36 ChiCTR2000034825 Study Report,1
 Vaccines,Phase 1/2 Desc,NCTO4480957,1
 Vaccines,Phase 1/2 Desc,NCT04436276,1
+Vaccines,Phase 1/2 Desc,NCT04471519,1
+Vaccines,Phase 1/2 Desc,NCT04473690,1
 Vaccines,Phase 1/2 Desc,NCTO4383574 NCTO4352608,1
+Vaccines,Phase 1/2 Desc,CTRI/2020/07/026352,1
+Vaccines,Phase 1/2 Desc,NCT04530357,1
 Vaccines,Phase 1/2 Desc,ChiCTR2000032459,1
+Vaccines,Phase 1/2 Desc,PACTR202006922165132 2020-001072-15 Interim Report,1
+Vaccines,Phase 1/2 Desc,NCT04470609,1
+Vaccines,Phase 1/2 Desc,ChiCTR2000031809 Interim Report,1
+Vaccines,Phase 1/2 Desc,NCT04445389,1
 Vaccines,Phase 1/2 Desc,NCT04368988,1
 Vaccines,Phase 1/2 Desc,NCT04463472 NCT04527081,1
-Vaccines,Phase 1/2 Desc,NCT04471519,1
-Vaccines,Phase 1/2 Desc,PACTR202006922165132 2020-001072-15 Interim Report,1
-Vaccines,Phase 2 Desc,ChiCTR2000031781 Study Report,1
 Vaccines,Phase 2 Desc,NCT04515147,1
-Vaccines,Phase 2 Desc,NCT04405076,1
-Vaccines,Phase 2 Desc,2020-001228-32,1
 Vaccines,Phase 2 Desc,NCT04466085,1
+Vaccines,Phase 2 Desc,2020-001228-32,1
+Vaccines,Phase 2 Desc,ChiCTR2000031781 Study Report,1
+Vaccines,Phase 2 Desc,NCT04405076,1
 Vaccines,Phase 3 Desc,ChiCTR2000034780,2
+Vaccines,Phase 3 Desc,NCT04368728,1
 Vaccines,Phase 3 Desc,NCT04530396,1
 Vaccines,Phase 3 Desc,NCT04505722 (not yet recruiting),1
-Vaccines,Phase 3 Desc,NCT04368728,1
 Vaccines,Phase 3 Desc,ISRCTN89951424 NCT04516746,1
-Vaccines,Phase 3 Desc,NCT04526990,1
 Vaccines,Phase 3 Desc,NCT04470427,1
 Vaccines,Phase 3 Desc,NCT04456595 669/UN6.KEP/EC/2020,1
-Vaccines,Current Phase,Phase 1,12
-Vaccines,Current Phase,Phase 1/2,10
-Vaccines,Current Phase,Phase 3,9
-Vaccines,Current Phase,Phase 2,2
+Vaccines,Phase 3 Desc,NCT04526990,1
+Vaccines,Current Stage,Pre-Clinical,142
+Vaccines,Current Stage,Phase 1,12
+Vaccines,Current Stage,Phase 1/2,10
+Vaccines,Current Stage,Phase 3,9
+Vaccines,Current Stage,Phase 2,2
+Vaccines,Clinical Stage,Pre-Clinical,142
+Vaccines,Clinical Stage,Clinical,33
+Vaccines,Coronavirus Target,SARS-CoV2,171
+Vaccines,Coronavirus Target,SARS-CoV2 and Sarbeco- Coronaviruses,1
+Vaccines,Coronavirus Target,Pan-Corona,1
+Vaccines,Coronavirus Target,"SARS-CoV2, SARS-CoV, & MERS-CoV",1
+Vaccines,Coronavirus Target,SARS-CoV1 SARS-CoV2,1
+Vaccines,Shared Platforms,Influenza,6
+Vaccines,Shared Platforms,MERS,4
+Vaccines,Shared Platforms,SARS,2
+Vaccines,Shared Platforms,"JE, Zika",1
+Vaccines,Shared Platforms,Many,1
+Vaccines,Shared Platforms,"Ebola, Marburg, Lassa",1
+Vaccines,Shared Platforms,"HeV, NiV, EBOV, LASSA, CCHFV, MERS",1
+Vaccines,Shared Platforms,"CMV, GBM, Zika",1
+Vaccines,Shared Platforms,"HAV, InfA, ZIKV, FMD, SIV, RSV, DENV",1
+Vaccines,Shared Platforms,Hepatitis C,1
+Vaccines,Shared Platforms,"Influenza, SARS-CoV",1
+Vaccines,Shared Platforms,"HIV, MERS",1
+Vaccines,Shared Platforms,HPV,1
+Vaccines,Shared Platforms,"NSCLC, HIV, malaria, Zika",1
+Vaccines,Shared Platforms,H7N9,1
+Vaccines,Shared Platforms,"Zika, VZV, HSV-2 and Norovirus",1
+Vaccines,Shared Platforms,"Flu A, plague",1
+Vaccines,Shared Platforms,malaria,1
+Vaccines,Shared Platforms,"Zika, H7N9, CHIKV",1
+Vaccines,Shared Platforms,"flu, Chik, Zika, EBOV, LASV, HIV/SIV,Cance",1
+Vaccines,Shared Platforms,"LASV, EBOV, MARV, HIV",1
+Vaccines,Shared Platforms,"InfA, CHIKV, LASV, NORV; EBOV, RVF, HBV, VEE",1
+Vaccines,Shared Platforms,"Smallpox, monkeypox",1
+Vaccines,Shared Platforms,"Ebola, Marburg, HIV, Zika, Influenza, HPV therapeutic vaccine, BreastCA vaccine",1
+Vaccines,Shared Platforms,"rubella, rotavirus",1
+Vaccines,Shared Platforms,Multiple candidates,1
+Vaccines,Shared Platforms,"Influenza, HIV, SARS-CoV",1

@@ -23,12 +23,12 @@ def get_tables(file_path):
 def output_csv(table_files):
 
     col_names_clinical = [
-        "COVID-19 Vaccine developer or manufacturer",
-        "Vaccine platform",
-        "Type of candidate vaccine",
-        "Number of doses",
-        "Timing of doses",
-        "Route of administration",
+        "Developer",
+        "Platform",
+        "Candiate Type",
+        "Dose Count",
+        "Dose Timing",
+        "Route",
         "Phase 1 Desc",
         "Phase 1/2 Desc",
         "Phase 2 Desc",
@@ -37,11 +37,11 @@ def output_csv(table_files):
 
     col_names_preclinical = [
         "Platform",
-        "Type of candidate vaccine",
+        "Candiate Type",
         "Developer",
-        "Coronavirus target",
-        "Current stage of clinical evaluation/regulatory -Coronavirus candidate",
-        "Same platform for non-Coronavirus candidates"
+        "Coronavirus Target",
+        "Clinical Stage",
+        "Shared Platforms"
     ]
 
     # get all csv files, append to list
@@ -74,8 +74,10 @@ def output_csv(table_files):
 
     # split to create clinical df, split 
     df_clinical = df_all.iloc[:clinical_end].copy()
+
     # drop empty column (in PDF extract is "Phase 3" but is empty bc cols shift bc of "Clinical Stage" col header)
     df_clinical.drop(df_clinical.columns[10], axis=1, inplace=True)
+
    # name the clinical columns
     df_clinical.columns = col_names_clinical
 
@@ -83,14 +85,14 @@ def output_csv(table_files):
     preclinical_start = clinical_end + 1
     df_preclinical = df_all.iloc[preclinical_start:].copy()
     
-    # create temp clinical counter cols
+    # create temp counter cols
     df_clinical['phase_1_counter'] = np.where(df_clinical['Phase 1 Desc'].notnull(), 1, '')
     df_clinical['phase_1_2_counter'] = np.where(df_clinical['Phase 1/2 Desc'].notnull(), 2, '')
     df_clinical['phase_2_counter'] = np.where(df_clinical['Phase 2 Desc'].notnull(), 3, '')
     df_clinical['phase_3_counter'] = np.where(df_clinical['Phase 3 Desc'].notnull(), 4, '')
 
-    # use temp counter cols to get current phase
-    df_clinical['Current Phase'] = df_clinical[['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']].max(axis=1)
+    # use temp counter cols to get clinical current phase
+    df_clinical['Clinical Phase'] = df_clinical[['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']].max(axis=1)
 
     # update counter number with words
     phase_dict = {
@@ -99,49 +101,55 @@ def output_csv(table_files):
         3: "Phase 2",
         4: "Phase 3"
         }
-    df_clinical['Current Phase'] = df_clinical['Current Phase'].replace(phase_dict)
+    df_clinical['Clinical Phase'] = df_clinical['Clinical Phase'].replace(phase_dict)
 
     # drop unneeded clinical cols
     drop_clinical_temp_cols = ['phase_1_counter','phase_1_2_counter','phase_2_counter','phase_3_counter']
     df_clinical.drop(drop_clinical_temp_cols, axis=1, inplace=True)
     
-    # cleanup clinical data Textract OCR or orig data entry errors
-    clinical_reps = {
-        'Timing of doses': {
-            'o, 0, 14 14':'0, 14',
-            '28 56':'28,56',
-            'o,':'0,', 
-            'O,':'0,'
-        },
-        'Vaccine platform': {
-            'Non-Replicating Vira Vector': 'Non-Replicating Viral Vector',
-            'Non-replicating Vira Vector': 'Non-Replicating viral vector',
-            'Protein subunit': 'Protein Subunit'
-        },
-    }
-    df_clinical.replace(clinical_reps, regex=True, inplace=True)
-
     # drop unneeded preclinical cols
     preclinical_drop_cols = [6,7,8,9,10]
     df_preclinical.drop(df_preclinical.columns[preclinical_drop_cols], axis=1, inplace=True)
+
     # name preclinical columns
     df_preclinical.columns = col_names_preclinical
 
-    # cleanup preclinical data Textract OCR or orig data entry errors
-    preclinical_reps = {
+    # create missing (implied so not included) column in clinical
+    df_clinical['Clinical Stage'] = 'Clinical'
+    df_clinical['Coronavirus Target'] = 'SARS-CoV2'
+
+    # create dummy columns with na value
+    df_preclinical['Clinical Stage'] = 'Pre-Clinical'
+    df_preclinical['Clinical Phase'] = 'Pre-Clinical'
+    df_preclinical['Dose Count'] = 'TBD'
+    df_preclinical['Dose Timing'] = 'TBD'
+    df_preclinical['Route'] = 'TBD'
+
+    # concat clinical and preclinical dfs back into one df
+    df_concat = pd.concat([df_clinical,df_preclinical]).fillna('')
+
+    # cleanup text data Textract OCR or orig data entry errors
+    text_reps = {
+        'Dose Timing': {
+            'o, 0, 14 14':'0, 14',
+            '28 56':'28,56',
+            'o,':'0,', 
+            'O,':'0,',
+            ', ':','
+        },
         'Platform': {
             'Non-replicating vira vector': 'Non-Replicating Viral Vector',
             'Non-replicating viral vector': 'Non-Replicating Viral Vector',
             'Replicating Vira Vector': 'Replicating Viral Vector',
             'Protein subunit': 'Protein Subunit'
         },
-        'Coronavirus target': {
+        'Coronavirus Target': {
             'SARS-CoV-2':'SARS-CoV2',
         },
-        'Same platform for non-Coronavirus candidates': {
+        'Shared Platforms': {
             'influenza': 'Influenza',
         },
-        'Type of candidate clinical' :{
+        'Candiate Type' :{
             's protein': 'S protein',
         },
         'Developer': {
@@ -149,14 +157,15 @@ def output_csv(table_files):
            'Osaka University/ BIKEN/ NIBIOHN': 'Osaka University/ BIKEN/ National Institutes of Biomedical Innovation'
         }
     }
-    df_preclinical.replace(preclinical_reps, regex=True, inplace=True)
+    df_concat.replace(text_reps, regex=True, inplace=True)
 
     # separate regex set to False to replace full cell values not partials
-    df_preclinical.replace({'Current stage of clinical evaluation/regulatory -Coronavirus candidate': {'Pre-Clinica':'Pre-Clinical','Pre-clinica': 'Pre-Clinical','Pre-clinical': 'Pre-Clinical'}}, regex=False, inplace=True)
+    df_concat.replace({'Clinical Phase': {'Pre-Clinica':'Pre-Clinical','Pre-clinica': 'Pre-Clinical','Pre-clinical': 'Pre-Clinical'}}, regex=False, inplace=True)
+    df_concat.replace({'Dose Count': {'':'TBD'}}, regex=False, inplace=True)
+    df_concat.replace({'Dose Timing': {'':'TBD'}}, regex=False, inplace=True)
 
     # save df to csv
-    df_clinical.to_csv(output_path + "who_clinical.csv", sep=',', encoding='utf-8', index=False)
-    df_preclinical.to_csv(output_path + "who_preclinical.csv", sep=',', encoding='utf-8', index=False)
+    df_concat.to_csv(output_path + "who_vaccines.csv", sep=',', encoding='utf-8', index=False)
 
 if __name__ == "__main__":
     main()
