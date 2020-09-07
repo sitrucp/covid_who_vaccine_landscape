@@ -4,7 +4,7 @@
 // get health region lookup csv from my github repository
 var file_column_counts = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/column_counts.csv";
 var file_update_time = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/update_time.csv";
-var file_vaccines = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccine.csv";
+var file_vaccines = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines.csv";
 
 Promise.all([
     d3.csv(file_column_counts),
@@ -17,9 +17,7 @@ Promise.all([
     var columnCounts = data[0];
     var updateTime = data[1];
     var vaccines = data[2];
-
-    var clinical_count = d3.count(vaccines, d => d['Current Stage'])
-
+    
     // get update time from working group repository
     lastUpdated = updateTime.columns[0];
 
@@ -39,7 +37,8 @@ Promise.all([
         var thead_tr;
         thead = $("<thead>");
         thead_tr = $("<tr/>");
-		thead_tr.append("<th>Current Stage</th>");
+        thead_tr.append("<th>Clinical Stage</th>");
+        thead_tr.append("<th>Clinical Phase</th>");
         thead_tr.append("<th>Developer</th>");
         thead_tr.append("<th>Platform</th>");
         thead_tr.append("<th>Candiate Type</th>");
@@ -54,20 +53,21 @@ Promise.all([
         thead_tr.append("<th>Shared Platforms</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
-        $('#clinical_table').append(thead);
+        $('#vaccine_table').append(thead);
 
         var table;
         var tbody;
         var tbody_tr;
         tbody = $("<tbody>");
-        $('#clinical_table').append(tbody);
+        $('#vaccine_table').append(tbody);
         for(var i = 0; i < vaccines.length; i++) {
             var obj = vaccines[i];
             tbody_tr = $('<tr/>');
-            tbody_tr.append("<td>" + obj["Current Stage"] + "</td>");
+            tbody_tr.append("<td>" + obj["Clinical Stage"] + "</td>");
+            tbody_tr.append("<td>" + obj["Clinical Phase"] + "</td>");
 			tbody_tr.append("<td>" + obj["Developer"] + "</td>");
             tbody_tr.append("<td>" + obj["Platform"] + "</td>");
-            tbody_tr.append("<td>" + obj["Candiate Type"] + "</td>");
+            tbody_tr.append("<td>" + obj["Candidate Type"] + "</td>");
             tbody_tr.append("<td>" + obj["Dose Count"] + "</td>");
             tbody_tr.append("<td>" + obj["Dose Timing"] + "</td>");
             tbody_tr.append("<td>" + obj["Route"] + "</td>");
@@ -178,13 +178,13 @@ Promise.all([
 
     document.getElementById('vaccine_count').innerHTML += vaccines.length;
 
-    document.getElementById('treatment_count').innerHTML += treatments.length;
+    document.getElementById('treatment_count').innerHTML += vaccines.length;
 
 
     $(function() {
         $("#vaccine_filter").on("keyup", function() {
             var value = $(this).val().toLowerCase();
-            $("#clinical_table > tbody > tr").filter(function() {
+            $("#vaccine_table > tbody > tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });
@@ -193,7 +193,7 @@ Promise.all([
     $(function() {
         $("#treatment_filter").on("keyup", function() {
             var value = $(this).val().toLowerCase();
-            $("#preclinical_table > tbody > tr").filter(function() {
+            $("#prevaccine_table > tbody > tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });

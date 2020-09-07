@@ -25,7 +25,7 @@ def output_csv(table_files):
     col_names_clinical = [
         "Developer",
         "Platform",
-        "Candiate Type",
+        "Candidate Type",
         "Dose Count",
         "Dose Timing",
         "Route",
@@ -37,7 +37,7 @@ def output_csv(table_files):
 
     col_names_preclinical = [
         "Platform",
-        "Candiate Type",
+        "Candidate Type",
         "Developer",
         "Coronavirus Target",
         "Clinical Stage",

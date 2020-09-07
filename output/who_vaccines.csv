@@ -1,4 +1,4 @@
-Developer,Platform,Candiate Type,Dose Count,Dose Timing,Route,Phase 1 Desc,Phase 1/2 Desc,Phase 2 Desc,Phase 3 Desc,Clinical Phase,Clinical Stage,Coronavirus Target,Shared Platforms
+Developer,Platform,Candidate Type,Dose Count,Dose Timing,Route,Phase 1 Desc,Phase 1/2 Desc,Phase 2 Desc,Phase 3 Desc,Clinical Phase,Clinical Stage,Coronavirus Target,Shared Platforms
 University of Oxford/AstraZeneca,Non-Replicating Viral Vector,ChAdox1-S,1,TBD,IM,,PACTR202006922165132 2020-001072-15 Interim Report,2020-001228-32,ISRCTN89951424 NCT04516746,Phase 3,Clinical,SARS-CoV2,
 CanSino Biological Inc./Beijing Institute of Biotechnology,Non-Replicating Viral Vector,Adenovirus Type 5 Vector,1,TBD,IM,ChiCTR2000030906 Study Report,,ChiCTR2000031781 Study Report,NCT04526990,Phase 3,Clinical,SARS-CoV2,
 Gamaleya Research Institute,Non-Replicating Viral Vector,Adeno-based (rAd26-S+rAd5-S),2,"0,21 days",IM,NCT04436471 NCT04437875,,,NCT04530396,Phase 3,Clinical,SARS-CoV2,
@@ -89,7 +89,7 @@ University of Virginia,Protein Subunit,S subunit intranasal liposomal formulatio
 AdaptVac (PREVENT-nCoV consortium),Protein Subunit,Capsid-like Particle,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
 ExpreS2ion,Protein Subunit,Drosophila S2 insect cell expression system VLPs,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
 IMV Inc,Protein Subunit,Peptide antigens formulated in LNP,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
-WRAIR/USAMRIID,Protein Subunit,S protein,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
+WRAIR/USAMRIID,Protein Subunit,s protein,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
 "National Institute of Infectious Disease, Japan/Shionogi/UMN Pharma",Protein Subunit,S protein +Adjuvant,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,Influenza
 "Osaka University/ BIKEN/ National Institutes of Biomedical Innovation, Japan",Protein Subunit,VLP-recombinant protein + Adjuvant,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,
 Univ. of Pittsburgh,Protein Subunit,microneedle arrays S1 subunit,TBD,TBD,TBD,,,,,Pre-Clinical,Pre-Clinical,SARS-CoV2,MERS
