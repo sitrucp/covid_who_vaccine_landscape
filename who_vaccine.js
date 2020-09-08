@@ -58,12 +58,12 @@ Promise.all([
         var table;
         var tbody;
         var tbody_tr;
-        tbody = $("<tbody>");
+        tbody = $("<tbody id='filter_body'>");
         $('#vaccine_table').append(tbody);
         for(var i = 0; i < vaccines.length; i++) {
             var obj = vaccines[i];
             tbody_tr = $('<tr/>');
-            tbody_tr.append("<td>" + obj["Clinical Stage"] + "</td>");
+            tbody_tr.append("<td>" + " " + obj["Clinical Stage"] + "</td>");
             tbody_tr.append("<td>" + obj["Clinical Phase"] + "</td>");
 			tbody_tr.append("<td>" + obj["Developer"] + "</td>");
             tbody_tr.append("<td>" + obj["Platform"] + "</td>");
@@ -84,14 +84,12 @@ Promise.all([
     //CREATE COLUMN COUNT TABLES=================================
     
     $(document).ready(function () {
-
         if($('body').is('.column_counts')){
             // loop through uniqueSourceColumnNames
             for(var i = 0; i < uniqueSourceColumnNames.length; i++) {
                 var uniqueSourceColumnName = uniqueSourceColumnNames[i];
                 var tableId = 'tbl_' + uniqueSourceColumnName.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
                 var sectionName = uniqueSourceColumnName.split("|")[0] + ': ' + uniqueSourceColumnName.split("|")[1];
-                
                 // filter to uniqueSourceColumnNames
                 var tableArray = columnCounts.filter(function(d) {
                     if (uniqueSourceColumnName === columnCounts["source_column_name"]) {
@@ -100,10 +98,8 @@ Promise.all([
                         return d.source_column_name === uniqueSourceColumnName;
                     }
                 });
-
                 // create table
                 addTable(tableArray, tableId, sectionName);
-
             }
         }
     });
@@ -115,7 +111,7 @@ Promise.all([
                 'Column Value': obj.column_value,
                 'Value Count': obj.value_count
             }
-          });
+        });
 
         var table = document.createElement('table');
         table.id = tableId;
@@ -165,12 +161,23 @@ Promise.all([
         $("#vaccine_table").tablesorter();
         $(".counttable").tablesorter();
 
-        $('#btn_hide_show_summaries').click(function() {
-            var selection = $(this).val();
-            var rows = $("#data_table > tbody > tr");
-            rows.filter(function() {
-                $(this).toggle($(this).text().indexOf(selection) > -1)
-            });
+        $("#btn_clinical").click(function () {
+            var rows = $("#filter_body").find("tr").hide();
+            rows.filter(":contains('Pre-Clinical')").show();
+         });
+
+        $("#btn_clinical").click(function () {
+            var rows = $("#filter_body").find("tr").hide();
+            rows.filter(":contains(' Clinical')").show();
+        });
+
+        $("#btn_preclinical").click(function () {
+            var rows = $("#filter_body").find("tr").hide();
+            rows.filter(":contains('Pre-Clinical')").show();
+        });
+
+        $('#btn_all').click(function(){
+            $('tbody > tr').show();
         });
     });
 
@@ -179,7 +186,6 @@ Promise.all([
     document.getElementById('vaccine_count').innerHTML += vaccines.length;
 
     document.getElementById('treatment_count').innerHTML += vaccines.length;
-
 
     $(function() {
         $("#vaccine_filter").on("keyup", function() {
@@ -190,14 +196,10 @@ Promise.all([
         });
     });
 
-    $(function() {
-        $("#treatment_filter").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#prevaccine_table > tbody > tr").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-        });
+    $('#vaccine_filter_reset').click(function(){
+        $('tbody > tr').show();
     });
+    
 
 });
 
