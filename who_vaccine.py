@@ -8,20 +8,37 @@ pdf_data_path = settings['pdf_data_path']
 output_path = settings['output_path']
 
 def main():
-    table_files = get_tables(pdf_data_path)
-    output_csv(table_files)
+    rename_files()
+    df_file_concat = get_df_file_concat(pdf_data_path)
+    output_csv(df_file_concat)
 
-def get_tables(file_path):
-    table_files = []
 
+# rename file number with pad zero to sort in correct order
+def rename_files():
     os.chdir(pdf_data_path)
     for file in glob.glob("table*"):
-        table_files.append(file)
+        file_num = file.split('-')[1].replace('.csv','')
+        file_num_pad = file_num.zfill(2)
+        os.rename(file, 'table-' + file_num_pad + '.csv') 
 
-    return table_files
 
-def output_csv(table_files):
+# get table csv files and append names to list
+def get_df_file_concat(file_path):
+    df_file_list = list()
+    os.chdir(pdf_data_path)
+    for file in glob.glob("table*"):
+        df_file = pd.read_csv(pdf_data_path + file, header=None)
+        df_file_list.append(df_file)
 
+    # create new df from file list
+    df_file_concat = pd.concat(df_file_list, axis=0, ignore_index=True)
+
+    return df_file_concat
+
+
+# process table csv files and output who_vaccines.csv table data
+def output_csv(df_file_concat):
+    # create col names for dataframes
     col_names_clinical = [
         "Developer",
         "Platform",
@@ -34,7 +51,6 @@ def output_csv(table_files):
         "Phase 2 Desc",
         "Phase 3 Desc"
     ]
-
     col_names_preclinical = [
         "Platform",
         "Candidate Type",
@@ -44,18 +60,8 @@ def output_csv(table_files):
         "Shared Platforms"
     ]
 
-    # get all csv files, append to list
-    file_list = list()
-    for file in table_files:
-        df_file = pd.read_csv(pdf_data_path + file, header=None)
-        file_list.append(df_file)
-
-    # create new df from file list
-    df_raw = pd.concat(file_list, axis=0, ignore_index=True)
-
-    #clean up all content
-    # remove trailing spaces entire df (not completely working yet, some are quotes so not stripping)
-    df_all = df_raw.applymap(lambda x: x.rstrip() if type(x)==str else x)
+    #clean up all content remove trailing spaces entire df (not completely working yet, some are quotes so not stripping)
+    df_all = df_file_concat.applymap(lambda x: x.rstrip() if type(x)==str else x)
 
     # exclude top 2 rows
     df_all = df_all.iloc[2:]
@@ -66,11 +72,8 @@ def output_csv(table_files):
     # reset index to use in split
     df_all.reset_index(drop=True, inplace=True)
 
-    df_all.head(200).to_clipboard(sep=',')
-
     # get clinical_end index value, eg where preclinical headers start
     clinical_end = (df_all[df_all.iloc[:,0]=='Platform'].index.item())
-    print(clinical_end)
 
     # split to create clinical df, split 
     df_clinical = df_all.iloc[:clinical_end].copy()

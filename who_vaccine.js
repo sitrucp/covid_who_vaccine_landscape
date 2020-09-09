@@ -28,7 +28,15 @@ Promise.all([
 
     // get unique source and column name concat value
     const arrayColumn = (arr, n) => arr.map(x => x[n]);
-    var uniqueSourceColumnNames = [...new Set(columnCounts.map(item => item.source_column_name))];
+    var stageColumns = [...new Set(columnCounts.map(item => item.source_column_name))];
+
+    var clinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Clinical').length;
+    var preclinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
+    console.log(preclinical_count);
+
+    document.getElementById('updated').innerHTML += lastUpdated;
+    document.getElementById('vaccine_count').innerHTML += clinical_count;
+    document.getElementById('treatment_count').innerHTML += preclinical_count;
 
    //CREATE VACCINE TABLE=================================
 
@@ -85,17 +93,17 @@ Promise.all([
     
     $(document).ready(function () {
         if($('body').is('.column_counts')){
-            // loop through uniqueSourceColumnNames
-            for(var i = 0; i < uniqueSourceColumnNames.length; i++) {
-                var uniqueSourceColumnName = uniqueSourceColumnNames[i];
-                var tableId = 'tbl_' + uniqueSourceColumnName.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                var sectionName = uniqueSourceColumnName.split("|")[0] + ': ' + uniqueSourceColumnName.split("|")[1];
-                // filter to uniqueSourceColumnNames
+            // loop through stageColumns
+            for(var i = 0; i < stageColumns.length; i++) {
+                var stageColumn = stageColumns[i];
+                var tableId = 'tbl_' + stageColumn.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
+                var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
+                // filter to stageColumns
                 var tableArray = columnCounts.filter(function(d) {
-                    if (uniqueSourceColumnName === columnCounts["source_column_name"]) {
-                        return d.source_column_name !== uniqueSourceColumnName;
+                    if (stageColumn === columnCounts["source_column_name"]) {
+                        return d.source_column_name !== stageColumn;
                     } else {
-                        return d.source_column_name === uniqueSourceColumnName;
+                        return d.source_column_name === stageColumn;
                     }
                 });
                 // create table
@@ -180,12 +188,6 @@ Promise.all([
             $('tbody > tr').show();
         });
     });
-
-    document.getElementById('updated').innerHTML += lastUpdated;
-
-    document.getElementById('vaccine_count').innerHTML += vaccines.length;
-
-    document.getElementById('treatment_count').innerHTML += vaccines.length;
 
     $(function() {
         $("#vaccine_filter").on("keyup", function() {
