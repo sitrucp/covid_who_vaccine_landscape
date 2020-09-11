@@ -32,7 +32,6 @@ Promise.all([
 
     var clinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Clinical').length;
     var preclinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
-    console.log(preclinical_count);
 
     document.getElementById('updated').innerHTML += lastUpdated;
     document.getElementById('vaccine_count').innerHTML += clinical_count;
@@ -97,7 +96,8 @@ Promise.all([
             for(var i = 0; i < stageColumns.length; i++) {
                 var stageColumn = stageColumns[i];
                 var tableId = 'tbl_' + stageColumn.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
+                //var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
+                var sectionName = stageColumn.split("|")[1];
                 // filter to stageColumns
                 var tableArray = columnCounts.filter(function(d) {
                     if (stageColumn === columnCounts["source_column_name"]) {
