@@ -166,7 +166,7 @@ Promise.all([
 
     
     $(document).ready(function($) {
-        $("#vaccine_table").tablesorter();
+        $("#clinical_table").tablesorter();
         $(".counttable").tablesorter();
 
         $("#btn_clinical").click(function () {
