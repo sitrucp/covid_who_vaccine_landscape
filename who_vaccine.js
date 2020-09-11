@@ -61,13 +61,13 @@ Promise.all([
         thead_tr.append("<th>Shared Platforms</th>");
         thead_tr.append("</tr>");
         thead.append(thead_tr);
-        $('#vaccine_table').append(thead);
+        $('#clinical_table').append(thead);
 
         var table;
         var tbody;
         var tbody_tr;
         tbody = $("<tbody id='filter_body'>");
-        $('#vaccine_table').append(tbody);
+        $('#clinical_table').append(tbody);
         for(var i = 0; i < vaccines.length; i++) {
             var obj = vaccines[i];
             tbody_tr = $('<tr/>');
@@ -189,19 +189,33 @@ Promise.all([
         });
     });
 
+    // clinical table input form filter & reset
     $(function() {
-        $("#vaccine_filter").on("keyup", function() {
+        $("#clinical_filter").on("keyup", function() {
             var value = $(this).val().toLowerCase();
-            $("#vaccine_table > tbody > tr").filter(function() {
+            $("#clinical_table > tbody > tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });
     });
 
-    $('#vaccine_filter_reset').click(function(){
+    $('#clinical_filter_reset').click(function(){
         $('tbody > tr').show();
     });
-    
+
+    // preclinical table input form filter & reset
+    $(function() {
+        $("#preclinical_filter").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $(".counttable > tbody > tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+
+    $('#preclinical_filter_reset').click(function(){
+        $('tbody > tr').show();
+    });
 
 });
 
