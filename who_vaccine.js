@@ -65,7 +65,7 @@ Promise.all([
         var table;
         var tbody;
         var tbody_tr;
-        tbody = $("<tbody id='filter_body'>");
+        tbody = $("<tbody class='filter_body'>");
         $('#clinical_table').append(tbody);
         for(var i = 0; i < vaccineDetail.length; i++) {
             var obj = vaccineDetail[i];
@@ -97,8 +97,8 @@ Promise.all([
             for(var i = 0; i < stageColumns.length; i++) {
                 var stageColumn = stageColumns[i];
                 var tableId = 'tbl_' + stageColumn.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                //var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
-                var sectionName = stageColumn.split("|")[1];
+                var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
+                //var sectionName = stageColumn.split("|")[1];
                 // filter to stageColumns
                 var tableArray = vaccineSummary.filter(function(d) {
                     if (stageColumn === vaccineSummary["source_column_name"]) {
@@ -117,8 +117,10 @@ Promise.all([
         var myTableDiv = document.getElementById("table_div");
         let tableData = tableArray.map(function(obj) {
             return {
+                'Clinical Stage': obj.clinical_stage,
+                'Column Name': obj.column_name,
                 'Column Value': obj.column_value,
-                'Value Count': obj.value_count
+                'Candidate Count': obj.value_count
             }
         });
 
@@ -130,6 +132,7 @@ Promise.all([
         table.appendChild(tableHead);
 
         var tableBody = document.createElement('tbody');
+        tableBody.className = "filter_body";
         table.appendChild(tableBody);
       
         // separate tables with section header
@@ -171,17 +174,17 @@ Promise.all([
         $(".counttable").tablesorter();
 
         $("#btn_clinical").click(function () {
-            var rows = $("#filter_body").find("tr").hide();
+            var rows = $(".filter_body").find("tr").hide();
             rows.filter(":contains('Pre-Clinical')").show();
          });
 
         $("#btn_clinical").click(function () {
-            var rows = $("#filter_body").find("tr").hide();
+            var rows = $(".filter_body").find("tr").hide();
             rows.filter(":contains(' Clinical')").show();
         });
 
         $("#btn_preclinical").click(function () {
-            var rows = $("#filter_body").find("tr").hide();
+            var rows = $(".filter_body").find("tr").hide();
             rows.filter(":contains('Pre-Clinical')").show();
         });
 
