@@ -113,6 +113,7 @@ Promise.all([
         }
     });
 
+    // create one summary section & table per column
     function addTable(tableArray, tableId, sectionName) {
         var myTableDiv = document.getElementById("table_div");
         let tableData = tableArray.map(function(obj) {
@@ -168,13 +169,13 @@ Promise.all([
         myTableDiv.appendChild(table);
       }
 
-    
+    // buttons to filter table rows clinical and preclinical
     $(document).ready(function($) {
         $("#clinical_table").tablesorter();
         $(".counttable").tablesorter();
 
         $("#btn_clinical").click(function () {
-            var rows = $(".filter_body").find("tr").hide();
+            var rows = $(".filter_body").find("").hide();
             rows.filter(":contains('Pre-Clinical')").show();
          });
 
@@ -202,7 +203,6 @@ Promise.all([
             });
         });
     });
-
     $('#clinical_filter_reset').click(function(){
         $('tbody > tr').show();
     });
@@ -216,7 +216,6 @@ Promise.all([
             });
         });
     });
-
     $('#preclinical_filter_reset').click(function(){
         $('tbody > tr').show();
     });
