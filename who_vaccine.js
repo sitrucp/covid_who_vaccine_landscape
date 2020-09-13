@@ -2,40 +2,40 @@
 //GET DATA=================================
 // get csv files from working group github repository
 // get health region lookup csv from my github repository
-var file_column_counts = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/column_counts.csv";
 var file_update_time = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/update_time.csv";
-var file_vaccines = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines.csv";
+var file_vaccine_detail = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines_detail.csv";
+var file_vaccine_summary = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines_summary.csv";
 
 Promise.all([
-    d3.csv(file_column_counts),
     d3.csv(file_update_time),
-    d3.csv(file_vaccines)
+    d3.csv(file_vaccine_detail),
+    d3.csv(file_vaccine_summary)
 ]).then(function(data) {
     //everthing else below is in d3 promise scope
 
     // get data sets from promise
-    var columnCounts = data[0];
-    var updateTime = data[1];
-    var vaccines = data[2];
+    var updateTime = data[0];
+    var vaccineDetail = data[1];
+    var vaccineSummary = data[2];
     
     // get update time from working group repository
     lastUpdated = updateTime.columns[0];
 
     // create source and column name concat value
-    columnCounts.forEach(function(d) {
-        d.source_column_name = d.source + '|' + d.column_name
+    vaccineSummary.forEach(function(d) {
+        d.source_column_name = d.clinical_stage + '|' + d.column_name
     });
 
     // get unique source and column name concat value
     const arrayColumn = (arr, n) => arr.map(x => x[n]);
-    var stageColumns = [...new Set(columnCounts.map(item => item.source_column_name))];
+    var stageColumns = [...new Set(vaccineSummary.map(item => item.source_column_name))];
 
-    var clinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Clinical').length;
-    var preclinical_count = vaccines.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
+    var clinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Clinical').length;
+    var preclinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
 
     document.getElementById('updated').innerHTML += lastUpdated;
-    document.getElementById('vaccine_count').innerHTML += clinical_count;
-    document.getElementById('treatment_count').innerHTML += preclinical_count;
+    document.getElementById('clinical_count').innerHTML += clinical_count;
+    document.getElementById('preclinical_count').innerHTML += preclinical_count;
 
    //CREATE VACCINE TABLE=================================
 
@@ -67,8 +67,8 @@ Promise.all([
         var tbody_tr;
         tbody = $("<tbody id='filter_body'>");
         $('#clinical_table').append(tbody);
-        for(var i = 0; i < vaccines.length; i++) {
-            var obj = vaccines[i];
+        for(var i = 0; i < vaccineDetail.length; i++) {
+            var obj = vaccineDetail[i];
             tbody_tr = $('<tr/>');
             tbody_tr.append("<td>" + " " + obj["Clinical Stage"] + "</td>");
             tbody_tr.append("<td>" + obj["Clinical Phase"] + "</td>");
@@ -91,6 +91,7 @@ Promise.all([
     //CREATE COLUMN COUNT TABLES=================================
     
     $(document).ready(function () {
+        // if to see if this is detail or summary page, run only on summary page
         if($('body').is('.column_counts')){
             // loop through stageColumns
             for(var i = 0; i < stageColumns.length; i++) {
@@ -99,8 +100,8 @@ Promise.all([
                 //var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
                 var sectionName = stageColumn.split("|")[1];
                 // filter to stageColumns
-                var tableArray = columnCounts.filter(function(d) {
-                    if (stageColumn === columnCounts["source_column_name"]) {
+                var tableArray = vaccineSummary.filter(function(d) {
+                    if (stageColumn === vaccineSummary["source_column_name"]) {
                         return d.source_column_name !== stageColumn;
                     } else {
                         return d.source_column_name === stageColumn;
@@ -137,7 +138,7 @@ Promise.all([
         
         var header_data = Object.keys(tableData[0]);
         
-        // get head values
+        // get thead th values
         for (var j = 0; j < header_data.length; j++) {
             var th = document.createElement('th');
             th.appendChild(document.createTextNode(header_data[j]));

@@ -168,7 +168,7 @@ def output_csv(df_file_concat):
     df_concat.replace({'Dose Timing': {'':'TBD'}}, regex=False, inplace=True)
 
     # save df to csv
-    df_concat.to_csv(output_path + "who_vaccines.csv", sep=',', encoding='utf-8', index=False)
+    df_concat.to_csv(output_path + "who_vaccines_detail.csv", sep=',', encoding='utf-8', index=False)
 
 if __name__ == "__main__":
     main()
