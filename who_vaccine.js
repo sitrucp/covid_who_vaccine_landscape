@@ -2,24 +2,23 @@
 //GET DATA=================================
 // get csv files from working group github repository
 // get health region lookup csv from my github repository
-var file_update_time = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/update_time.csv";
+var file_publication_date = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/publication_date.csv";
 var file_vaccine_detail = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines_detail.csv";
 var file_vaccine_summary = "https://raw.githubusercontent.com/sitrucp/who_vaccine_landscape/master/output/who_vaccines_summary.csv";
 
 Promise.all([
-    d3.csv(file_update_time),
+    d3.csv(file_publication_date),
     d3.csv(file_vaccine_detail),
     d3.csv(file_vaccine_summary)
 ]).then(function(data) {
     //everthing else below is in d3 promise scope
 
     // get data sets from promise
-    var updateTime = data[0];
     var vaccineDetail = data[1];
     var vaccineSummary = data[2];
     
-    // get update time from working group repository
-    lastUpdated = updateTime.columns[0];
+    // get PDF publication date
+    var publicationDate = data[0].columns[0];
 
     // create source and column name concat value
     vaccineSummary.forEach(function(d) {
@@ -33,7 +32,7 @@ Promise.all([
     var clinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Clinical').length;
     var preclinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
 
-    document.getElementById('updated').innerHTML += lastUpdated;
+    document.getElementById('publication_date').innerHTML += publicationDate;
     document.getElementById('clinical_count').innerHTML += clinical_count;
     document.getElementById('preclinical_count').innerHTML += preclinical_count;
 
