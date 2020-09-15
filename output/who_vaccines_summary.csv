@@ -41,10 +41,10 @@
 0, Clinical,Clinical Stage,Clinical,34
 1, Clinical,Clinical Stage,Pre-Clinical,144
 0, Clinical,Coronavirus Target,Pan-Corona,1
-1, Clinical,Coronavirus Target,SARS-CoV1 SARS-CoV2,1
-2, Clinical,Coronavirus Target,SARS-CoV2,174
-3, Clinical,Coronavirus Target,SARS-CoV2 and Sarbeco- Coronaviruses,1
-4, Clinical,Coronavirus Target,"SARS-CoV2, SARS-CoV, & MERS-CoV",1
+1, Clinical,Coronavirus Target,SARS-CoV-2,174
+2, Clinical,Coronavirus Target,SARS-CoV-2 and Sarbeco- Coronaviruses,1
+3, Clinical,Coronavirus Target,"SARS-CoV-2, SARS-CoV, & MERS-CoV",1
+4, Clinical,Coronavirus Target,SARS-CoV1 SARS-CoV-2,1
 0, Clinical,Developer,AJ Vaccines,1
 1, Clinical,Developer,ARTES Biotechnology,1
 2, Clinical,Developer,AdaptVac (PREVENT-nCoV consortium),1

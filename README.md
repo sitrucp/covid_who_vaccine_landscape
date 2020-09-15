@@ -6,13 +6,13 @@ I wanted a machine readable format version of this PDF document's table data so 
 
 Read <a href="https://009co.com/?page_id=1212" target="_blank">here</a> about how I used the AWS Textract solution.
 
-The AWS Textract PDF extraction output files are here in this <a href="https://github.com/sitrucp/who_vaccine_landscape">Github repository</a>.
+The AWS Textract PDF extraction output files are in this Github repository.
 
-View processed AWS Textract PDF extraction output file data rendered in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>. The HTML and Javascript used to produce this view are in this repository. The HTML pages are hosted on a github.io site based on this repository.
+View processed AWS Textract PDF extraction output file data rendered in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>. The HTML and Javascript used to produce this view are in this repository. The HTML pages are hosted on a github.io site based on this Github repository.
 
-The Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are also in this repository.
+The Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are also in this Github repository.
 
-The AWS Textract process output is a zip file who's contents are in the 'PDF_data' folder in this repository. The files are listed below.
+The AWS Textract process output is a zip file who's contents are in the 'PDF_data' folder in this Github repository. The files are listed below.
 
 These 3 files appear to be standard information for any AWS Textract job:
 

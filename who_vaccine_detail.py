@@ -147,7 +147,7 @@ def output_csv(df_file_concat):
             'Protein subunit': 'Protein Subunit'
         },
         'Coronavirus Target': {
-            'SARS-CoV-2':'SARS-CoV2',
+            'SARS-CoV2':'SARS-CoV-2',
         },
         'Shared Platforms': {
             'influenza': 'Influenza',
