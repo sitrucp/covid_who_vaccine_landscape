@@ -68,21 +68,24 @@ Promise.all([
         $('#clinical_table').append(tbody);
         for(var i = 0; i < vaccineDetail.length; i++) {
             var obj = vaccineDetail[i];
+
             tbody_tr = $('<tr/>');
-            tbody_tr.append("<td>" + " " + obj["Clinical Stage"] + "</td>");
-            tbody_tr.append("<td>" + obj["Clinical Phase"] + "</td>");
-			tbody_tr.append("<td>" + obj["Developer"] + "</td>");
-            tbody_tr.append("<td>" + obj["Platform"] + "</td>");
-            tbody_tr.append("<td>" + obj["Candidate Type"] + "</td>");
-            tbody_tr.append("<td>" + obj["Dose Count"] + "</td>");
-            tbody_tr.append("<td>" + obj["Dose Timing"] + "</td>");
-            tbody_tr.append("<td>" + obj["Route"] + "</td>");
-            tbody_tr.append("<td>" + obj["Phase 1 Desc"] + "</td>");
-            tbody_tr.append("<td>" + obj["Phase 1/2 Desc"] + "</td>");
-            tbody_tr.append("<td>" + obj["Phase 2 Desc"] + "</td>");
-            tbody_tr.append("<td>" + obj["Phase 3 Desc"] + "</td>");
-            tbody_tr.append("<td>" + obj["Coronavirus Target"] + "</td>");
-            tbody_tr.append("<td>" + obj["Shared Platforms"] + "</td>");
+            tbody_tr.append("<td>" + " " + obj['Clinical Stage'] + "</td>");
+
+            tbody_tr.append("<td><span class='stage' style='background-color:" + getColor(obj['Clinical Phase']) + ";'>" + obj['Clinical Phase'] + "</span></td >");
+
+            tbody_tr.append("<td>" + obj['Developer'] + "</td>");
+            tbody_tr.append("<td>" + obj['Platform'] + "</td>");
+            tbody_tr.append("<td>" + obj['Candidate Type'] + "</td>");
+            tbody_tr.append("<td>" + obj['Dose Count'] + "</td>");
+            tbody_tr.append("<td>" + obj['Dose Timing'] + "</td>");
+            tbody_tr.append("<td>" + obj['Route'] + "</td>");
+            tbody_tr.append("<td>" + obj['Phase 1 Desc'] + "</td>");
+            tbody_tr.append("<td>" + obj['Phase 1/2 Desc'] + "</td>");
+            tbody_tr.append("<td>" + obj['Phase 2 Desc'] + "</td>");
+            tbody_tr.append("<td>" + obj['Phase 3 Desc'] + "</td>");
+            tbody_tr.append("<td>" + obj['Coronavirus Target'] + "</td>");
+            tbody_tr.append("<td>" + obj['Shared Platforms'] + "</td>");
             tbody.append(tbody_tr);
         }
     });
@@ -112,6 +115,23 @@ Promise.all([
         }
     });
 
+    function getColor(phase) {
+        var colors = {
+            '#264653': 'Pre-Clinical', // Charcoal
+            '#e76f51': 'Phase 1', // Burnt Sienna
+            '#f4a261': 'Phase 1/2', // Sandy Brown
+            '#e9c46a': 'Phase 2', // Orange Yellow Crayola
+            '#2a9d8f': 'Phase 3' // Persian Green
+        };
+
+        for (var color in colors) {
+            if(colors[color] == phase){
+                return color;
+            }
+        }
+        return false;
+    }
+
     // create one summary section & table per column
     function addTable(tableArray, tableId, sectionName) {
         var myTableDiv = document.getElementById("table_div");
@@ -126,7 +146,7 @@ Promise.all([
 
         var table = document.createElement('table');
         table.id = tableId;
-        table.className  = "table w-auto small table-striped counttable tablesorter";
+        table.className  = "table w-auto small counttable tablesorter";
       
         var tableHead = document.createElement('thead');
         table.appendChild(tableHead);
