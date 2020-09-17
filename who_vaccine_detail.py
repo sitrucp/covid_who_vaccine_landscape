@@ -120,6 +120,10 @@ def output_csv(df_file_concat):
     # create missing (implied so not included) column in clinical
     df_clinical['Clinical Stage'] = 'Clinical'
     df_clinical['Coronavirus Target'] = 'SARS-CoV2'
+    df_clinical.loc[df_clinical['Dose Count'] == '1', 'Dose Timing'] = '0'
+    df_clinical.loc[(df_clinical['Dose Count'] == '2') & (pd.isnull(df_clinical['Dose Timing'])), 'Dose Timing'] = 'Not given'
+    df_clinical.loc[pd.isnull(df_clinical['Dose Count']) & (pd.isnull(df_clinical['Dose Timing'])), 'Dose Timing'] = 'Not given'
+    df_clinical.loc[pd.isnull(df_clinical['Dose Count']), 'Dose Count'] = 'Not given'
 
     # create dummy columns with na value
     df_preclinical['Clinical Stage'] = 'Pre-Clinical'
@@ -164,8 +168,6 @@ def output_csv(df_file_concat):
 
     # separate regex set to False to replace full cell values not partials
     df_concat.replace({'Clinical Phase': {'Pre-Clinica':'Pre-Clinical','Pre-clinica': 'Pre-Clinical','Pre-clinical': 'Pre-Clinical'}}, regex=False, inplace=True)
-    df_concat.replace({'Dose Count': {'':'TBD'}}, regex=False, inplace=True)
-    df_concat.replace({'Dose Timing': {'':'TBD'}}, regex=False, inplace=True)
 
     # save df to csv
     df_concat.to_csv(output_path + "who_vaccines_detail.csv", sep=',', encoding='utf-8', index=False)

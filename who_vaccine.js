@@ -26,8 +26,8 @@ Promise.all([
     });
 
     // get unique source and column name concat value
-    const arrayColumn = (arr, n) => arr.map(x => x[n]);
-    var stageColumns = [...new Set(vaccineSummary.map(item => item.source_column_name))];
+    //const arrayColumn = (arr, n) => arr.map(x => x[n]);
+    var tableColumns = [...new Set(vaccineSummary.map(item => item.column_name))];
 
     var clinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Clinical').length;
     var preclinical_count = vaccineDetail.filter(item => item['Clinical Stage'] === 'Pre-Clinical').length;
@@ -95,18 +95,18 @@ Promise.all([
     $(document).ready(function () {
         // if to see if this is detail or summary page, run only on summary page
         if($('body').is('.column_counts')){
-            // loop through stageColumns
-            for(var i = 0; i < stageColumns.length; i++) {
-                var stageColumn = stageColumns[i];
-                var tableId = 'tbl_' + stageColumn.split("|")[1].split(" ").join("_").replace(/\//g,"_").replace("-","_");
-                var sectionName = stageColumn.split("|")[0] + ': ' + stageColumn.split("|")[1];
+            // loop through tableColumns
+            for(var i = 0; i < tableColumns.length; i++) {
+                var tableColumn = tableColumns[i];
+                var tableId = 'tbl_' + tableColumn.replace(" ","_");
+                var sectionName = tableColumn;
                 //var sectionName = stageColumn.split("|")[1];
-                // filter to stageColumns
+                // filter to tableColumns
                 var tableArray = vaccineSummary.filter(function(d) {
-                    if (stageColumn === vaccineSummary["source_column_name"]) {
-                        return d.source_column_name !== stageColumn;
+                    if (tableColumn === vaccineSummary["column_name"]) {
+                        return d.column_name !== tableColumn; //False
                     } else {
-                        return d.source_column_name === stageColumn;
+                        return d.column_name === tableColumn; //True
                     }
                 });
                 // create table

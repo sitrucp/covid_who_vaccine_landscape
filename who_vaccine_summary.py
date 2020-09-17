@@ -7,6 +7,9 @@ df = pd.read_csv(output_path + 'who_vaccines_detail.csv')
 
 df_list = []
 
+# need to get correct clinical stage
+# currently, dose count TBD is showing as clinical not pre-clinical
+
 for col in df.columns:
     df_col = pd.pivot_table(df, index=[df[col]], aggfunc='size', fill_value=0)
     df_col_flat = df_col.reset_index()
