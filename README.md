@@ -1,18 +1,16 @@
-**WHO "Draft landscape of COVID-19 candidate vaccines" - convert PDF to csv**
+**WHO "Draft landscape of COVID-19 candidate vaccines" - AWS Textract convert PDF to csv**
 
-The WHO creates a regularly updated PDF document named <a href="https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines" target="_blank" rel="noopener noreferrer">Draft landscape of COVID-19 candidate vaccines</a> which is a summary of all COVID-19 vaccine candidates and treatments currently being developed and their status.
+The World Health Organization (WHO) creates a regularly updated PDF document named <a href="https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines" target="_blank" rel="noopener noreferrer">Draft landscape of COVID-19 candidate vaccines</a> which is a summary of all COVID-19 vaccine candidates and treatments currently being developed and their status.
 
 I wanted a machine readable format version of this PDF document's table data so I could do some analysis. This meant I needed to do PDF text extraction. There are lots of solutions. I ended up using AWS Textract to extract the PDF into csv file format.
 
-View processed AWS Textract PDF extraction output file data rendered in HTML tabular format <a href="https://sitrucp.github.io/who_vaccine_landscape">here</a>. The HTML and Javascript used to produce this view are in this repository. 
+View <a href="https://sitrucp.github.io/who_vaccine_landscape">Github.io hosted site</a> to see how AWS Textract output data was used to create interactive presentation. 
 
-Read <a href="https://009co.com/?page_id=1212" target="_blank">here</a> about how I used the AWS Textract solution.
+Read <a href="https://009co.com/?page_id=1212" target="_blank">my blog post</a> to learn more about how I used the AWS Textract solution.
 
-The AWS Textract PDF extraction output files are in this Github repository.
+The HTML, Javascript to create site, AWS Textract PDF extraction output files, Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are in this repository.
 
-The Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are also in this Github repository.
-
-The AWS Textract process output is a zip file who's contents are in the 'PDF_data' folder in this Github repository. The files are listed below.
+The AWS Textract process output's a zip file who's contents are in the 'PDF_data' folder in this Github repository. The files are listed below.
 
 These 3 files appear to be standard information for any AWS Textract job:
 
