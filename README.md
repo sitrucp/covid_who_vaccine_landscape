@@ -1,4 +1,4 @@
-**WHO "Draft landscape of COVID-19 candidate vaccines" - AWS Textract convert PDF to csv**
+# WHO "Draft landscape of COVID-19 candidate vaccines" - AWS Textract convert PDF to csv
 
 The World Health Organization (WHO) creates a regularly updated PDF document named <a href="https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines" target="_blank" rel="noopener noreferrer">Draft landscape of COVID-19 candidate vaccines</a> which is a summary of all COVID-19 vaccine candidates and treatments currently being developed and their status.
 
@@ -9,6 +9,8 @@ View <a href="https://sitrucp.github.io/who_vaccine_landscape">Github.io hosted 
 Read <a href="https://009co.com/?page_id=1212" target="_blank">my blog post</a> to learn more about how I used the AWS Textract solution.
 
 The HTML, Javascript to create site, AWS Textract PDF extraction output files, Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are in this repository.
+
+## AWS Textract output
 
 The AWS Textract process output's a zip file who's contents are in the 'PDF_data' folder in this Github repository. The files are listed below.
 
@@ -33,7 +35,7 @@ The rest of the AWS Textract output will vary depending on your document. In thi
 
 The columns included in the WHO Draft landscape of COVID-19 candidate vaccines PDF tables are shown below.
 
-Clinical Candidate Vaccine columns:
+## Clinical Candidate Vaccine columns:
 
     COVID-19 Vaccine developer or manufacturer
     Vaccine platform
@@ -46,7 +48,7 @@ Clinical Candidate Vaccine columns:
     Clinical Stage - Phase 2
     Clinical Stage - Phase 3
 
-Pre-Clinical Candidate Vaccine columns:
+## Pre-Clinical Candidate Vaccine columns:
 
     Platform
     Type of candidate vaccine
