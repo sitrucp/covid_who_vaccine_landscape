@@ -4,7 +4,7 @@ The World Health Organization (WHO) creates a regularly updated PDF document nam
 
 I wanted a machine readable format version of this PDF document's table data so I could do some analysis. This meant I needed to do PDF text extraction. There are lots of solutions. I ended up using AWS Textract to extract the PDF into csv file format.
 
-View <a href="https://sitrucp.github.io/who_vaccine_landscape">Github.io hosted site</a> to see how AWS Textract output data was used to create interactive presentation. 
+View <a href="https://sitrucp.github.io/covid_who_vaccine_landscape">Github.io hosted site</a> to see how AWS Textract output data was used to create interactive presentation. 
 
 Read <a href="https://009co.com/?page_id=1212" target="_blank">my blog post</a> to learn more about how I used the AWS Textract solution.
 
