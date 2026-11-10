@@ -6,7 +6,7 @@ I wanted a machine readable format version of this PDF document's table data so 
 
 View <a href="https://sitrucp.github.io/covid_who_vaccine_landscape">Github.io hosted site</a> to see how AWS Textract output data was used to create interactive presentation. 
 
-Read <a href="https://009co.com/?page_id=1212" target="_blank">my blog post</a> to learn more about how I used the AWS Textract solution.
+Read <a href="https://curtispokrant.com/posts/who-draft-landscape-of-covid-19-candidate-vaccines-convert-pdf-to-csv/" target="_blank">my blog post</a> to learn more about how I used the AWS Textract solution.
 
 The HTML, Javascript to create site, AWS Textract PDF extraction output files, Python code used to process the AWS Textract table csv files, clean up their data and split the results into two datasets, vaccines and treatments are in this repository.
 
